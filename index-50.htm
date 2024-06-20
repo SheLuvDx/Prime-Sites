@@ -1,0 +1,1666 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+        <!-- Intellimize start -->
+    <style>.anti-flicker { visibility: hidden !important} </style>
+    <script>(function(e,t,p){var n=document.documentElement,s={p:[],r:[]},u={p:s.p,r:s.r,push:function(e){s.p.push(e)},ready:function(e){s.r.push(e)}};e.intellimize=u,n.className+=" "+p,setTimeout(function(){n.className=n.className.replace(RegExp(" ?"+p),"")},t)})(window, 4000, 'anti-flicker')</script>
+    <link rel="preload" href="https://cdn.intellimize.co/snippet/117871812.js" as="script">
+    <link rel="preconnect" href="https://api.intellimize.co" crossorigin>
+    <link rel="preconnect" href="https://117871812.intellimizeio.com">
+    <link rel="preconnect" href="https://log.intellimize.co" crossorigin>
+    <!-- Intellimize end -->
+
+    <script>
+        (function() {
+            var intellimizeLoaded = false;
+            var intellimizeLoadTimer;
+            // This utility method will load the Intellimize snippet
+            function loadIntellimize() {
+                // Prevent multiple loads
+                clearTimeout(intellimizeLoadTimer);
+                if (intellimizeLoaded) return;
+                intellimizeLoaded = true;
+                // Load the snippet
+                var intellimizeSnippet = document.createElement('script');
+                intellimizeSnippet.type = 'text/javascript';
+                intellimizeSnippet.async = true;
+                intellimizeSnippet.src = 'https://cdn.intellimize.co/snippet/117871812.js';
+                intellimizeSnippet.onerror = function() {
+                    document.documentElement.className = document.documentElement.className.replace(RegExp(' ?anti-flicker'), '');
+                }
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(intellimizeSnippet, s);
+            }
+
+            // Check if the 6sense data already has been loaded for this visitor
+            if (localStorage.getItem('_6senseCompanyDetails') === null) { // Data is not available.
+                // 6sense data will be loaded by the 6sense script below and then the
+                // `enableCompanyDetails` callback will be triggered when completed.
+                // Add fallback here to try to load Intellimize after 3000ms if 6sense fails to load
+                intellimizeLoadTimer = setTimeout(function() { loadIntellimize(); }, 3000);
+            } else { // Data is available.
+                // Load Intellimize right away
+                loadIntellimize();
+            }
+
+            window._6si = window._6si || [];
+            window._6si.push(['enableEventTracking', true]);
+            window._6si.push(['setToken', '40ef6f675f9808f27d0ceae0f13492bc']);
+            window._6si.push(['setEpsilonKey', '0aeb13286c250682fc1f48d9793fe71f7c685490']);
+            window._6si.push(['setEndpoint', 'b.6sc.co']);
+            window._6si.push(['enableCompanyDetails', true, loadIntellimize]);
+
+            var gd = document.createElement('script');
+            gd.type = 'text/javascript';
+            gd.async = true;
+            gd.src = '//j.6sc.co/6si.min.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(gd, s);
+        })();
+    </script>
+
+              <!-- OneTrust Cookies Consent Notice start for greenhouse.io -->
+      <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="ef70d0c5-8c7f-49db-8d0a-315d900c12ca" ></script>
+      <script type="text/javascript">
+      function OptanonWrapper() { }
+      </script>
+      <!-- OneTrust Cookies Consent Notice end for greenhouse.io -->
+    
+          
+<!-- be_ixf, sdk, gho-->
+<meta id="be:sdk" content="php_sdk_1.4.26.1" />
+<meta id="be:timer" content="8ms" />
+<meta id="be:orig_url" content="https%3A%2F%2Fgreenhouse-production.herokuapp.com%2F" />
+<meta id="be:norm_url" content="https%3A%2F%2Fgreenhouse-production.herokuapp.com%2F" />
+<meta id="be:capsule_url" content="http%3A%2F%2Fixfd-api.bc0a.com%2Fapi%2Fixf%2F1.0.0%2Fget_capsule%2Ff00000000151621%2F01402259789%3Fclient%3Dphp_sdk%26client_version%3D1.4.26.1%26base_url%3Dhttps%253A%252F%252Fgreenhouse-production.herokuapp.com%252F%26orig_url%3Dhttps%253A%252F%252Fgreenhouse-production.herokuapp.com%252F%26user_agent%3DMozilla%252F5.0%2B%2528Windows%2BNT%2B10.0%253B%2BWin64%253B%2Bx64%2529%2BAppleWebKit%252F537.36%2B%2528KHTML%252C%2Blike%2BGecko%2529%2BChrome%252F126.0.6478.114%2BSafari%252F537.36" />
+<meta id="be:api_dt_epoch" content="1586201939553" />
+<meta id="be:mod_dt_epoch" content="1586201939553" />
+<meta id="be:diag" content="pftewrqCqtoutebb1BSMZE+O5YrPQDr2cVusPpPSfVU/0HcUz9hrPEnRKT6K73PNjyMc4d6qlsbrguYEsdi2lfMj2KZdV4x5Sct08nwYAjRibcfrEPrWmqUMCYb40t549Y+wUR75ILSMEXeeVXN/ohF6l0tfE50ZoYruSaJlQvDW8XzcEVer+KW2InHTIOxxlAKJispAi5jigmZgu/B633aUAAuCp7c98ZYqDo9YDZtUtdXfql/mrvSIRT18Wm9vo51WhUa83kvaN3nuvnD7xCYMnhocYCfoqyIzg2biL0woAbOBe4MUVcHqg/ipP3DzuikmM5d9pbS9N7c6aD0ygU0mL7WVlComt8fJZcOepVcmU9sNVq1tnI6yNz7HvYvb+mWryRpIedGGxzLwETxAWvlGEQ+UVCkHJFx/qtyBboUbmo9CbyUdfBUSdsBIHBZw7k3YWOTFa6WqTLCJanJ8h72aSUprjeQXkC5mEK8xtdxisv2ysgfS4QqxLSC3HYWYcvMdCRZU9AzH72dGUJGdcB15MlbUtpCl68JVcSmdgfvZ2gaqIuiyn1KxDwpp7UM5O44kYMcVNhZ017rnmIRNch5+2tvrrbig4J0lvm7SSzq/a1L3TIFTVfWSi5/6fVHtrwe7CGcIbUniU6SIMZZ5XbnuMdK1afClUycx9PyTJi8Ie1d9R4qX16rLrsPbfnqNE3ZAe+Bjc7uygqnrbPiC0BbvounTFxgaUCApFDhyqHJYcm45LMKXS/WlpSAvnKml2QQptCa4ExVdru1T/vlmjZHdcM9l8Fz1Yq2uwy6ycgE8nDnVNJxeMozAd3en3adxPBBovDIN844FAajMfkHCeMzvun56Je7tSoytCcPfuVjdB1rW9asPv9G9BMX+jEZdR1XGekTPqbyRe1+RDvHlrgkcTCkOf+qAka4nxOu3Oj/FTQN0QgCVgDNLMSHw1mz3jxjNMNcCglc1VUJb4gOKg6Gul59TLzpA+CJT3OFwn0mzMf5/3DABPohGTOOA8W5RLBW1ua/J10uPsju13cdKQT7J+9D/UV7jyGmKTB2/DD4WrDYLWGCd7kin6/FdrVsu0180FDrzu2B8skNpKJ7y7VJFfcXWUYZoG1R7HIRpUL+eY/SCpDLhC2PKGZyb55I+vl1/H1A24B3Vazr85mB5sP7gj1vFHnz8oDvfRS/bCpdFCx3HXSZ4KzQdZC7ppQe3WoM/2dQ4TD1LlNZXVk7HZnkAwTyUy6TpLBTbYYMOJ5Lroysy/KNRrkMQvqW+yDJEs5C8bC7wbChw4IwxxhGR3J0rfH5Ta2FMSDQzq3VYnc3RonIrCb01kXVXPQUAPtT5Frd6mutjQOCIOSTDbIfDt9yHWoZrGzRU7CMPnWPFJUMcEe10pm/oNkma7mKDTDZytET5yoiqAyUtS/kuEAPOmeA7eDwbs+4yLRgjUMhgNHlwIHivAGqn70USIMvfL+d5MNVtDB0ith6Oisz2pCn4HlJoW6mr7CYSvZ9BjzJS2QxmPY2vlcQ8sIuCIEavnJgKViq60YbxEKwHHLPGlNGYwy2SpBFsaSOEdp+ZJ1rZC6lypoy/vLzt9MALCcnvbHjwEetIrqgStvBQ1us5lszYlpFHbbjNiqGXy05H6DnoJJ066A7BWLWXmz3L7fV27TNexd75XC+m9fsyjQmHL1f/yhr59kX7XhS8v8uge/+4Qz7gAda48gleuWniTjfkLrzzNrhfw2w0XIJD8BS6UZ2uBBCRgludKLL0sUiBLsS8tLz8miHLvUUwaKBXl9hgNOfCTFAWqBlQM1U1BKmNPUoEX8skI2d5fvAVk/ck7d/vGQRDuLkWAEc6AvcFqkws5Mifk5bEEj81OFHuYKjHuLIlF6xDN7TpzNj7TR5M/kG4YEoqpUmMXAJdXlQQsp8H6f2IaUMDHI5cM0PWvVOVa6TSTWbUhvyM/FtNeTYZ3Ue9w8wpQeAkE3UsP3ZdtR4ITEBYBSxwJ6aoWvTC7gLbxbsgKFoOfF9YWRVFimE84ITzkHJEM3V9rVRID9Goc6nt0U4rlIpdV4s1Iaxmn3XLM9p2DwZZfPsL+5qEt+OnFZAx3zWnfYbU5TEKx6Z9Eam4mopcfl5XpvjE4dpgG2x4QTVNevCd9IJPDT1rlvLdaKVbMIVrcC+u0lBMVDQjlKtCKD62tTpxLR3gMPF+WwQzGq0Z50y128uS9squkGhzGkbmx8W/kAK3lwvGaqDSTaH2ESiiQo/DurSOP1rNxQ/9WsbeyB0Ilfxiw8W8YA8C3ZzAe8sd07Vo3Gn81+yyLYazvHAuE0QSIDQrJZv5ET04PrdByTSZ1wzp7m76RYo/E0JNH3nbHJPK+qFh0+dBo38gnCcUng8dAZMevV3ZMI5aMul5NDADGu1Iycsh+coCRXM/EC1sRwgo759gtcw9wrJaB57d9VO6dYFKwCJhD1dMb4h6zw==" />
+<meta id="be:messages" content="false" />
+<style>
+#site-footer .be-ix-link-block{background-color:#222}
+#site-footer .be-ix-link-block .be-related-link-container{display:flex;flex-direction:row;padding-bottom:1.5rem;padding-top:2rem}
+#site-footer .be-ix-link-block .be-related-link-container .be-label{color:#fff;display:inline-block;font-size:16px;font-weight:700;margin-bottom:.5rem;margin-right:2rem;min-width:150px;text-transform:none}
+#site-footer .be-ix-link-block .be-related-link-container .be-list{display:flex;list-style:none;margin:0;padding:0}
+#site-footer .be-ix-link-block .be-related-link-container .be-list .be-list-item{color:#fff;display:inline-block;margin-bottom:.5rem;margin-right:2rem}
+@media (max-width:767px){#site-footer .be-ix-link-block .be-related-link-container{display:block}
+#site-footer .be-ix-link-block .be-related-link-container .be-label{margin-bottom:.5rem;margin-right:0}
+#site-footer .be-ix-link-block .be-related-link-container .be-list{display:block;width:100%}
+#site-footer .be-ix-link-block .be-related-link-container .be-list .be-list-item{display:block;margin-right:0}
+}
+</style>
+
+    <script>
+      (function() {
+      var bec = document.createElement('script');
+      bec.type = 'text/javascript';
+      bec.async = true;
+      bec.setAttribute("data-id", "bec");
+      bec.setAttribute("org-id", "f00000000151621");
+      bec.setAttribute("domain", ".greenhouse.io ");
+      bec.setAttribute("session-timeout", 86400000);
+      bec.src = document.location.protocol + '//cdn.b0e8.com/conv_v3.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(bec, s);
+})();
+</script>
+
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5FJN55X');</script>
+    <!-- End Google Tag Manager -->
+
+    <meta name="google-site-verification" content="yk4WW6DK-NgS0s5CKmIQ4lHKKIZXBYe6jLAgTUWT8_U" />
+    <meta name="facebook-domain-verification" content="3k0ol9c02k6lbnecl5ltd7k130y7q8" />
+    <meta name="facebook-domain-verification" content="4938q6glckxz4m8ytdwru8mqslzi5f" />
+    <meta name="facebook-domain-verification" content="0znyb1sjo151pazedv6he75yjon7v6" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+
+        <link rel="stylesheet" href="/assets/css/styles.min.css?v=149" type="text/css">
+
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"></script>
+
+            
+    <script src="https://unpkg.com/htmx.org@1.7.0/dist/htmx.min.js" integrity="sha384-EzBXYPt0/T6gxNp0nuPtLkmRpmDBbjg6WmCUZRLXBBwYYmwAUxzlSGej0ARHX0Bo" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" type="text/css" href="https://assets.sitescdn.net/answers-search-bar/v1.2/answers.css"></link>
+    <script src="https://assets.sitescdn.net/answers-search-bar/v1.2/answerstemplates.compiled.min.js" defer></script>
+    <script>
+      function initAnswers() {
+        ANSWERS.init({
+          apiKey: "6215f7c89926a998775d312d1ce3a9da",
+          experienceKey: "answers---us",
+          experienceVersion: "PRODUCTION",
+          locale: "en",
+          businessId: "3621961",
+          templateBundle: TemplateBundle.default,
+          onReady: function() {
+            ANSWERS.addComponent("SearchBar", {
+              container: ".search-form",
+              name: "search-bar",
+              redirectUrl: "/search/results",
+              placeholderText: "",
+            });
+          },
+        });
+      }
+    </script>
+    <script src="https://assets.sitescdn.net/answers-search-bar/v1.2/answers.min.js" onload="initAnswers()" defer></script>
+
+    <link rel="preload" as="font" href="/assets/fonts/UntitledSerifWeb-Regular.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="/assets/fonts/UntitledSansWeb-Regular.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="/assets/fonts/UntitledSansWeb-Medium.woff2" type="font/woff2" crossorigin="anonymous">
+
+    <link rel="icon" type="image/png" sizes="196x196" href="/favicon-196x196.png">
+    <link rel="icon" type="image/png" sizes="128x128" href="/favicon-128x128.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="shortcut icon" href="/favicon-196x196.png">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
+    <noscript>
+      <link rel="stylesheet" href="/assets/css/styles.min.css">
+    </noscript>
+  <title>Greenhouse | Applicant tracking software &amp; hiring… | Greenhouse</title><meta name="keywords" content="applicant tracking system,ATS,applicant tracking software,saas applicant tracking,interview planning software,Greenhouse,Greenhouse.io,hiring software,hiring system,recruitment software">
+<meta name="description" content="Get everything you need to hire better and achieve strategic growth, all-together with the Greenhouse hiring platform.">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<meta name="robots" content="all">
+<meta content="greenhouse.io" property="fb:profile_id">
+<meta content="en" property="og:locale">
+<meta content="de" property="og:locale:alternate">
+<meta content="en_GB" property="og:locale:alternate">
+<meta content="Greenhouse" property="og:site_name">
+<meta content="website" property="og:type">
+<meta content="https://www.greenhouse.com/" property="og:url">
+<meta content="Greenhouse | Applicant tracking software &amp; hiring… | Greenhouse" property="og:title">
+<meta content="Get everything you need to hire better and achieve strategic growth, all-together with the Greenhouse hiring platform." property="og:description">
+<meta content="https://sharp.services.greenhouse.io/production/Home-SEO-1x.png?auto=format&amp;crop=focalpoint&amp;fit=max&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=630&amp;lossless=true&amp;q=90&amp;w=1200&amp;s=c51f48bda919a0a0d11b13cd0c9c69923c7bf71f64efbe95a1f5cbac1c2209b7" property="og:image">
+<meta content="1200" property="og:image:width">
+<meta content="630" property="og:image:height">
+<meta content="Greenhouse g logo branding and botanicals on a green background" property="og:image:alt">
+<meta content="https://www.instagram.com/greenhousesoftware" property="og:see_also">
+<meta content="https://www.youtube.com/@greenhousesoftware979" property="og:see_also">
+<meta content="https://www.linkedin.com/company/greenhouse-inc-" property="og:see_also">
+<meta content="https://en.wikipedia.org/wiki/Greenhouse_Software" property="og:see_also">
+<meta content="https://www.facebook.com/greenhouse.io/" property="og:see_also">
+<meta content="https://twitter.com/Greenhouse" property="og:see_also">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@Greenhouse">
+<meta name="twitter:creator" content="@Greenhouse">
+<meta name="twitter:title" content="Greenhouse | Applicant tracking software &amp; hiring… | Greenhouse">
+<meta name="twitter:description" content="Get everything you need to hire better and achieve strategic growth, all-together with the Greenhouse hiring platform.">
+<meta name="twitter:image" content="https://sharp.services.greenhouse.io/production/Home-SEO-1x.png?auto=format&amp;crop=focalpoint&amp;fit=max&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=418&amp;lossless=true&amp;q=90&amp;w=800&amp;s=671d462a364889f326d4c49962ac991638319fe57887b5c26c970e6dd3b6728c">
+<meta name="twitter:image:width" content="800">
+<meta name="twitter:image:height" content="418">
+<meta name="twitter:image:alt" content="Greenhouse g logo branding and botanicals on a green background">
+<link href="https://www.greenhouse.com" rel="canonical">
+<link href="https://www.greenhouse.com" rel="home">
+<link href="https://www.greenhouse.com" rel="alternate" hreflang="x-default">
+<link href="https://www.greenhouse.com" rel="alternate" hreflang="en">
+<link href="https://www.greenhouse.com/de" rel="alternate" hreflang="de">
+<link href="https://www.greenhouse.com/uk" rel="alternate" hreflang="en-gb"></head>
+  <body class="">
+
+
+  
+<!-- be_ixf, bodystr, _body_open -->
+
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FJN55X"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <a class="visuallyhidden focusable skip" href="#main" aria-label="Skip to Content">Skip to Content</a>
+
+  
+                  
+
+
+
+<nav class="nav nav-2" aria-label="main menu and search">
+    <div class="container">
+        <div class="mobile-nav-control hidden" aria-hidden="true" tabindex="-1">
+            <button type="button" class="hidden-lg close_subNav">
+                Close mobile sub-navigation
+            </button>
+        </div>
+        <div>
+            <div class="grid grid-cols-24 nav__content">
+                <div class="nav--left col-start-3 md-col-start-2 lg-col-start-2 lg-col-end-16">
+                    <a class="nav__logo" href="https://www.greenhouse.com/" rel="home">
+                        Greenhouse Home Link
+                    </a>
+                    <ul id="main-navigation" class="grid-cols-24 nav__main">
+                                                    <li class="col-start-3 col-end-23 lg-col-start-2 lg-col-end-24">
+                                <button type="button" aria-controls="platform" aria-expanded="false" class="nav__button nav__link">
+                                    <span class="visuallyhidden">Open menu for
+                                    </span>
+                                    Platform
+                                </button>
+                                <div id="platform" class="nav__drawer" aria-hidden="true">
+                                    <div class="container">
+                                        <div class="grid grid-cols-24 nav__layout1">
+                                                                                            <div class="col-start-3 col-end-23 lg-col-start-3 lg-col-end-8 nav__column nav__column1">
+                                                                                                            <div class="eyebrow nav-heading" role="heading" aria-level="2">Platform</div>
+                                                    
+                                                            <div class="nav-link-wrapper">
+        <a href="https://www.greenhouse.com/platform" aria-hidden="true" tabindex="-1" target="">All-together platform</a>
+    </div>
+
+
+                                                                                                                                                                <img class="nav__featured-image" src="https://sharp.services.greenhouse.io/production/Greenhouse-all-together-hiring-platform-UI-collage-with-office-worker-headshots-evergreen-background2x.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=600&amp;s=42d7c83d5434d5828eb936f98518006efbc4019ea20eeac49d8c1530ca090200" alt="Greenhouse all together hiring platform UI collage with office worker headshots evergreen background2x"/>
+                                                                                                    </div>
+                                                <div class="col-start-3 col-end-23 lg-col-start-9 lg-col-end-14 nav__column nav__column2">
+                                                                                                            <div class="eyebrow" role="heading" aria-level="2">Solutions</div>
+                                                                                                                                                                        <div class="nav-link-wrapper">
+        <a href="https://www.greenhouse.com/talent-sourcing" aria-hidden="true" tabindex="-1" target="">Talent sourcing </a>
+    </div>
+
+                                                                                                                    <div class="nav-link-wrapper">
+        <a href="https://www.greenhouse.com/candidate-experience" aria-hidden="true" tabindex="-1" target="">Candidate experience </a>
+    </div>
+
+                                                                                                                    <div class="nav-link-wrapper">
+        <a href="https://www.greenhouse.com/scalable-workflows" aria-hidden="true" tabindex="-1" target="">Scalable workflows</a>
+    </div>
+
+                                                                                                                    <div class="nav-link-wrapper">
+        <a href="https://www.greenhouse.com/interviewing-decision-making" aria-hidden="true" tabindex="-1" target="">Interviewing &amp; decision-making</a>
+    </div>
+
+                                                                                                                    <div class="nav-link-wrapper">
+        <a href="https://www.greenhouse.com/onboarding" aria-hidden="true" tabindex="-1" target="">Onboarding</a>
+    </div>
+
+                                                                                                                    <div class="nav-link-wrapper">
+        <a href="https://www.greenhouse.com/reporting-insights" aria-hidden="true" tabindex="-1" target="">Reporting &amp; insights</a>
+    </div>
+
+                                                                                                                    <div class="nav-link-wrapper">
+        <a href="https://www.greenhouse.com/integrations" aria-hidden="true" tabindex="-1" target="">Integrations</a>
+    </div>
+
+                                                                                                    </div>
+                                                <div class="xl-col-start-17 lg-col-start-16 lg-col-end-24 lg-grid-cols-8 grid grid-cols-24 col-start-1 col-end-25 nav__column nav__column3">
+                                                    <div class="col-start-1 col-end-25 lg-col-start-2 lg-col-end-9 grid-cols-24 nav__column-wrapper">
+                                                        <div class="col-start-3 col-end-23 lg-col-start-4 lg-col-end-12 nav__column-top">
+                                                                                                                            <div class="eyebrow" role="heading" aria-level="2">Greenhouse for</div>
+                                                                                                                                                                                                <div class="nav-link-wrapper">
+        <a href="https://www.greenhouse.com/early-stage" aria-hidden="true" tabindex="-1" target="">Early-stage business</a>
+    </div>
+
+                                                                                                                                    <div class="nav-link-wrapper">
+        <a href="https://www.greenhouse.com/scaling-company" aria-hidden="true" tabindex="-1" target="">Scaling company</a>
+    </div>
+
+                                                                                                                                    <div class="nav-link-wrapper">
+        <a href="https://www.greenhouse.com/enterprise" aria-hidden="true" tabindex="-1" target="">Modern enterprise</a>
+    </div>
+
+                                                                                                                    </div>
+                                                        <div class="col-start-3 col-end-23 lg-col-start-14 lg-col-end-22 nav__column-bottom">
+                                                                                                                            <div class="eyebrow" role="heading" aria-level="2">What’s new</div>
+                                                                                                                                                                                                <div class="nav-link-wrapper">
+        <a href="https://www.greenhouse.com/greenhouse-latest-features" aria-hidden="true" tabindex="-1" target="">Latest product features </a>
+    </div>
+
+                                                                                                                    </div>
+                                                    </div>
+                                                </div>
+                                                                                    </div>
+                                    </div>
+                                </div>
+                            </li>
+                                                    <li class="col-start-3 col-end-23 lg-col-start-2 lg-col-end-24">
+                                <button type="button" aria-controls="whygreenhouse" aria-expanded="false" class="nav__button nav__link">
+                                    <span class="visuallyhidden">Open menu for
+                                    </span>
+                                    Why Greenhouse
+                                </button>
+                                <div id="whygreenhouse" class="nav__drawer" aria-hidden="true">
+                                    <div class="container">
+                                        <div class="grid grid-cols-24 nav__layout2">
+                                                                                            <div class="col-start-3 col-end-23 lg-col-end-8 nav__column nav__column1">
+                                                                                                            <div class="eyebrow" role="heading" aria-level="2">Why Greenhouse</div>
+                                                                                                                                                                        <div class="nav-link-wrapper">
+        <a href="https://www.greenhouse.com/compare" aria-hidden="true" tabindex="-1" target="">How we compare</a>
+    </div>
+
+                                                                                                                    <div class="nav-link-wrapper">
+        <a href="https://www.greenhouse.com/roi-with-greenhouse" aria-hidden="true" tabindex="-1" target="">Return on your hiring investment </a>
+    </div>
+
+                                                                                                                    <div class="nav-link-wrapper">
+        <a href="https://www.greenhouse.com/customer-success" aria-hidden="true" tabindex="-1" target="">Your partner in success</a>
+    </div>
+
+                                                                                                    </div>
+                                                <div class="col-start-3 col-end-23 lg-col-start-9 lg-col-end-23 xl-col-end-21 grid-cols-20 lg-grid-cols-12 grid nav__column nav__column2">
+                                                                                                            <div class="eyebrow col-start-1 col-end-21 eyebrow-mobile" role="heading" aria-level="2">Awards &amp; accolades</div>
+                                                                                                                                                                                                                    <div class="col-start-1 col-end-21 lg-col-start-1 lg-col-end-7 nav__featured-image">
+                                                            <img src="https://sharp.services.greenhouse.io/production/Greenhouse-G2-Top-50-HR-Products-2024-collage-over-image-of-coworkers-sititng-at-table2x.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=600&amp;s=1b39585b02e16387623aaafbd40bacaf420b7dbc991b61021c9ff8e010b7c239" alt="Greenhouse G2 Top 50 HR Products 2024 collage over image of coworkers sititng at table2x"/>
+                                                        </div>
+                                                                                                        <div class="col-start-1 col-end-21 lg-col-start-8 lg-col-end-13 grid-cols-8 grid lg-grid-cols-5 nav__featured-content">
+                                                                                                                    <div class="eyebrow col-span-8 lg-col-span-5 eyebrow-desktop" role="heading" aria-level="2">Awards &amp; accolades</div>
+                                                        
+                                                        <div class="nav__headline col-span-7 lg-col-span-5">Greenhouse named Best Software for Enterprise in 2024</div>
+
+                                                                                                                    <div class="nav_subheadline col-span-7 lg-col-span-5">Learn why Greenhouse is an award-winning enterprise software for companies like DoorDash, Betterment and MLB.</div>
+                                                        
+                                                        
+                                                                                                                    <div class="col-span-8 lg-col-span-5 nav__featured-cta">
+                                                                                                                            <a href="https://www.greenhouse.com/blog/learn-why-greenhouse-is-an-award-winning-enterprise-software" class="button--outline" aria-hidden="true" tabindex="-1" target="">
+                                                                    Learn more
+                                                                </a>
+                                                                                                                        <br class="mobile_break">
+                                                                                                                        </div>
+                                                                                                            </div>
+                                                </div>
+                                                                                    </div>
+                                    </div>
+                                </div>
+                            </li>
+                                                    <li class="col-start-3 col-end-23 lg-col-start-2 lg-col-end-24">
+                                <button type="button" aria-controls="resources" aria-expanded="false" class="nav__button nav__link">
+                                    <span class="visuallyhidden">Open menu for
+                                    </span>
+                                    Resources
+                                </button>
+                                <div id="resources" class="nav__drawer" aria-hidden="true">
+                                    <div class="container">
+                                        <div class="grid grid-cols-24 nav__layout3">
+                                                                                            <div class="col-start-3 col-end-23 lg-col-start-3 lg-col-end-8 nav__column nav__column1">
+                                                                                                            <div class="eyebrow" role="heading" aria-level="2">Types</div>
+                                                                                                                                                                        <div class="nav-link-wrapper">
+        <a href="https://www.greenhouse.com/blog" aria-hidden="true" tabindex="-1" target="">Blog</a>
+    </div>
+
+                                                                                                                    <div class="nav-link-wrapper">
+        <a href="https://www.greenhouse.com/guidance" aria-hidden="true" tabindex="-1" target="">Guidance</a>
+    </div>
+
+                                                                                                                    <div class="nav-link-wrapper">
+        <a href="https://www.greenhouse.com/customer-stories" aria-hidden="true" tabindex="-1" target="">Customer stories</a>
+    </div>
+
+                                                                                                                    <div class="nav-link-wrapper">
+        <a href="https://www.greenhouse.com/resources/glossary" aria-hidden="true" tabindex="-1" target="">Hiring glossary</a>
+    </div>
+
+                                                                                                                    <div class="nav-link-wrapper">
+        <a href="https://www.greenhouse.com/talent-makers-book" aria-hidden="true" tabindex="-1" target="">Talent Makers book</a>
+    </div>
+
+                                                                                                    </div>
+                                                <div class="col-start-3 col-end-23 lg-col-start-9 lg-col-end-15 grid-cols-20 lg-grid-cols-9 xl-col-end-16 lg-grid-cols-12 xl-grid-cols-7 grid nav__column nav__column2">
+                                                                                                            <div class="eyebrow col-span-20 xl-col-span-7 lg-col-span-12" role="heading" aria-level="2">Topics</div>
+                                                                                                                                                                                                                                                                                <a class="nav__topic-item col-start-1 col-end-10 lg-col-start-1 lg-col-end-6 xl-col-end-4" href="https://www.greenhouse.com/content-topic/diversity-inclusion" aria-label="DE&amp;I" aria-hidden="true" tabindex="-1">
+                                                                                                                            <img src="https://sharp.services.greenhouse.io/production/Greenhouse-DEI-Icon-and-two-coworkers-collaborating2x.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=360&amp;s=04507143a542b674b1ed1f44bee0aab0a1be418ac376e3ba0807aeb87406a975" alt="Greenhouse DEI Icon and two coworkers collaborating2x"/>
+                                                                                                                        <span>DE&amp;I</span>
+                                                        </a>
+                                                                                                                                                                                                                            <a class="nav__topic-item lg-col-start-8 lg-col-end-13 xl-col-start-5 xl-col-start-end-7 col-start-12 col-end-21" href="https://www.greenhouse.com/content-topic/structured-hiring" aria-label="Structured hiring" aria-hidden="true" tabindex="-1">
+                                                                                                                            <img src="https://sharp.services.greenhouse.io/production/Greenhouse-scorecard-icon-thumbs-up-and-two-women-coworkers-talking2x.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=360&amp;s=14660e38010d9977b9171dff90b9f7ff3eb0df593b4a8fb74e73c2a2919ac44b" alt="Greenhouse scorecard icon thumbs up and two women coworkers talking2x"/>
+                                                                                                                        <span>Structured hiring</span>
+                                                        </a>
+                                                                                                                                                                                                                            <a class="nav__topic-item col-start-1 col-end-10 lg-col-start-1 lg-col-end-6 xl-col-end-4" href="https://www.greenhouse.com/content-topic/ai-automation" aria-label="AI and automation" aria-hidden="true" tabindex="-1">
+                                                                                                                            <img src="https://sharp.services.greenhouse.io/production/Greenhouse-AI-icon-and-coworkers-sitting-at-a-table2x.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=360&amp;s=ac14312d22edfb5cf5ea7507e9b612cfb4b955d42d8e467d12d8d0b915da56a5" alt="Greenhouse AI icon and coworkers sitting at a table2x"/>
+                                                                                                                        <span>AI and automation</span>
+                                                        </a>
+                                                                                                                                                                                                                            <a class="nav__topic-item lg-col-start-8 lg-col-end-13 xl-col-start-5 xl-col-start-end-7 col-start-12 col-end-21" href="https://www.greenhouse.com/content-topic/hiring-maturity" aria-label="Hiring Maturity" aria-hidden="true" tabindex="-1">
+                                                                                                                            <img src="https://sharp.services.greenhouse.io/production/Hiring-maturity-curve-and-woman-in-office2x.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=360&amp;s=833e2aec4cac32cd02eca1fc3957e084a4ba36faeda240093cdeae826b41bf24" alt="Hiring maturity curve and woman in office2x"/>
+                                                                                                                        <span>Hiring Maturity</span>
+                                                        </a>
+                                                                                                    </div>
+                                                <div class="grid-cols-20 col-start-1 col-end-25 xl-col-start-17 lg-col-start-16 lg-col-end-24 lg-grid-cols-8 grid nav__column nav__column3">
+                                                    <div class="col-start-3 col-end-21 lg-col-start-2 lg-col-end-9 nav__column-wrapper">
+                                                                                                                    <div class="eyebrow" role="heading" aria-level="2">Support</div>
+                                                                                                                                                                                    <div class="nav-link-wrapper">
+        <a href="https://learn.greenhouse.io/" aria-hidden="true" tabindex="-1" target="_blank">Learn Greenhouse</a>
+    </div>
+
+                                                                                                                            <div class="nav-link-wrapper">
+        <a href="https://support.greenhouse.io/hc/en-us" aria-hidden="true" tabindex="-1" target="_blank">Get support</a>
+    </div>
+
+                                                                                                                            <div class="nav-link-wrapper">
+        <a href="https://developers.greenhouse.io/" aria-hidden="true" tabindex="-1" target="_blank">Developer resources</a>
+    </div>
+
+                                                                                                            </div>
+                                                </div>
+                                                                                    </div>
+                                    </div>
+                                </div>
+                            </li>
+                                                    <li class="col-start-3 col-end-23 lg-col-start-2 lg-col-end-24">
+                                <button type="button" aria-controls="about" aria-expanded="false" class="nav__button nav__link">
+                                    <span class="visuallyhidden">Open menu for
+                                    </span>
+                                    About
+                                </button>
+                                <div id="about" class="nav__drawer" aria-hidden="true">
+                                    <div class="container">
+                                        <div class="grid grid-cols-24 nav__layout2">
+                                                                                            <div class="col-start-3 col-end-23 lg-col-end-8 nav__column nav__column1">
+                                                                                                            <div class="eyebrow" role="heading" aria-level="2">About</div>
+                                                                                                                                                                        <div class="nav-link-wrapper">
+        <a href="https://www.greenhouse.com/company" aria-hidden="true" tabindex="-1" target="">Company</a>
+    </div>
+
+                                                                                                                    <div class="nav-link-wrapper">
+        <a href="https://www.greenhouse.com/press" aria-hidden="true" tabindex="-1" target="">Press &amp; awards</a>
+    </div>
+
+                                                                                                                    <div class="nav-link-wrapper">
+        <a href="https://www.greenhouse.com/careers" aria-hidden="true" tabindex="-1" target="">Careers</a>
+    </div>
+
+                                                                                                    </div>
+                                                <div class="col-start-3 col-end-23 lg-col-start-9 lg-col-end-23 xl-col-end-21 grid-cols-20 lg-grid-cols-12 grid nav__column nav__column2">
+                                                                                                            <div class="eyebrow col-start-1 col-end-21 eyebrow-mobile" role="heading" aria-level="2">People first</div>
+                                                                                                                                                                                                                    <div class="col-start-1 col-end-21 lg-col-start-1 lg-col-end-7 nav__featured-image">
+                                                            <img src="https://sharp.services.greenhouse.io/production/Two-men-sitting-in-an-office-space-with-warm-tones2x.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=600&amp;s=980d30edd34ff26c6378490d5a07207fed39de1a66e4b75d1c0932eead7709f9" alt="Two men sitting in an office space with warm tones2x"/>
+                                                        </div>
+                                                                                                        <div class="col-start-1 col-end-21 lg-col-start-8 lg-col-end-13 grid-cols-8 grid lg-grid-cols-5 nav__featured-content">
+                                                                                                                    <div class="eyebrow col-span-8 lg-col-span-5 eyebrow-desktop" role="heading" aria-level="2">People first</div>
+                                                        
+                                                        <div class="nav__headline col-span-7 lg-col-span-5">The future belongs to people-first companies</div>
+
+                                                                                                                    <div class="nav_subheadline col-span-7 lg-col-span-5">Today’s talent thinks differently about where and how they work, and winning companies are people-first companies. Here’s how to build a culture that connects.</div>
+                                                        
+                                                        
+                                                                                                                    <div class="col-span-8 lg-col-span-5 nav__featured-cta">
+                                                                                                                            <a href="https://www.greenhouse.com/blog/the-future-belongs-to-people-first-companies-constructing-a-people-first-culture" class="button--outline" aria-hidden="true" tabindex="-1" target="">
+                                                                    Read the blog
+                                                                </a>
+                                                                                                                        <br class="mobile_break">
+                                                                                                                        </div>
+                                                                                                            </div>
+                                                </div>
+                                                                                    </div>
+                                    </div>
+                                </div>
+                            </li>
+                                                    <li class="col-start-3 col-end-23 lg-col-start-2 lg-col-end-24">
+                                <button type="button" aria-controls="community" aria-expanded="false" class="nav__button nav__link">
+                                    <span class="visuallyhidden">Open menu for
+                                    </span>
+                                    Community
+                                </button>
+                                <div id="community" class="nav__drawer" aria-hidden="true">
+                                    <div class="container">
+                                        <div class="grid grid-cols-24 nav__layout2">
+                                                                                            <div class="col-start-3 col-end-23 lg-col-end-8 nav__column nav__column1">
+                                                                                                            <div class="eyebrow" role="heading" aria-level="2">Community</div>
+                                                                                                                                                                        <div class="nav-link-wrapper">
+        <a href="https://www.greenhouse.com/events" aria-hidden="true" tabindex="-1" target="">Events &amp; webinars</a>
+    </div>
+
+                                                                                                                    <div class="nav-link-wrapper">
+        <a href="https://www.greenhouse.com/open" aria-hidden="true" tabindex="-1" target="">Open</a>
+    </div>
+
+                                                                                                                    <div class="nav-link-wrapper">
+        <a href="https://www.greenhouse.com/talentmakers" aria-hidden="true" tabindex="-1" target="">Talent Makers</a>
+    </div>
+
+                                                                                                                    <div class="nav-link-wrapper">
+        <a href="https://www.greenhouse.com/newsletter" aria-hidden="true" tabindex="-1" target="">Newsletter</a>
+    </div>
+
+                                                                                                    </div>
+                                                <div class="col-start-3 col-end-23 lg-col-start-9 lg-col-end-23 xl-col-end-21 grid-cols-20 lg-grid-cols-12 grid nav__column nav__column2">
+                                                                                                            <div class="eyebrow col-start-1 col-end-21 eyebrow-mobile" role="heading" aria-level="2">Webinar</div>
+                                                                                                                                                                                                                    <div class="col-start-1 col-end-21 lg-col-start-1 lg-col-end-7 nav__featured-image">
+                                                            <img src="https://sharp.services.greenhouse.io/production/Image-of-Maximize-your-hiring-ROI-with-Greenhouse-webinar-nav-image-with-woman-and-UI-bar-chart213x207.jpg?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=426&amp;s=fbeef067ac027911756acf53ddad12d453e7c26961dd7d3c6165ed95810006e9" alt="Image of Maximize your hiring ROI with Greenhouse webinar nav image with woman and UI bar chart213x207"/>
+                                                        </div>
+                                                                                                        <div class="col-start-1 col-end-21 lg-col-start-8 lg-col-end-13 grid-cols-8 grid lg-grid-cols-5 nav__featured-content">
+                                                                                                                    <div class="eyebrow col-span-8 lg-col-span-5 eyebrow-desktop" role="heading" aria-level="2">Webinar</div>
+                                                        
+                                                        <div class="nav__headline col-span-7 lg-col-span-5">Maximize your hiring ROI with Greenhouse</div>
+
+                                                                                                                    <div class="nav_subheadline col-span-7 lg-col-span-5">Discover how Greenhouse delivers a 589% ROI and hear from three talent leaders on the ways we’ve improved their hiring strategy.</div>
+                                                        
+                                                        
+                                                                                                                    <div class="col-span-8 lg-col-span-5 nav__featured-cta">
+                                                                                                                            <a href="https://www.greenhouse.com/events/maximize-your-hiring-roi-with-greenhouse" class="button--outline" aria-hidden="true" tabindex="-1" target="">
+                                                                    Register now
+                                                                </a>
+                                                                                                                        <br class="mobile_break">
+                                                                                                                        </div>
+                                                                                                            </div>
+                                                </div>
+                                                                                    </div>
+                                    </div>
+                                </div>
+                            </li>
+                                                <div class="col-span-24 grid-cols-24 nav__mobile-footer">
+                            <div class="col-start-3 col-end-23 lg-col-start-2 lg-col-end-24">
+                                                                    <a class="button--block button--primary  button-main-nav-demo-request-cta" href='/demo' target=''>Request a demo</a>
+                                                                                                    <a class="button--block nav__signIn button--outline-black" href="https://app.greenhouse.io/users/sign_in">Sign in</a>
+                                
+                                
+<div class="footer__form mt-l">
+  <label for="language-switch-header" class="mktoLabel">Choose your language</label>
+  <select id="language-switch-header" class="language-switch">
+        
+                                                             
+                                        
+                                                            <option data-lang="en" value="" selected="selected">English (US)</option>
+                                                                
+                                                                                                                                                  
+              <option data-lang="en-GB" value="https://www.greenhouse.com/uk/">English (UK)</option>
+                                                                
+                                                                                                                                                  
+              <option data-lang="de" value="https://www.greenhouse.com/de/">Deutsch</option>
+                                    
+          </select>
+</div>
+
+                                                                    <a class="social" href="https://www.facebook.com/greenhouse.io/" target="_blank">
+                                                                                    <img data-src="https://sharp.services.greenhouse.io/production/Facebook_200116_235458.svg?auto=compress&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=60&amp;s=38b1bf80b0469b5ee7a23e86aaa857c0b3dc2211419ad3c3cbca641ad934fbbb" alt="facebook">
+                                                                            </a>
+                                                                    <a class="social" href="https://www.linkedin.com/company/greenhouse-inc-/" target="_blank">
+                                                                                    <img data-src="https://sharp.services.greenhouse.io/production/linkedin.svg?auto=compress&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=60&amp;s=34b956c8a836733a8ea153b0c863dc2ba794b55da68089e84562f4195d22367d" alt="linkedin">
+                                                                            </a>
+                                                                    <a class="social" href="https://www.youtube.com/channel/UCwLlhrx5lFssgTwKCHEuC8g" target="_blank">
+                                                                                    <img data-src="https://sharp.services.greenhouse.io/production/youtube.svg?auto=compress&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=60&amp;s=a3e493c512f90d2bcb6bd7f8629208b0adc0dcf405cc044f89bc8352fd39e62c" alt="youtube">
+                                                                            </a>
+                                                                    <a class="social" href="https://www.instagram.com/greenhousesoftware/" target="_blank">
+                                                                                    <img data-src="https://sharp.services.greenhouse.io/production/Instagram-1.svg?auto=compress&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=60&amp;s=3acd18e2ee5be82549a4e2b6742dcfb5280df0320e3465d7aafdea3bc9452ce4" alt="instagram">
+                                                                            </a>
+                                                                    <a class="social" href="https://www.tiktok.com/@greenhouse_software" target="_blank">
+                                                                                    <img data-src="https://sharp.services.greenhouse.io/production/Tiktok-1.svg?auto=compress&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=60&amp;s=1fb8b0085c735fb13d1a642984104b53ea3cb043af796276d285b43b4c6873f0" alt="tiktok">
+                                                                            </a>
+                                                                <div>
+                                    <ul  class="nav-horizontal caption"><li ><a  href="https://www.greenhouse.com/privacy-policy">Privacy policy</a></li><li ><a  href="https://www.greenhouse.com/legal">Terms of service</a></li></ul>
+                                    <p class="caption copyright">©2024
+                                        Greenhouse Software, Inc.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+                                <div class="nav--right col-start-22 md-col-start-9 md-col-end-24 xl-col-start-17 lg-col-start-16 lg-col-end-25 lg-grid-cols-16 xl-grid-cols-8 grid">
+                    <div class="lg-col-start-2 lg-col-end-17 xl-col-end-9">
+                        <ul>
+                                                            <li class="hide-active">
+                                    <a class="visible-lg nav__signIn button--tertiary" href="https://app.greenhouse.io/users/sign_in">Sign in</a>
+                                </li>
+                                                                                        <li class="hide-active">
+                                    <a class="visible-lg button--primary  button-main-nav-demo-request-cta" href='/demo' target=''>Request a demo</a>
+                                </li>
+                                                        <li>
+                                <button class="nav__search" type="button" aria-controls="search" aria-expanded="false">
+                                    Toggle search form
+                                </button>
+                            </li>
+                            <li>
+                                <button class="nav__hamburger" type="button" aria-controls="main-navigation" aria-expanded="false">
+                                    Open mobile navigation
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                            </div>
+        </div>
+        <div id="search" class="nav-search__drawer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-18 offset-3 col-lg-16 offset-lg-4">
+                        <div class="search-form"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </nav>
+      
+    <main id="main">
+                    <div class="lead-in">
+      
+            
+    
+                                                
+        
+
+<div class="leadInHero hero container   "
+    data-has-avg="true" data-avg="Homepage-hero" data-av="CustomerSignins">
+    <div class="row">
+        <div class="leadInHero__content col-24 col-lg-12 leadInHero__content--bg-light-marigold">
+            <div class="row">
+                <div class="col-20 offset-2 col-lg-16 offset-lg-4">
+                    <div class="leadInHero__content-inner">
+                        
+                        <h1 class="hero__headline heading--l">
+                                                            Smart hiring tools to streamline your process
+                                                    </h1>
+
+                                                    <div class="hero__subhead"><p>With AI tools that supercharge your sourcing, a new texting solution powered by Grayscale and plenty of feature upgrades, our latest release has everything you need to streamline your hiring process, all-together in Greenhouse.</p></div>
+                        
+                                                    <div class="links">
+                                <a class="hero__cta button--secondary" href='https://www.greenhouse.com/greenhouse-latest-features' target=''>See what’s new</a>
+                                                            </div>
+                                            </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="leadInHero__image col-24 col-lg-12 leadInHero__image--cover leadInHero__image--bg-light-marigold">
+
+            
+                
+                                <picture>
+                    <source media="(min-width: 1024px)" sizes="50vw" srcset="https://sharp.services.greenhouse.io/production/Greenhouse-AI-for-Sourcing-Automation-and-Texting-powered-by-Grayscale-UI-with-woman-office-worker-smiling-and-marigold-fingerprint-leaf.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=1440&amp;s=1c9d5761696ab2e9df2878f1d4e0a0a42a3424e788c473549be4fb524e3b5571">
+                                                                    <source media="(max-width: 1024px)" sizes="100vw" srcset="https://sharp.services.greenhouse.io/production/Greenhouse-AI-for-Sourcing-Automation-and-Texting-powered-by-Grayscale-UI-with-woman-office-worker-smiling-and-marigold-fingerprint-leaf_M.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=2048&amp;s=17c8ae8d40467763caa05c0f4f57746fecda7e52234797ffe07acb6f38a856e0">
+                                        <img src="https://sharp.services.greenhouse.io/production/Greenhouse-AI-for-Sourcing-Automation-and-Texting-powered-by-Grayscale-UI-with-woman-office-worker-smiling-and-marigold-fingerprint-leaf.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=1440&amp;s=1c9d5761696ab2e9df2878f1d4e0a0a42a3424e788c473549be4fb524e3b5571" alt="Greenhouse AI for Sourcing Automation and Texting powered by Grayscale UI with woman office worker smiling and marigold fingerprint leaf">
+                </picture>
+                                </div>
+    </div>
+</div>
+    
+                                                
+        
+
+<div class="leadInHero hero container  leadInHero--background  leadInHero__background--bg-dark-green "
+    data-has-avg="true" data-avg="Homepage-hero" data-av="default">
+    <div class="row">
+        <div class="leadInHero__content col-24 leadInHero__content--bg-dark-green">
+            <div class="row">
+                <div class="col-20 offset-2 col-lg-16 offset-lg-4">
+                    <div class="leadInHero__content-inner">
+                        
+                        <h1 class="hero__headline heading--l">
+                                                            Your <em>all-together</em> hiring platform
+                                                    </h1>
+
+                                                    <div class="hero__subhead"><p>Delivering better hiring solutions from sourcing to onboarding, we help you connect teams and propel success – all in Greenhouse.</p></div>
+                        
+                                                    <div class="links">
+                                <a class="hero__cta button--secondary" href='https://www.greenhouse.com/platform' target=''>Explore platform</a>
+                                                                    <a class="hero__link" href='https://www.greenhouse.com/demo' target=''>Request a demo</a>
+                                                            </div>
+                                            </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="leadInHero__image col-24 leadInHero__image--bg-dark-green">
+
+            
+                <div class="lottie-animation visible-769">
+    <dotlottie-player
+        src="https://grnhse-marketing-site-assets.s3.amazonaws.com/production/lottieAnimations/greenhouse_ui_hompage_background_hero_desktop.json"
+        aria-label="Greenhouse ui hompage background hero desktop"
+        role="img"
+        background="transparent"
+        speed="1"
+        direction="1"
+        mode="normal"
+    ></dotlottie-player>
+</div>
+
+
+                                                                            <picture class="hidden-769">
+                        <source media="(max-width: 769px)" sizes="100vw" srcset="https://sharp.services.greenhouse.io/production/Greenhouse-all-together-platform-UI-office-worker-heashots-and-fingerprint-leaf.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=2048&amp;s=3053c35be699ba0a2a6f25694496bf2d006c5dee507ffa72260d54487266b1da">
+                        <img src="https://sharp.services.greenhouse.io/production/Greenhouse-all-together-platform-UI-office-worker-heashots-and-fingerprint-leaf.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=2048&amp;s=3053c35be699ba0a2a6f25694496bf2d006c5dee507ffa72260d54487266b1da" alt="Greenhouse all together platform UI office worker heashots and fingerprint leaf">
+                    </picture>
+                
+                                </div>
+    </div>
+</div>
+    
+                                                
+        
+
+<div class="leadInHero hero container  leadInHero--background  leadInHero__background--bg-dark-green "
+    data-has-avg="true" data-avg="Homepage-hero" data-av="MM2_and_Enterprise">
+    <div class="row">
+        <div class="leadInHero__content col-24 leadInHero__content--bg-dark-green">
+            <div class="row">
+                <div class="col-20 offset-2 col-lg-16 offset-lg-4">
+                    <div class="leadInHero__content-inner">
+                        
+                        <h1 class="hero__headline heading--l">
+                                                            Your <em>all-together</em> <br />hiring platform
+                                                    </h1>
+
+                                                    <div class="hero__subhead"><p>With scalable workflows to support every hiring step, from sourcing to onboarding, Greenhouse is your partner in making hiring your competitive advantage.</p></div>
+                        
+                                                    <div class="links">
+                                <a class="hero__cta button--secondary" href='https://www.greenhouse.com/platform' target=''>Explore platform</a>
+                                                                    <a class="hero__link" href='https://www.greenhouse.com/consult' target=''>Request a consult</a>
+                                                            </div>
+                                            </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="leadInHero__image col-24 leadInHero__image--bg-dark-green">
+
+            
+                <div class="lottie-animation visible-769">
+    <dotlottie-player
+        src="https://grnhse-marketing-site-assets.s3.amazonaws.com/production/lottieAnimations/greenhouse_ui_hompage_background_hero_desktop.json"
+        aria-label="Greenhouse ui hompage background hero desktop"
+        role="img"
+        background="transparent"
+        speed="1"
+        direction="1"
+        mode="normal"
+    ></dotlottie-player>
+</div>
+
+
+                                                                            <picture class="hidden-769">
+                        <source media="(max-width: 769px)" sizes="100vw" srcset="https://sharp.services.greenhouse.io/production/Greenhouse-all-together-platform-UI-office-worker-heashots-and-fingerprint-leaf.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=2048&amp;s=3053c35be699ba0a2a6f25694496bf2d006c5dee507ffa72260d54487266b1da">
+                        <img src="https://sharp.services.greenhouse.io/production/Greenhouse-all-together-platform-UI-office-worker-heashots-and-fingerprint-leaf.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=2048&amp;s=3053c35be699ba0a2a6f25694496bf2d006c5dee507ffa72260d54487266b1da" alt="Greenhouse all together platform UI office worker heashots and fingerprint leaf">
+                    </picture>
+                
+                                </div>
+    </div>
+</div>
+    </div>
+  
+  
+                                        
+    
+        
+
+
+
+    
+
+<div class="textWithImage textWithImage--has-inner-content container component-offscreen  textWithImage--has-color-bg"
+    data-has-avg="true" data-avg="home-position-2" data-av="default">
+    <div class="row">
+        <div class="textWithImage__content col-24 col-lg-12 textWithImage__content--bg-medium-marigold">
+            <div class="row">
+                <div class="col-20 offset-2 col-lg-16 offset-lg-4">
+                    <div class="textWithImage__content-inner">
+                        <h2 class="textWithImage__headline heading--l">
+                                                            <em>Hire for</em> the right person in every role
+                                                    </h2>
+                                                    <div class="textWithImage__subhead paragraph col-md-17 col-lg-24"><p>Greenhouse is a complete hiring platform that helps you hire fairly and purposefully. With Greenhouse, hiring isn’t just a task – it’s a pivotal part of your overall strategy that we can help you get right, every time.</p></div>
+                                                                            <a class="button button--tertiary" href='https://www.greenhouse.com/early-stage' target=''>Grow with Greenhouse</a>
+                                                                            <a class="textWithImage__link" href='https://www.greenhouse.com/demo-video' target=''>Watch the video</a>
+                                            </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="textWithImage__image imageRight col-24 col-lg-12 textWithImage__image--bg-medium-marigold">
+
+
+                                                                                                                <img data-src="https://sharp.services.greenhouse.io/production/Two-men-sitting-in-an-office-space-with-warm-tones.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=1440&amp;s=87304bbf491e433f514cc7efcf0aca0813016be22dae333a558440f81db1e982"
+                    data-srcset="https://sharp.services.greenhouse.io/production/Two-men-sitting-in-an-office-space-with-warm-tones.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=1440&amp;s=87304bbf491e433f514cc7efcf0aca0813016be22dae333a558440f81db1e982, https://sharp.services.greenhouse.io/production/Two-men-sitting-in-an-office-space-with-warm-tones_M.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=750&amp;s=f8489fe49ec2a0c63b11659912e0f582277333d91d24001f77dffc9673e68674 640w"
+                    sizes="50vw, 100vw"
+                    alt="Two men sitting in an office space with warm tones">
+                                </div>
+    </div>
+</div>
+    
+        
+
+
+
+    
+
+<div class="textWithImage textWithImage--has-inner-content container component-offscreen  textWithImage--has-color-bg"
+    data-has-avg="true" data-avg="home-position-1" data-av="MM2_and_Enterprise">
+    <div class="row">
+        <div class="textWithImage__content col-24 col-lg-12 textWithImage__content--bg-medium-marigold">
+            <div class="row">
+                <div class="col-20 offset-2 col-lg-16 offset-lg-4">
+                    <div class="textWithImage__content-inner">
+                        <h2 class="textWithImage__headline heading--l">
+                                                            <em>Hire</em> for growing at a global scale
+                                                    </h2>
+                                                    <div class="textWithImage__subhead paragraph col-md-17 col-lg-24"><p>As a modern enterprise, you need world-class support and a customizable hiring solution to build a global team. Whether you’re refining or rebuilding your hiring process, we offer the tools and expertise so you can hire for what’s next.</p></div>
+                                                                            <a class="button button--tertiary" href='https://www.greenhouse.com/enterprise' target=''>See enterprise solutions</a>
+                                                                            <a class="textWithImage__link" href='https://www.greenhouse.com/consult' target=''>Talk to an expert</a>
+                                            </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="textWithImage__image imageRight col-24 col-lg-12 textWithImage__image--bg-medium-marigold">
+
+
+                                                                                                                <img data-src="https://sharp.services.greenhouse.io/production/Woman-and-man-working-together-in-a-casual-office-space.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=1440&amp;s=06b645510b5b100140edf3687f88cb23641f9a5d878c646616747d9f254c234b"
+                    data-srcset="https://sharp.services.greenhouse.io/production/Woman-and-man-working-together-in-a-casual-office-space.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=1440&amp;s=06b645510b5b100140edf3687f88cb23641f9a5d878c646616747d9f254c234b, https://sharp.services.greenhouse.io/production/Woman-and-man-working-together-in-a-casual-office-space_M.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=750&amp;s=8345b507e213165782fcc4f5409c877221f30a8b05947d204f56a64dc3a054c7 640w"
+                    sizes="50vw, 100vw"
+                    alt="Woman and man working together in a casual office space">
+                                </div>
+    </div>
+</div>
+    
+        
+
+<div class="logos container component-offscreen" data-has-avg="true" data-avg="home-position-2" data-av="default">
+  <div class="row">
+    <div class="col-20 col-lg-8 offset-2 cta-container">
+      <h2 class="heading--m font--serif">See who’s hiring with Greenhouse</h2>
+                          <a class="logos__cta button--secondary button-homepage-customer-stories-cta" href="https://www.greenhouse.com/customer-stories">Read customer stories</a>
+          </div>
+    <div class="col-20 col-lg-8 offset-2 offset-lg-4">
+      <div class="row logos__row">
+                        <div class="col-12 logos__item">
+            <a href="https://www.greenhouse.com/guidance/hiring-hacks-betterworks-ceos-3-steps-to-a-98-retention-rate" target="">
+              <img data-src="https://sharp.services.greenhouse.io/production/Betterworks_2024-02-22-193552_ojjl.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=430&amp;s=2f4b92e51caf6052ef8106914912fc47d24f79d0bed162056f2ee16423cd5ae8" width="215" height="125" alt="Betterworks">
+            </a>
+          </div>
+                                <div class="col-12 logos__item">
+            <a href="https://www.greenhouse.com/guidance/whatsyourwhy-podcast-parijat-tanna-talkad" target="">
+              <img data-src="https://sharp.services.greenhouse.io/production/Coursera_2024-02-22-193551_bfgg.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=430&amp;s=cfd54ead69bd7fcb7b5d43490d75348d84da715464700b415cdd296dd2b6d017" width="215" height="125" alt="Coursera">
+            </a>
+          </div>
+                                <div class="col-12 logos__item">
+            <a href="https://www.greenhouse.com/customer-stories/case-study-evernote" target="">
+              <img data-src="https://sharp.services.greenhouse.io/production/Evernote_2024-02-22-193550_fidq.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=430&amp;s=8ff3b4a5b772f5014a8086927c9f37656bc533b119f863d21a38a2514824bc8a" width="215" height="125" alt="Evernote">
+            </a>
+          </div>
+                                <div class="col-12 logos__item">
+            <a href="https://www.greenhouse.com/customer-stories/policygenius-ensures-equity-and-efficiency-with-structured-hiring" target="">
+              <img data-src="https://sharp.services.greenhouse.io/production/Policygenius_2024-02-22-193549_jbhf.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=430&amp;s=9d22c7ec079b6db77683aaa7511788ada2c8cf1f166b096faa8e7118a0f776e0" width="215" height="125" alt="Policygenius">
+            </a>
+          </div>
+                                <div class="col-12 logos__item">
+            <a href="https://www.greenhouse.com/customer-stories/nerdwallet-interview-schedule-improve-process-and-experience" target="">
+              <img data-src="https://sharp.services.greenhouse.io/production/Nerdwallet_2024-02-22-193548_oqnv.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=430&amp;s=2a05f8ddf601897e0b57a6c5c80f39fb52e3a2ec1f979966d0f9d010dec95376" width="215" height="125" alt="Nerdwallet">
+            </a>
+          </div>
+                                <div class="col-12 logos__item">
+            <a href="https://www.greenhouse.com/customer-stories/case-study-seatgeek" target="">
+              <img data-src="https://sharp.services.greenhouse.io/production/Seatgeek_2024-02-22-193550_wvza.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=430&amp;s=d12c66c2724f1873aeecb28cf8dbdfbd12c69644e220ae083d21e441d9d52d8b" width="215" height="125" alt="Seatgeek">
+            </a>
+          </div>
+                    </div>
+    </div>
+  </div>
+</div>
+    
+        
+
+<div class="logos container component-offscreen" data-has-avg="true" data-avg="home-position-2" data-av="MM2_and_Enterprise">
+  <div class="row">
+    <div class="col-20 col-lg-8 offset-2 cta-container">
+      <h2 class="heading--m font--serif">Leading enterprise companies win with Greenhouse</h2>
+                          <a class="logos__cta button--secondary button-homepage-customer-stories-cta" href="https://www.greenhouse.com/customer-stories">Read customer stories</a>
+          </div>
+    <div class="col-20 col-lg-8 offset-2 offset-lg-4">
+      <div class="row logos__row">
+                        <div class="col-12 logos__item">
+            <a href="https://www.greenhouse.com/blog/greenhouse-open-speaker-series-from-engineering-to-ops-kumud-kokal-head-of-business-systems-at-airbnb-strives-to-make-the-world-more-inclusive" target="">
+              <img data-src="https://sharp.services.greenhouse.io/production/Airbbnb.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=430&amp;s=ed4b1672c8d6ab2b41a587f1a6fb679fd98dc864dcefb4219ee2925b50790b12" width="215" height="125" alt="Airbbnb">
+            </a>
+          </div>
+                                <div class="col-12 logos__item">
+            <a href="https://www.greenhouse.com/customer-stories/hubspot-case-study" target="">
+              <img data-src="https://sharp.services.greenhouse.io/production/Hubspot-logo_2024-02-28-172606_nsna.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=430&amp;s=a6f85645790b361a07492e0c65bdd370ba0b698484d8a739e9c6cf8d965d60c3" width="215" height="125" alt="Hubspot logo">
+            </a>
+          </div>
+                                <div class="col-12 logos__item">
+            <a href="https://www.greenhouse.com/customer-stories/hypergrowth-without-compromise-at-gong" target="">
+              <img data-src="https://sharp.services.greenhouse.io/production/Gong_2024-02-22-194036_gfby.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=430&amp;s=2782a16d0f2e48b27f1827298dc8f3710c159aea35f82f45bb3b9de8201c3664" width="215" height="125" alt="Gong">
+            </a>
+          </div>
+                                <div class="col-12 logos__item">
+            <a href="https://www.greenhouse.com/blog/how-hiring-builds-great-companies-the-warby-parker-story-as-told-at-greenhouse-open-2019" target="">
+              <img data-src="https://sharp.services.greenhouse.io/production/Warby-Parker_2024-02-22-194034_zxlp.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=430&amp;s=5eacda330a531e13e818b01ed5c148593599f763aa6d65ae193b896b64c753bc" width="215" height="125" alt="Warby Parker">
+            </a>
+          </div>
+                                <div class="col-12 logos__item">
+            <a href="https://www.greenhouse.com/okta-achieves-227-roi-with-greenhouse" target="">
+              <img data-src="https://sharp.services.greenhouse.io/production/Okta_2024-02-22-194034_sbmt.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=430&amp;s=3246fa6e4b38ad8a1e1bb50217432533e7e6559c7ae60ab8878a61d5e270a42f" width="215" height="125" alt="Okta">
+            </a>
+          </div>
+                                <div class="col-12 logos__item">
+            <a href="https://www.greenhouse.com/customer-stories/lyft-hiring-success-case-study" target="">
+              <img data-src="https://sharp.services.greenhouse.io/production/Lyft_2024-02-22-194033_nhkx.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=430&amp;s=c5c437e6d0d498a4d5af76f075ad0bd67907a580986524cc15fa7b6bc9d25c8e" width="215" height="125" alt="Lyft">
+            </a>
+          </div>
+                    </div>
+    </div>
+  </div>
+</div>
+    
+        
+
+<div class="headline container  collapse-top-spacing collapse-bottom-spacing"
+    data-has-avg="true" data-avg="home-position-2" data-av="default">
+    <div class="row">
+        <div class="col-20 offset-2 col-lg-15 offset-lg-2">
+        <h2 class="heading--l">A hiring platform that’s more than an ATS</h2>
+        </div>
+            </div>
+</div>
+    
+        
+
+<div class="headline container  collapse-top-spacing collapse-bottom-spacing"
+    data-has-avg="true" data-avg="home-position-3" data-av="MM2_and_Enterprise">
+    <div class="row">
+        <div class="col-20 offset-2 col-lg-15 offset-lg-2">
+        <h2 class="heading--l">A hiring platform that’s more than an ATS</h2>
+        </div>
+            </div>
+</div>
+    
+        
+<div class="content-gallery container padding-l component-offscreen "
+    data-has-avg="true" data-avg="home-position-3" data-av="default">
+    <div class="row">
+        <div class="offset-2 col-20">
+
+            
+            <div class="row content-gallery__tiles-container">
+                                    <div class="col-24 offset-0 col-md-18 offset-md-3 col-lg-12 offset-lg-0 col-xl-8 content-gallery__tile margin-m-alt">
+
+                                                    <div class="content-gallery__tile-image">
+                                <img src="https://sharp.services.greenhouse.io/production/Woman-smiling-while-collaborating-with-coworker-in-warm-toned-office.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=722&amp;s=6097ca16cd427a2e9bfa7af140e99851b15590555ebe60bcac51bda35cfea6f0" alt="Woman smiling while collaborating with coworker in warm toned office">
+                            </div>
+                                                <div class="heading--s mktoText">Dedicated to your success</div>                        <div class="paragraph--s"><p>Expertise and advice to help your organization get the most value from Greenhouse and reach your hiring goals – faster.</p></div>                        <a class="link--secondary" href='https://www.greenhouse.com/customer-success' target=''>Learn more</a>                    </div>
+                                    <div class="col-24 offset-0 col-md-18 offset-md-3 col-lg-12 offset-lg-0 col-xl-8 content-gallery__tile margin-m-alt">
+
+                                                    <div class="content-gallery__tile-image">
+                                <img src="https://sharp.services.greenhouse.io/production/Man-posing-in-grey-sweater-in-warm-toned-office.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=720&amp;s=c434f224c998c0040f01181e97cb7e63dc8fbb1036718f909112c42075f5fab4" alt="Man posing in grey sweater in warm toned office">
+                            </div>
+                                                <div class="heading--s mktoText">A leader in hiring software</div>                        <div class="paragraph--s"><p>Discover how our award-winning hiring software supports your business growth at any stage.</p></div>                        <a class="link--secondary" href='https://www.greenhouse.com/blog/learn-why-greenhouse-is-an-award-winning-enterprise-software' target=''>Read now</a>                    </div>
+                                    <div class="col-24 offset-0 col-md-18 offset-md-3 col-lg-12 offset-lg-0 col-xl-8 content-gallery__tile margin-m-alt">
+
+                                                    <div class="content-gallery__tile-image">
+                                <img src="https://sharp.services.greenhouse.io/production/Smiling-woman-in-business-attire-discussing-sticky-notes-on-a-board.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=720&amp;s=e4a344ff692210866571015f6a6f4d633fa1e740249336c2b3a988deba601d1f" alt="Smiling woman in business attire discussing sticky notes on a board">
+                            </div>
+                                                <div class="heading--s mktoText">Your hiring ROI</div>                        <div class="paragraph--s"><p>Greenhouse is the proven hiring platform to maximize your return on your hiring investment. Just ask our customers.</p></div>                        <a class="link--secondary" href='https://www.greenhouse.com/platform' target=''>Find out how</a>                    </div>
+                            </div>
+        </div>
+    </div>
+</div>
+    
+        
+<div class="content-gallery container padding-l component-offscreen "
+    data-has-avg="true" data-avg="home-position-2" data-av="CustomerSignins">
+    <div class="row">
+        <div class="offset-2 col-20">
+
+            
+            <div class="row content-gallery__tiles-container">
+                                    <div class="col-24 offset-0 col-md-18 offset-md-3 col-lg-12 offset-lg-0 col-xl-8 content-gallery__tile margin-m-alt">
+
+                                                    <div class="content-gallery__tile-image">
+                                <img src="https://sharp.services.greenhouse.io/production/2023-Talent-Makers-Winners-Collage.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=720&amp;s=e33c2eda947057c6ecab8b01646ef2bcbdd260edf1560326d7f13efb13ef3a3e" alt="2023 Talent Makers Winners Collage">
+                            </div>
+                                                <div class="heading--s mktoText">Meet the 2023 Talent Makers winners</div>                        <div class="paragraph--s"><p>Join us in celebrating talent magnets, partners and leaders who have gone above and beyond to advocate for better hiring at their organizations.</p></div>                        <a class="link--secondary" href='https://www.greenhouse.com/talentmakers' target=''>See the winners</a>                    </div>
+                                    <div class="col-24 offset-0 col-md-18 offset-md-3 col-lg-12 offset-lg-0 col-xl-8 content-gallery__tile margin-m-alt">
+
+                                                    <div class="content-gallery__tile-image">
+                                <img src="https://sharp.services.greenhouse.io/production/Learn-Greenhouse-Website-and-Leaf-Fingerprint-collage_2024-03-28-195718_lnzm.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=720&amp;s=2d96e6ca26a2781cd25e96cae68a4b59bd3dede83a98291aa670fbc4f2f01414" alt="Learn Greenhouse Website and Leaf Fingerprint collage">
+                            </div>
+                                                <div class="heading--s mktoText">Access Greenhouse courses &amp; trainings</div>                        <div class="paragraph--s"><p>Visit Learn Greenhouse for deep-dives into product features, hiring best practices and more so you can get the most out of Greenhouse.</p></div>                        <a class="link--secondary" href='https://learn.greenhouse.io/' target='_blank'>Get started</a>                    </div>
+                                    <div class="col-24 offset-0 col-md-18 offset-md-3 col-lg-12 offset-lg-0 col-xl-8 content-gallery__tile margin-m-alt">
+
+                                                    <div class="content-gallery__tile-image">
+                                <img src="https://sharp.services.greenhouse.io/production/Collage-man-and-woman-talking-with-video-icon.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=720&amp;s=322b8f2f8448719e2e6198b57d4f97cbabbe79a9fc34c77795c8d02ddb1b598e" alt="Collage man and woman talking with video icon">
+                            </div>
+                                                <div class="heading--s mktoText">Join us for our next event</div>                        <div class="paragraph--s"><p>Keep up with Greenhouse wherever we are, from exciting in-person events to thoughtful expert-led webinars.</p></div>                        <a class="link--secondary" href='https://www.greenhouse.com/events' target=''>Join us</a>                    </div>
+                            </div>
+        </div>
+    </div>
+</div>
+    
+        
+<div class="content-gallery container padding-l component-offscreen "
+    data-has-avg="true" data-avg="home-position-4" data-av="MM2_and_Enterprise">
+    <div class="row">
+        <div class="offset-2 col-20">
+
+            
+            <div class="row content-gallery__tiles-container">
+                                    <div class="col-24 offset-0 col-md-18 offset-md-3 col-lg-12 offset-lg-0 col-xl-8 content-gallery__tile margin-m-alt">
+
+                                                    <div class="content-gallery__tile-image">
+                                <img src="https://sharp.services.greenhouse.io/production/Woman-smiling-while-collaborating-with-coworker-in-warm-toned-office.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=722&amp;s=6097ca16cd427a2e9bfa7af140e99851b15590555ebe60bcac51bda35cfea6f0" alt="Woman smiling while collaborating with coworker in warm toned office">
+                            </div>
+                                                <div class="heading--s mktoText">Dedicated to your success</div>                        <div class="paragraph--s"><p>Expertise and advice to help your organization get the most value from Greenhouse and reach your hiring goals – faster.</p></div>                        <a class="link--secondary" href='https://www.greenhouse.com/customer-success' target=''>Learn more</a>                    </div>
+                                    <div class="col-24 offset-0 col-md-18 offset-md-3 col-lg-12 offset-lg-0 col-xl-8 content-gallery__tile margin-m-alt">
+
+                                                    <div class="content-gallery__tile-image">
+                                <img src="https://sharp.services.greenhouse.io/production/Man-posing-in-grey-sweater-in-warm-toned-office.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=720&amp;s=c434f224c998c0040f01181e97cb7e63dc8fbb1036718f909112c42075f5fab4" alt="Man posing in grey sweater in warm toned office">
+                            </div>
+                                                <div class="heading--s mktoText">Best software for enterprise</div>                        <div class="paragraph--s"><p>Learn why Greenhouse is an award winning enterprise software for companies like DoorDash, Betterment and MLB.</p></div>                        <a class="link--secondary" href='https://www.greenhouse.com/blog/learn-why-greenhouse-is-an-award-winning-enterprise-software' target=''>Read now</a>                    </div>
+                                    <div class="col-24 offset-0 col-md-18 offset-md-3 col-lg-12 offset-lg-0 col-xl-8 content-gallery__tile margin-m-alt">
+
+                                                    <div class="content-gallery__tile-image">
+                                <img src="https://sharp.services.greenhouse.io/production/Smiling-woman-in-business-attire-discussing-sticky-notes-on-a-board.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=720&amp;s=e4a344ff692210866571015f6a6f4d633fa1e740249336c2b3a988deba601d1f" alt="Smiling woman in business attire discussing sticky notes on a board">
+                            </div>
+                                                <div class="heading--s mktoText">Your hiring ROI</div>                        <div class="paragraph--s"><p>Greenhouse is the proven hiring platform to maximize your return on your hiring investment. Just ask our customers.</p></div>                        <a class="link--secondary" href='https://www.greenhouse.com/platform' target=''>Find out how</a>                    </div>
+                            </div>
+        </div>
+    </div>
+</div>
+    
+        
+
+
+
+
+<div
+    class="featuredResources container component-offscreen"
+    data-has-avg="true" data-avg="home-position-3" data-av="CustomerSignins">
+    
+    <div class="row">
+                    <div class="col-24 col-lg-12 image-wrap">
+                <div class="featuredResource featuredResource--main padding-l featuredResource--main--bg-dark-green">
+                    <div class="offset-2 offset-lg-4">
+
+                                                    <p class="featuredResource__tags">Hiring tech stack, Industry news</p>
+                        
+                        <h3 class="heading--m font--serif col-16 col-lg-20"><a class="featured-resource-link" href="https://www.greenhouse.com/blog/greenhouse-spring-2024-new-releases-designed-to-decrease-time-to-fill-and-streamline-the-recruiting-process">Greenhouse spring 2024 new releases designed to decrease time to fill and streamline the recruiting process</a></h3>
+                    </div>
+                </div>
+                <img class="featuredResources__image hidden-lg" data-src="https://sharp.services.greenhouse.io/production/Man-working-at-a-table-wearing-headphones-and-taking-notes-from-laptop.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=1440&amp;s=afb311815d4a62737a688e898566f5705a24e3ae8f80a8a25dfd4559cce87171" alt="Man working at a table wearing headphones and taking notes from laptop">
+                <div class="featuredResources__bg-image visible-lg" style="background-image: url(https://sharp.services.greenhouse.io/production/Man-working-at-a-table-wearing-headphones-and-taking-notes-from-laptop.png?auto=format&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=1440&amp;s=afb311815d4a62737a688e898566f5705a24e3ae8f80a8a25dfd4559cce87171)"></div>
+            </div>
+                <div class="col-24 col-lg-12 featuredResources--right featuredResources--right--bg-light-marigold">
+            <div class="row">
+                <div class="col-20 offset-2 col-lg-16 offset-lg-4">
+                                        <div class="featuredResource">
+                        <div>
+                                                            <p class="featuredResource__tags">Candidate sourcing</p>
+                            
+                            <h3 class="heading--s"><a class="featured-resource-link" href="https://www.greenhouse.com/customer-stories/director-of-talent-acquisition-major-league-baseball-mlb">MLB hits a hiring home run with Greenhouse</a></h3>
+
+                            <p class="featuredResource__description paragraph--s">    With over 25,000 employees, Major League Baseball (MLB) was in need of a more intuitive and…</p>
+
+                                                    </div>
+                    </div>
+                                    <div class="featuredResource">
+                        <div>
+                                                            <p class="featuredResource__tags">Candidate experience, Structured hiring</p>
+                            
+                            <h3 class="heading--s"><a class="featured-resource-link" href="https://www.greenhouse.com/customer-stories/inizio-cuts-agency-spending-by-more-than-50">Inizio cuts agency spending by more than 50%</a></h3>
+
+                            <p class="featuredResource__description paragraph--s">    Established in 2022, Inizio is a scaled commercialization platform that unlocks, activates and…</p>
+
+                                                            <a class="button--tertiary" href='https://www.greenhouse.com/customer-stories' target=''>See more customer stories</a>
+                                                    </div>
+                    </div>
+                                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  </main>
+      
+    
+    
+        
+
+<section aria-label="callout" class="ctaBlock botanical-prefooter-image11 component-offscreen" data-has-avg="true" data-avg="prefooter-cta" data-av="default">
+    <div class="container">
+      <div class="row">
+        <div class="ctaBlock__text col-20 offset-2 col-lg-16">
+          <h2 class="heading--l">Ready to get everything you need to hire better?</h2>
+                      <a class="button--primary" href="https://www.greenhouse.com/demo" target="">Request a demo</a>
+                  </div>
+      </div>
+    </div>
+</section>
+    <section class="lem-wrapper">
+    <div class="row container">
+      <div class="offset-2 col-20">
+        <div class="be-ix-link-block">
+            
+<!-- be_ixf, bodystr, body_1 -->
+
+            
+<!-- be_ixf, sdk, is -->
+
+<span id="be:sdk_is" style="display:none!important">be_ixf;ym_202406 d_20; ct_50</span>
+<ul id="be_sdkms_capsule" style="display:none!important">
+    <li class="be_sdkms_sdk_version">be_ixf; php_sdk; php_sdk_1.4.26.1</li>
+    <li id="be_sdkms_original_url">https://greenhouse-production.herokuapp.com/</li>
+    <li id="be_sdkms_normalized_url">https://greenhouse-production.herokuapp.com/</li>
+</ul>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+                  
+
+
+<footer class="footer footer-2">
+    <div class="container">
+        <div class="row">
+                <div class="footer__form-wrapper offset-2 col-20 offset-md-0 col-md-6 offset-lg-1 col-lg-5">
+                    <div class="footer__headline paragraph">Modern Recruiter newsletter</div>
+                    <div class="footer__text paragraph--s">
+                        <p>Our bi-weekly newsletter full of inspiration, podcasts, trends and news.</p>
+                    </div>
+                    <div class="footer__form js-standard-mkto-form">
+                        <script src="//go.greenhouse.com/js/forms2/js/forms2.min.js"></script>
+<form id="mktoForm_1575"></form>
+<script>MktoForms2.loadForm("//go.greenhouse.com", "750-ISS-976", 1575);</script>
+                    </div>
+                    
+<div class="footer__form visible-md">
+  <label for="language-switch-footer-desktop" class="mktoLabel">Choose your language</label>
+  <select id="language-switch-footer-desktop" class="language-switch">
+        
+                                                             
+                                        
+                                                            <option data-lang="en" value="" selected="selected">English (US)</option>
+                                                                
+                                                                                                                                                  
+              <option data-lang="en-GB" value="https://www.greenhouse.com/uk/">English (UK)</option>
+                                                                
+                                                                                                                                                  
+              <option data-lang="de" value="https://www.greenhouse.com/de/">Deutsch</option>
+                                    
+          </select>
+</div>
+                </div>
+
+                                <nav class="offset-2 col-md-14 footer__menus visible-lg" aria-label="footer menu">
+                                            <div class="footer__section">
+                            <div class="footer__section-title" role="heading" aria-level="2">Platform</div>
+                            <ul>
+                                                                                                        <li>
+                                        <a href="https://www.greenhouse.com/platform" target="">
+                                            <span>The all-together hiring platform</span>
+                                        </a>
+                                    </li>
+                                                                                                        <li>
+                                        <a href="https://www.greenhouse.com/greenhouse-latest-features" target="">
+                                            <span>Latest product features</span>
+                                        </a>
+                                    </li>
+                                                                                                        <li>
+                                        <a href="https://www.greenhouse.com/pricing" target="">
+                                            <span>Pricing</span>
+                                        </a>
+                                    </li>
+                                                                                                        <li>
+                                        <a href="https://www.greenhouse.com/security" target="">
+                                            <span>Security</span>
+                                        </a>
+                                    </li>
+                                                                                                        <li>
+                                        <a href="https://www.greenhouse.com/ethical-principles" target="">
+                                            <span>Ethical principles</span>
+                                        </a>
+                                    </li>
+                                                                                                        <li>
+                                        <a href="https://www.greenhouse.com/api" target="">
+                                            <span>APIs</span>
+                                        </a>
+                                    </li>
+                                                            </ul>
+                        </div>
+                                            <div class="footer__section">
+                            <div class="footer__section-title" role="heading" aria-level="2">Solutions</div>
+                            <ul>
+                                                                                                        <li>
+                                        <a href="https://www.greenhouse.com/talent-sourcing" target="">
+                                            <span>Talent sourcing</span>
+                                        </a>
+                                    </li>
+                                                                                                        <li>
+                                        <a href="https://www.greenhouse.com/scalable-workflows" target="">
+                                            <span>Scalable workflows</span>
+                                        </a>
+                                    </li>
+                                                                                                        <li>
+                                        <a href="https://www.greenhouse.com/candidate-experience" target="">
+                                            <span>Candidate experience</span>
+                                        </a>
+                                    </li>
+                                                                                                        <li>
+                                        <a href="https://www.greenhouse.com/interviewing-decision-making" target="">
+                                            <span>Interviewing &amp; decision-making</span>
+                                        </a>
+                                    </li>
+                                                                                                        <li>
+                                        <a href="https://www.greenhouse.com/onboarding" target="">
+                                            <span>Onboarding</span>
+                                        </a>
+                                    </li>
+                                                                                                        <li>
+                                        <a href="https://www.greenhouse.com/reporting-insights" target="">
+                                            <span>Reporting &amp; insights</span>
+                                        </a>
+                                    </li>
+                                                                                                        <li>
+                                        <a href="https://www.greenhouse.com/integrations" target="">
+                                            <span>Integrations</span>
+                                        </a>
+                                    </li>
+                                                            </ul>
+                        </div>
+                                            <div class="footer__section">
+                            <div class="footer__section-title" role="heading" aria-level="2">Why Greenhouse</div>
+                            <ul>
+                                                                                                        <li>
+                                        <a href="https://www.greenhouse.com/compare" target="">
+                                            <span>How we compare</span>
+                                        </a>
+                                    </li>
+                                                                                                        <li>
+                                        <a href="https://www.greenhouse.com/roi-with-greenhouse" target="">
+                                            <span>Return on your hiring investment</span>
+                                        </a>
+                                    </li>
+                                                                                                        <li>
+                                        <a href="https://www.greenhouse.com/customer-success" target="">
+                                            <span>Your partner in success</span>
+                                        </a>
+                                    </li>
+                                                            </ul>
+                        </div>
+                                            <div class="footer__section">
+                            <div class="footer__section-title" role="heading" aria-level="2">Greenhouse for</div>
+                            <ul>
+                                                                                                        <li>
+                                        <a href="https://www.greenhouse.com/early-stage" target="">
+                                            <span>Early-stage business</span>
+                                        </a>
+                                    </li>
+                                                                                                        <li>
+                                        <a href="https://www.greenhouse.com/scaling-company" target="">
+                                            <span>Scaling company</span>
+                                        </a>
+                                    </li>
+                                                                                                        <li>
+                                        <a href="https://www.greenhouse.com/enterprise" target="">
+                                            <span>Enterprise</span>
+                                        </a>
+                                    </li>
+                                                            </ul>
+                        </div>
+                                            <div class="footer__section">
+                            <div class="footer__section-title" role="heading" aria-level="2">Resources</div>
+                            <ul>
+                                                                                                        <li>
+                                        <a href="https://www.greenhouse.com/blog" target="">
+                                            <span>Blog</span>
+                                        </a>
+                                    </li>
+                                                                                                        <li>
+                                        <a href="https://www.greenhouse.com/guidance" target="">
+                                            <span>Guidance</span>
+                                        </a>
+                                    </li>
+                                                                                                        <li>
+                                        <a href="https://www.greenhouse.com/customer-stories" target="">
+                                            <span>Customer stories</span>
+                                        </a>
+                                    </li>
+                                                                                                        <li>
+                                        <a href="https://www.greenhouse.com/resources/glossary" target="">
+                                            <span>Hiring glossary</span>
+                                        </a>
+                                    </li>
+                                                            </ul>
+                        </div>
+                                            <div class="footer__section">
+                            <div class="footer__section-title" role="heading" aria-level="2">About</div>
+                            <ul>
+                                                                                                        <li>
+                                        <a href="https://www.greenhouse.com/company" target="">
+                                            <span>Company</span>
+                                        </a>
+                                    </li>
+                                                                                                        <li>
+                                        <a href="https://www.greenhouse.com/press" target="">
+                                            <span>Press &amp; awards</span>
+                                        </a>
+                                    </li>
+                                                                                                        <li>
+                                        <a href="https://www.greenhouse.com/careers" target="">
+                                            <span>Careers</span>
+                                        </a>
+                                    </li>
+                                                                                                        <li>
+                                        <a href="https://www.greenhouse.com/contact" target="">
+                                            <span>Contact</span>
+                                        </a>
+                                    </li>
+                                                            </ul>
+                        </div>
+                                            <div class="footer__section">
+                            <div class="footer__section-title" role="heading" aria-level="2">Community</div>
+                            <ul>
+                                                                                                        <li>
+                                        <a href="https://www.greenhouse.com/events" target="">
+                                            <span>Events &amp; webinars</span>
+                                        </a>
+                                    </li>
+                                                                                                        <li>
+                                        <a href="https://www.greenhouse.com/open" target="">
+                                            <span>Open</span>
+                                        </a>
+                                    </li>
+                                                                                                        <li>
+                                        <a href="https://www.greenhouse.com/talentmakers" target="">
+                                            <span>Talent Makers</span>
+                                        </a>
+                                    </li>
+                                                                                                        <li>
+                                        <a href="https://www.greenhouse.com/newsletter" target="">
+                                            <span>Newsletter</span>
+                                        </a>
+                                    </li>
+                                                            </ul>
+                        </div>
+                                            <div class="footer__section">
+                            <div class="footer__section-title" role="heading" aria-level="2">Support</div>
+                            <ul>
+                                                                                                        <li>
+                                        <a href="https://learn.greenhouse.io/" target="_blank">
+                                            <span>Learn Greenhouse</span>
+                                        </a>
+                                    </li>
+                                                                                                        <li>
+                                        <a href="https://support.greenhouse.io/hc/en-us" target="_blank">
+                                            <span>Customer support</span>
+                                        </a>
+                                    </li>
+                                                                                                        <li>
+                                        <a href="https://developers.greenhouse.io/" target="_blank">
+                                            <span>Developer resources</span>
+                                        </a>
+                                    </li>
+                                                            </ul>
+                        </div>
+                                    </nav>
+
+                                <nav class="offset-2 col-md-14 footer__menus hidden-lg" aria-label="footer menu">
+                    <div class="footer-2__menu-mobile-col">
+                                                        <div class="footer__section">
+                                    <div class="footer__section-title" role="heading" aria-level="2">Platform</div>
+                                    <ul>
+                                                                                                                                <li>
+                                                <a href="https://www.greenhouse.com/platform" target="">
+                                                    <span>The all-together hiring platform</span>
+                                                </a>
+                                            </li>
+                                                                                                                                <li>
+                                                <a href="https://www.greenhouse.com/greenhouse-latest-features" target="">
+                                                    <span>Latest product features</span>
+                                                </a>
+                                            </li>
+                                                                                                                                <li>
+                                                <a href="https://www.greenhouse.com/pricing" target="">
+                                                    <span>Pricing</span>
+                                                </a>
+                                            </li>
+                                                                                                                                <li>
+                                                <a href="https://www.greenhouse.com/security" target="">
+                                                    <span>Security</span>
+                                                </a>
+                                            </li>
+                                                                                                                                <li>
+                                                <a href="https://www.greenhouse.com/ethical-principles" target="">
+                                                    <span>Ethical principles</span>
+                                                </a>
+                                            </li>
+                                                                                                                                <li>
+                                                <a href="https://www.greenhouse.com/api" target="">
+                                                    <span>APIs</span>
+                                                </a>
+                                            </li>
+                                                                            </ul>
+                                </div>
+                                                        <div class="footer__section">
+                                    <div class="footer__section-title" role="heading" aria-level="2">Solutions</div>
+                                    <ul>
+                                                                                                                                <li>
+                                                <a href="https://www.greenhouse.com/talent-sourcing" target="">
+                                                    <span>Talent sourcing</span>
+                                                </a>
+                                            </li>
+                                                                                                                                <li>
+                                                <a href="https://www.greenhouse.com/scalable-workflows" target="">
+                                                    <span>Scalable workflows</span>
+                                                </a>
+                                            </li>
+                                                                                                                                <li>
+                                                <a href="https://www.greenhouse.com/candidate-experience" target="">
+                                                    <span>Candidate experience</span>
+                                                </a>
+                                            </li>
+                                                                                                                                <li>
+                                                <a href="https://www.greenhouse.com/interviewing-decision-making" target="">
+                                                    <span>Interviewing &amp; decision-making</span>
+                                                </a>
+                                            </li>
+                                                                                                                                <li>
+                                                <a href="https://www.greenhouse.com/onboarding" target="">
+                                                    <span>Onboarding</span>
+                                                </a>
+                                            </li>
+                                                                                                                                <li>
+                                                <a href="https://www.greenhouse.com/reporting-insights" target="">
+                                                    <span>Reporting &amp; insights</span>
+                                                </a>
+                                            </li>
+                                                                                                                                <li>
+                                                <a href="https://www.greenhouse.com/integrations" target="">
+                                                    <span>Integrations</span>
+                                                </a>
+                                            </li>
+                                                                            </ul>
+                                </div>
+                                                        <div class="footer__section">
+                                    <div class="footer__section-title" role="heading" aria-level="2">Greenhouse for</div>
+                                    <ul>
+                                                                                                                                <li>
+                                                <a href="https://www.greenhouse.com/early-stage" target="">
+                                                    <span>Early-stage business</span>
+                                                </a>
+                                            </li>
+                                                                                                                                <li>
+                                                <a href="https://www.greenhouse.com/scaling-company" target="">
+                                                    <span>Scaling company</span>
+                                                </a>
+                                            </li>
+                                                                                                                                <li>
+                                                <a href="https://www.greenhouse.com/enterprise" target="">
+                                                    <span>Enterprise</span>
+                                                </a>
+                                            </li>
+                                                                            </ul>
+                                </div>
+                                                        <div class="footer__section">
+                                    <div class="footer__section-title" role="heading" aria-level="2">About</div>
+                                    <ul>
+                                                                                                                                <li>
+                                                <a href="https://www.greenhouse.com/company" target="">
+                                                    <span>Company</span>
+                                                </a>
+                                            </li>
+                                                                                                                                <li>
+                                                <a href="https://www.greenhouse.com/press" target="">
+                                                    <span>Press &amp; awards</span>
+                                                </a>
+                                            </li>
+                                                                                                                                <li>
+                                                <a href="https://www.greenhouse.com/careers" target="">
+                                                    <span>Careers</span>
+                                                </a>
+                                            </li>
+                                                                                                                                <li>
+                                                <a href="https://www.greenhouse.com/contact" target="">
+                                                    <span>Contact</span>
+                                                </a>
+                                            </li>
+                                                                            </ul>
+                                </div>
+                                            </div>
+                    <div class="footer-2__menu-mobile-col">
+                                                        <div class="footer__section">
+                                    <div class="footer__section-title" role="heading" aria-level="2">Why Greenhouse</div>
+                                    <ul>
+                                                                                                                                <li>
+                                                <a href="https://www.greenhouse.com/compare" target="">
+                                                    <span>How we compare</span>
+                                                </a>
+                                            </li>
+                                                                                                                                <li>
+                                                <a href="https://www.greenhouse.com/roi-with-greenhouse" target="">
+                                                    <span>Return on your hiring investment</span>
+                                                </a>
+                                            </li>
+                                                                                                                                <li>
+                                                <a href="https://www.greenhouse.com/customer-success" target="">
+                                                    <span>Your partner in success</span>
+                                                </a>
+                                            </li>
+                                                                            </ul>
+                                </div>
+                                                        <div class="footer__section">
+                                    <div class="footer__section-title" role="heading" aria-level="2">Resources</div>
+                                    <ul>
+                                                                                                                                <li>
+                                                <a href="https://www.greenhouse.com/blog" target="">
+                                                    <span>Blog</span>
+                                                </a>
+                                            </li>
+                                                                                                                                <li>
+                                                <a href="https://www.greenhouse.com/guidance" target="">
+                                                    <span>Guidance</span>
+                                                </a>
+                                            </li>
+                                                                                                                                <li>
+                                                <a href="https://www.greenhouse.com/customer-stories" target="">
+                                                    <span>Customer stories</span>
+                                                </a>
+                                            </li>
+                                                                                                                                <li>
+                                                <a href="https://www.greenhouse.com/resources/glossary" target="">
+                                                    <span>Hiring glossary</span>
+                                                </a>
+                                            </li>
+                                                                            </ul>
+                                </div>
+                                                        <div class="footer__section">
+                                    <div class="footer__section-title" role="heading" aria-level="2">Community</div>
+                                    <ul>
+                                                                                                                                <li>
+                                                <a href="https://www.greenhouse.com/events" target="">
+                                                    <span>Events &amp; webinars</span>
+                                                </a>
+                                            </li>
+                                                                                                                                <li>
+                                                <a href="https://www.greenhouse.com/open" target="">
+                                                    <span>Open</span>
+                                                </a>
+                                            </li>
+                                                                                                                                <li>
+                                                <a href="https://www.greenhouse.com/talentmakers" target="">
+                                                    <span>Talent Makers</span>
+                                                </a>
+                                            </li>
+                                                                                                                                <li>
+                                                <a href="https://www.greenhouse.com/newsletter" target="">
+                                                    <span>Newsletter</span>
+                                                </a>
+                                            </li>
+                                                                            </ul>
+                                </div>
+                                                        <div class="footer__section">
+                                    <div class="footer__section-title" role="heading" aria-level="2">Support</div>
+                                    <ul>
+                                                                                                                                <li>
+                                                <a href="https://learn.greenhouse.io/" target="_blank">
+                                                    <span>Learn Greenhouse</span>
+                                                </a>
+                                            </li>
+                                                                                                                                <li>
+                                                <a href="https://support.greenhouse.io/hc/en-us" target="_blank">
+                                                    <span>Customer support</span>
+                                                </a>
+                                            </li>
+                                                                                                                                <li>
+                                                <a href="https://developers.greenhouse.io/" target="_blank">
+                                                    <span>Developer resources</span>
+                                                </a>
+                                            </li>
+                                                                            </ul>
+                                </div>
+                                            </div>
+                </nav>
+
+                
+<div class="footer__form hidden-md offset-2 col-20">
+  <label for="language-switch-footer-mobile" class="mktoLabel">Choose your language</label>
+  <select id="language-switch-footer-mobile" class="language-switch">
+        
+                                                             
+                                        
+                                                            <option data-lang="en" value="" selected="selected">English (US)</option>
+                                                                
+                                                                                                                                                  
+              <option data-lang="en-GB" value="https://www.greenhouse.com/uk/">English (UK)</option>
+                                                                
+                                                                                                                                                  
+              <option data-lang="de" value="https://www.greenhouse.com/de/">Deutsch</option>
+                                    
+          </select>
+</div>
+
+                <div class="offset-2 col-20 footer__social">
+                                            <a class="footer-social-link" href="https://www.facebook.com/greenhouse.io/" target="_blank">
+                                                            <img data-src="https://sharp.services.greenhouse.io/production/Facebook_200116_235458.svg?auto=compress&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=60&amp;s=38b1bf80b0469b5ee7a23e86aaa857c0b3dc2211419ad3c3cbca641ad934fbbb" alt="facebook">
+                                                    </a>
+                                            <a class="footer-social-link" href="https://www.linkedin.com/company/greenhouse-inc-/" target="_blank">
+                                                            <img data-src="https://sharp.services.greenhouse.io/production/linkedin.svg?auto=compress&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=60&amp;s=34b956c8a836733a8ea153b0c863dc2ba794b55da68089e84562f4195d22367d" alt="linkedin">
+                                                    </a>
+                                            <a class="footer-social-link" href="https://www.youtube.com/channel/UCwLlhrx5lFssgTwKCHEuC8g" target="_blank">
+                                                            <img data-src="https://sharp.services.greenhouse.io/production/youtube.svg?auto=compress&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=60&amp;s=a3e493c512f90d2bcb6bd7f8629208b0adc0dcf405cc044f89bc8352fd39e62c" alt="youtube">
+                                                    </a>
+                                            <a class="footer-social-link" href="https://www.instagram.com/greenhousesoftware/" target="_blank">
+                                                            <img data-src="https://sharp.services.greenhouse.io/production/Instagram-1.svg?auto=compress&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=60&amp;s=3acd18e2ee5be82549a4e2b6742dcfb5280df0320e3465d7aafdea3bc9452ce4" alt="instagram">
+                                                    </a>
+                                            <a class="footer-social-link" href="https://www.tiktok.com/@greenhouse_software" target="_blank">
+                                                            <img data-src="https://sharp.services.greenhouse.io/production/Tiktok-1.svg?auto=compress&amp;fit=max&amp;lossless=true&amp;q=90&amp;w=60&amp;s=1fb8b0085c735fb13d1a642984104b53ea3cb043af796276d285b43b4c6873f0" alt="tiktok">
+                                                    </a>
+                                    </div>
+
+                <div class="offset-2 col-20 footer__bottom">
+                    <p>
+                        ©2024 Greenhouse Software, Inc.
+                        <br>“Hire for what’s next,” “The/your all-together hiring platform” and “Talent Makers” are trademarks of Greenhouse&nbsp;Software.
+                    </p>
+                    <div
+                        class="footer__additional-links">
+                        <!-- OneTrust Cookies Settings button start -->
+                        <button id="ot-sdk-btn" class="ot-sdk-show-settings">Cookie Settings</button>
+                        <!-- OneTrust Cookies Settings button end -->
+                                                    <ul  class="nav-horizontal"><li ><a  href="https://www.greenhouse.com/privacy-policy">Privacy policy</a></li><li ><a  href="https://www.greenhouse.com/legal">Terms of service</a></li></ul>
+                                            </div>
+                </div>
+        </div>
+    </div>
+</footer>
+        <script type="application/ld+json">{"@context":"http://schema.org","@graph":[{"@type":"WebPage","author":{"@id":"www.greenhouse.com#identity"},"copyrightHolder":{"@id":"www.greenhouse.com#identity"},"copyrightYear":"2019","creator":{"@id":"#creator"},"dateCreated":"2019-12-21T01:44:37-05:00","dateModified":"2024-06-13T10:43:04-04:00","datePublished":"2019-12-21T01:43:00-05:00","description":"Get everything you need to hire better and achieve strategic growth, all-together with the Greenhouse hiring platform.","headline":"Greenhouse | Applicant tracking software & hiring platform","image":{"@type":"ImageObject","url":"https://sharp.services.greenhouse.io/production/Home-SEO-1x.png?auto=format&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=630&lossless=true&q=90&w=1200&s=c51f48bda919a0a0d11b13cd0c9c69923c7bf71f64efbe95a1f5cbac1c2209b7"},"inLanguage":"en","mainEntityOfPage":"https://www.greenhouse.com/","name":"Greenhouse | Applicant tracking software & hiring platform","publisher":{"@id":"#creator"},"url":"https://www.greenhouse.com"},{"@id":"www.greenhouse.com#identity","@type":"LocalBusiness","address":{"@type":"PostalAddress","addressCountry":"USA","addressLocality":"New York City","addressRegion":"New York","postalCode":"10011","streetAddress":"18 West 18th Street, 11th Floor"},"description":"Based in New York City with offices in San Francisco, Denver and Dublin, Greenhouse Software is the leader in hiring software. Nearly 4,000 of the smartest and most successful companies like HubSpot, Cisco Meraki, Buzzfeed, J.D. Power and Warby Parker use Greenhouse’s hiring software platform to improve all aspects of hiring, helping them to attract top talent.\r\n\r\nGreenhouse has won numerous awards including Glassdoor #1 Best Place to Work, Forbes Cloud 100 and Crain’s Fast 50. The company’s talent acquisition suite has recently been named a leader in the IDC MarketScape Worldwide and U.S. Modern Talent Acquisition Suites for Medium-Sized Enterprise 2019 Vendor Assessment. Greenhouse lives its mission of helping companies become great at hiring, having been recognized as an Inc. Magazine Best Workplace in 2019 and 2018. Greenhouse has been named to the Inc. 5000 2019 Fastest Growing Companies, Deloitte’s 2018 Fast 500 North America Technology Ranking and Crain’s New York Business Fast 50.","email":"marketing@greenhouse.io","geo":{"@type":"GeoCoordinates","latitude":"40.738800","longitude":"-73.993430"},"image":{"@type":"ImageObject","height":"256","url":"https://grnhse-marketing-site-assets.s3.amazonaws.com/production/Greenhouse_SEO.jpg","width":"256"},"logo":{"@type":"ImageObject","height":"60","url":"https://sharp.services.greenhouse.io/production/Greenhouse_SEO.jpg?auto=format&fit=max&fm=png&h=60&lossless=true&q=90&w=600&s=6fd489b30a4b0e8be4398f1b01c1ae095ed4ccf690f5707cc70601e8c7442e94","width":"60"},"name":"Greenhouse Software","priceRange":"$","sameAs":["https://twitter.com/Greenhouse","https://www.facebook.com/greenhouse.io/","https://en.wikipedia.org/wiki/Greenhouse_Software","https://www.linkedin.com/company/greenhouse-inc-","https://www.youtube.com/@greenhousesoftware979","https://www.instagram.com/greenhousesoftware"],"telephone":"1-917-780-4130","url":"https://www.greenhouse.com/www.greenhouse.com"},{"@id":"#creator","@type":"Organization"},{"@type":"BreadcrumbList","description":"Breadcrumbs list","itemListElement":[{"@type":"ListItem","item":"https://www.greenhouse.com","name":"Homepage","position":1}],"name":"Breadcrumbs"}]}</script><script src="/assets/js/demo.min.js?v=1717628459"></script>
+<script src="/assets/js/smoothScroll.min.js?v=1717628459"></script>
+<script src="/assets/js/imagesLoaded.min.js?v=1717628459"></script>
+<script src="/assets/js/main.min.js?v=1717628459"></script>
+<script type="module" src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"></script>
+<script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+<script src="/assets/js/lottie.min.js?v=1717628459"></script></body>
+</html>

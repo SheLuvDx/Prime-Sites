@@ -1,0 +1,942 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "StreamYard Product Updates",
+    "home_page_url": "https://new.streamyard.com",
+    "icon": "https://img.announcekit.app/8edff3cb5036a94e1a980725286a2584?w=150&h=50&fit=max&s=8f0632a28f5204034caec7b2e65f8034",
+    "items": [
+        {
+            "id": "366024",
+            "content_html": "<p><span style=\"text-align:start;\">Get ready to revolutionize your live streaming experience with our new AI-powered Thumbnail Creator! Craft eye-catching, personalized thumbnails effortlessly directly in StreamYard.</span></p><p><span style=\"text-align:start;\">For more information, click&#xA0;</span><a href=\"https://support.streamyard.com/hc/en-us/articles/21849498135572\" rel=\"noopener noreferrer\" target=\"_blank\"><span style=\"text-align:start;\">here</span></a><span style=\"text-align:start;\">!</span></p><p><img src=\"https://img.announcekit.app/f53ed2cf5520a725f2ef03a35110a1f9?s=6ec0160be37abab498da2055696ea39b\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/ai-thumbnail-generator-3FK4G4",
+            "title": "AI Thumbnail Generator 🔮",
+            "summary": "Get ready to revolutionize your live streaming experience with our new AI-powered Thumbnail Creator! Craft eye-catching, personalized thumbn...",
+            "date_modified": "2024-03-29T19:03:01.000Z",
+            "tags": [
+                "announcement"
+            ]
+        },
+        {
+            "id": "380340",
+            "content_html": "<p><span style=\"text-align:start;\">Looking to optimize your content creation workflow? StreamYard now offers the ability to generate automated Shorts &amp; Reels video clips from your recordings directly in your video library using AI! Easily review, download, and publish your AI clips to make repurposing your content a breeze.&#xA0;</span></p><p><span style=\"text-align:start;\">To learn more about this feature, click&#xA0;</span><a href=\"https://support.streamyard.com/hc/en-us/articles/24654544176148-AI-Video-Clips\" rel=\"noopener noreferrer\" target=\"_blank\"><span style=\"text-align:start;\">here</span></a><span style=\"text-align:start;\">. <br><img src=\"https://img.announcekit.app/4e797601f82c9e745c351992ef29046f?s=3fe66726e10cb445687696064a99eca2\" class=\"image-align-left\"></span></p>",
+            "url": "https://new.streamyard.com/ai-video-clips-3jhz0I",
+            "title": "AI Video Clips 💫",
+            "summary": "Looking to optimize your content creation workflow? StreamYard now offers the ability to generate automated Shorts &amp; Reels video clips f...",
+            "date_modified": "2024-03-28T20:23:35.143Z",
+            "tags": [
+                "announcement"
+            ]
+        },
+        {
+            "id": "377933",
+            "content_html": "<p>Have you ever wanted one of your viewers to join you on stage? Now you can! While hosting a webinar, viewers watching directly on StreamYard can be invited to the studio when they comment inside the On-Air live chat!<br><br>For more information, click <a href=\"https://support.streamyard.com/hc/en-us/articles/23997813907220-Invite-On-Air-Attendees-to-Studio\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p><p><img src=\"https://img.announcekit.app/c5362781ad823fdace21119e5e980411?s=11ea346ebd3e95880634c4a3bcf23c80\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/invite-on-air-viewers-to-the-studio-1qilYQ",
+            "title": "Invite On-Air viewers to the studio 📷",
+            "summary": "Have you ever wanted one of your viewers to join you on stage? Now you can! While hosting a webinar, viewers watching directly on StreamYard...",
+            "date_modified": "2024-02-27T17:49:14.000Z",
+            "tags": [
+                "announcement",
+                "improvement"
+            ]
+        },
+        {
+            "id": "377003",
+            "content_html": "<p><span style=\"text-align:start;\">You can now highlight important comments in your On-Air webinars by pinning them to the top of the live chat! Use this feature to ensure<span style=\"text-align:start;\">&#xA0;important links and information stay visible to your audience throughout your entire stream.</span>&#xA0;</span></p><p><span style=\"text-align:start;\">To learn more about this feature, click</span><a href=\"https://support.streamyard.com/hc/en-us/articles/23914479534996-Pinned-On-Air-Chat-Messages\" rel=\"noopener noreferrer\" target=\"_blank\"><span style=\"text-align:start;\">&#xA0;here.</span></a><span style=\"text-align:start;\">&#xA0;</span></p><p><span style=\"text-align:start;\"><img src=\"https://img.announcekit.app/a66ead3839e3d77899b94ba20926e0ec?s=d1b8128275b626185946d14f00310580\"></span><br></p>",
+            "url": "https://new.streamyard.com/on-air-pinned-comments-390qGY",
+            "title": "On-Air Pinned Comments 📌",
+            "summary": "You can now highlight important comments in your On-Air webinars by pinning them to the top of the live chat! Use this feature to ensure imp...",
+            "date_modified": "2024-02-22T17:27:41.814Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "375186",
+            "content_html": "<p>You can now upload registration lists for your On-Air webinars with our new private registration feature! Easily control exactly who gets to register and attend your webinars. If you sometimes host paid webinars, you&apos;ll definitely want to take advantage of this feature.</p><p>For more information, click <a href=\"https://support.streamyard.com/hc/en-us/articles/23628543921684-How-to-Make-your-On-Air-Webinar-Private\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p><p><img src=\"https://img.announcekit.app/1682646625c237cb2cc9ba93292c2e0f?s=d94a646717a624ecd5040a092384947f\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/upload-registration-lists-with-on-airs-private-registration-2GACli",
+            "title": "Upload Registration Lists with On-Air's Private Registration 📃",
+            "summary": "You can now upload registration lists for your On-Air webinars with our new private registration feature! Easily control exactly who gets to...",
+            "date_modified": "2024-02-13T14:00:50.889Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "374266",
+            "content_html": "<p>Using the new &quot;Email&quot; section in your On-Air webinar settings menu, you can now toggle On-Air automatic emails on or off!</p><p>Learn more about this feature <a href=\"https://support.streamyard.com/hc/en-us/articles/23386217544340-How-to-Turn-Off-On-Air-Reminder-Emails\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p><p><img src=\"https://img.announcekit.app/2b10a1c66c52e71cb855eeb77884eff8?s=d85d830c3523a1d49fc9fd98e06b62ee\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/turn-off-on-air-automatic-emails-4AEEg0",
+            "title": "Turn Off On-Air Automatic Emails ✉️",
+            "summary": "Using the new \"Email\" section in your On-Air webinar settings menu, you can now toggle On-Air automatic emails on or off! Learn more about t...",
+            "date_modified": "2024-02-06T20:06:58.000Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "374260",
+            "content_html": "<p>We&apos;re excited to announce that you can now publish videos up to 2 hours in length directly to YouTube and Facebook Pages from your StreamYard library.&#xA0;</p><p>For more information, click <a href=\"https://support.streamyard.com/hc/en-us/articles/16885317313556-Publish-Long-Form-Videos-to-YouTube-Facebook-Pages-and-LinkedIn-Profiles\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p><p><img src=\"https://img.announcekit.app/c6c81ba7b3f2018c28d156115f180883?s=3ee74113404465eaa2fbf4c8772a2c6c\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/publish-2-hour-videos-to-youtube-and-facebook-4tQh8s",
+            "title": "Publish 2 Hour Videos to YouTube and Facebook 📼",
+            "summary": "We're excited to announce that you can now publish videos up to 2 hours in length directly to YouTube and Facebook Pages from your StreamYar...",
+            "date_modified": "2024-02-05T22:05:00.000Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "372893",
+            "content_html": "<p>We&apos;ve added automatic captions for Shorts and Reels to streamline your editing and content creation! Create engaging, accessible videos easily and quickly right from your StreamYard Library.<br><br>For more info on this feature, click <a href=\"https://support.streamyard.com/hc/en-us/articles/23044087971092-Captions-for-Shorts-and-Reels\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p><p><img src=\"https://img.announcekit.app/243da769326577e04468ba27852b32cf?s=c53eb40bb2b388d6c6152c35481d48e6\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/captions-for-shorts-and-reels-2T2uCQ",
+            "title": "Captions for Shorts and Reels 💬",
+            "summary": "We've added automatic captions for Shorts and Reels to streamline your editing and content creation! Create engaging, accessible videos easi...",
+            "date_modified": "2024-01-23T19:00:00.000Z",
+            "tags": [
+                "announcement"
+            ]
+        },
+        {
+            "id": "369200",
+            "content_html": "<p>StreamYard now offers the ability to restrict registration for On-Air webinars! L<span style=\"text-align:start;\">imit webinar registrations to specific email domains only, ensuring a private and tailored audience for your streams.</span></p><p><span style=\"text-align:start;\">To learn more about this feature click&#xA0;</span><a href=\"https://support.streamyard.com/hc/en-us/articles/22723628157204\" rel=\"noopener noreferrer\" target=\"_blank\"><span style=\"text-align:start;\">here</span></a><span style=\"text-align:start;\">.&#xA0;</span></p><p><img src=\"https://img.announcekit.app/b64c75f475bd9c42ccc8caf68064d0cb?s=02e2930c4161e87bfe716f2eda6c2113\"></p>",
+            "url": "https://new.streamyard.com/restrict-on-air-webinars-Tdxeg",
+            "title": "Restrict On-Air Webinars 🔒",
+            "summary": "StreamYard now offers the ability to restrict registration for On-Air webinars! Limit webinar registrations to specific email domains only, ...",
+            "date_modified": "2024-01-15T00:28:25.761Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "367953",
+            "content_html": "<p><span style=\"text-align:start;\">Exciting news- StreamYard now offers Portrait Studios! Transform your streaming and recording experience by switching your studio to a vertical, portrait layout. Using this feature you can effortlessly create and share engaging content in a 9:16 aspect ratio, ideal for platforms like Instagram. Elevate your streaming and recording game with Portrait Studios today!</span></p><p><span style=\"text-align:start;\">To learn more about this feature click </span><a href=\"https://support.streamyard.com/hc/en-us/articles/21906314102164-How-to-Stream-Record-in-Portrait-Mode\" rel=\"noopener noreferrer\" target=\"_blank\"><span style=\"text-align:start;\">here</span></a><span style=\"text-align:start;\">.&#xA0;</span><span style=\"text-align:start;\"><img src=\"https://img.announcekit.app/216b7dced009a197a6c16f06de39db10?s=75d69b97150b77fb0683ca80c1f8ddde\"></span><br></p>",
+            "url": "https://new.streamyard.com/portrait-studios-1uFd9C",
+            "title": "Portrait Studios 📱",
+            "summary": "Exciting news- StreamYard now offers Portrait Studios! Transform your streaming and recording experience by switching your studio to a verti...",
+            "date_modified": "2024-01-08T18:00:00.000Z",
+            "tags": [
+                "announcement"
+            ]
+        },
+        {
+            "id": "366025",
+            "content_html": "<p>You can now access transcripts in the StreamYard video editor! You can easily jump to sections of your video by clicking on the transcript. For more information on this feature, click <a href=\"https://support.streamyard.com/hc/en-us/articles/21860011037844-Accessing-Video-Transcripts-in-the-Editor\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>!</p><p><img src=\"https://img.announcekit.app/4d0b616b348ceb5fd50f0ec402ada239?s=dad8ac4aed67efe94eea9bc29c9d63f4\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/video-editor-transcripts-3GStck",
+            "title": "Video Editor Transcripts 📑",
+            "summary": "You can now access transcripts in the StreamYard video editor! You can easily jump to sections of your video by clicking on the transcript. ...",
+            "date_modified": "2023-12-19T17:00:00.000Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "366036",
+            "content_html": "<p><span style=\"text-align:start;\">You can now directly receive comments inside your StreamYard studio from X (Twitter) live streams! Effortlessly stay connected with your audience and elevate your interaction game with this new integration.</span></p><p>Learn more about streaming to X (Twitter) <a href=\"https://support.streamyard.com/hc/en-us/articles/360058959912-How-to-Stream-to-X-Twitter-\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.&#xA0;</p><p><img src=\"https://img.announcekit.app/446c9d8870f9a6d9deb1b1d1df0f5c23?s=4337f03dc5d25bdffd2c6fe925162b61\" style=\"width:100%;\"></p><p><br></p><p><br></p>",
+            "url": "https://new.streamyard.com/x-comments-integration-3TmOVa",
+            "title": "X Comments Integration 💬",
+            "summary": "You can now directly receive comments inside your StreamYard studio from X (Twitter) live streams! Effortlessly stay connected with your aud...",
+            "date_modified": "2023-12-18T00:12:01.236Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "365786",
+            "content_html": "<p>The wait is over! Streaming to Instagram Live from StreamYard is now open to everyone who has a professional Instagram account! If you don&apos;t already have one, you can switch to a professional account on Instagram in a few easy steps. &#xA0;</p><p><span style=\"text-align:start;\">For more information about this feature, click&#xA0;</span><a href=\"https://support.streamyard.com/hc/en-us/articles/360043298812-Can-I-stream-to-Instagram-with-StreamYard-\" rel=\"noopener noreferrer\" target=\"_blank\"><span style=\"text-align:start;\">here</span></a><span style=\"text-align:start;\">.</span><span style=\"text-align:start;\"><img src=\"https://img.announcekit.app/60c9ccfb330762e77558e59ed352689a?s=07ebeae13fa9977e95a98f108a065711\"></span><br></p>",
+            "url": "https://new.streamyard.com/stream-to-instagram-live-40aUZG",
+            "title": "Stream to Instagram Live 🚀",
+            "summary": "The wait is over! Streaming to Instagram Live from StreamYard is now open to everyone who has a professional Instagram account! If you don't...",
+            "date_modified": "2023-12-14T17:22:19.388Z",
+            "tags": [
+                "announcement"
+            ]
+        },
+        {
+            "id": "365373",
+            "content_html": "<p>Embrace efficiency with our new Downloadable Transcripts feature! No more pausing to jot down notes; no more back-and-forth with videos and documents. Just click and save.&#xA0;</p><p>Learn more about this feature <a href=\"https://support.streamyard.com/hc/en-us/articles/20575238023060-Downloading-Recording-Transcripts\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>!<img src=\"https://img.announcekit.app/b31798beacc3c9bc24b68ee9b9c8db7f?s=9f06ed07ebb66a5218fdf4535ec467ee\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/downloadable-transcripts-17Uyg8",
+            "title": "Downloadable Transcripts 📑",
+            "summary": "Embrace efficiency with our new Downloadable Transcripts feature! No more pausing to jot down notes; no more back-and-forth with videos and ...",
+            "date_modified": "2023-12-11T18:28:40.651Z",
+            "tags": [
+                "announcement"
+            ]
+        },
+        {
+            "id": "365134",
+            "content_html": "<p><span style=\"text-align:start;\">StreamYard now offers an integration with Zapier for On-Air webinars! Using this new integration you can seamlessly send registration data from your webinars directly to Zapier, unlocking powerful automation possibilities and streamlining your workflow. Elevate your productivity with StreamYard&apos;s Zapier integration today!</span></p><p><span style=\"text-align:start;\">To learn more about this feature, click&#xA0;</span><a href=\"https://support.streamyard.com/hc/articles/21211769916308-How-to-Integrate-StreamYard-On-Air-with-Zapier\" rel=\"noopener noreferrer\" target=\"_blank\"><span style=\"text-align:start;\">here</span></a>.<span style=\"text-align:start;\"><img src=\"https://img.announcekit.app/cc01dfd897485dd965d589c401350629?s=5e2f8e290958b175dd909bd62edbb23a\" style=\"width:100%;\"></span></p>",
+            "url": "https://new.streamyard.com/zapier-integration-1rd03u",
+            "title": "Zapier Integration ⚡",
+            "summary": "StreamYard now offers an integration with Zapier for On-Air webinars! Using this new integration you can seamlessly send registration data f...",
+            "date_modified": "2023-12-08T17:37:46.260Z",
+            "tags": [
+                "announcement"
+            ]
+        },
+        {
+            "id": "359771",
+            "content_html": "<p>Striking gold in your streams? StreamYard now allows you to <span style=\"text-align:start;\">flag these key moments with a simple press of a button while recording, making it a breeze to locate them while editing later. Streamline your content creation and make the editing process more efficient with StreamYard today!</span></p><p>For more information about this feature, click <a href=\"https://support.streamyard.com/hc/en-us/articles/20404210660884-Custom-Markers\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>!</p><p><img src=\"https://img.announcekit.app/bc642e0fa2b84d6913ba562988a2c40d?s=f7f133e6510caab79be8e703111a55c6\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/custom-markers-1FSmNa",
+            "title": "Custom Markers 📌",
+            "summary": "Striking gold in your streams? StreamYard now allows you to flag these key moments with a simple press of a button while recording, making i...",
+            "date_modified": "2023-10-30T18:17:02.800Z",
+            "tags": [
+                "announcement"
+            ]
+        },
+        {
+            "id": "358986",
+            "content_html": "<p>We&apos;re so excited to announce the release of our new StreamYard Guest App for iOS! Now, you can experience the ease of use, stability, and professional quality you know and love natively on your iOS devices. Download the app from the iOS App Store today!</p><p>At this time, this app only supports joining a StreamYard studio as a guest. For more information, check out our article <a href=\"https://support.streamyard.com/hc/en-us/articles/19377429286292-How-to-Use-the-StreamYard-iOS-Guest-App\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.<img src=\"https://img.announcekit.app/682440b415b0ac8b5432d74c2503f15e?s=164895e5bc50b18ff823c372f87c584d\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/ios-guest-app-1myONG",
+            "title": "iOS Guest App 📱",
+            "summary": "We're so excited to announce the release of our new StreamYard Guest App for iOS! Now, you can experience the ease of use, stability, and pr...",
+            "date_modified": "2023-10-23T19:00:21.610Z",
+            "tags": [
+                "announcement"
+            ]
+        },
+        {
+            "id": "358942",
+            "content_html": "<p>We&apos;re excited to announce that you can now manually set the filter intensity when using the touch up feature! It is easy to adjust using a slider, so you can quickly find the perfect level ranging from very subtle to very strong. </p><p><span style=\"text-align:start;\">For more information about this feature, click&#xA0;</span><a href=\"https://support.streamyard.com/hc/en-us/articles/17127969718932-Touch-Up-your-Appearance\" rel=\"nofollow noopener\" target=\"_blank\">here</a><span style=\"text-align:start;\">.</span>&#xA0;</p><p><img src=\"https://img.announcekit.app/a6ca611c30e0e204593466d692509f1a?s=28c0bbba31522c14a60804e3a538a678\"></p><p>&#xA0;</p>",
+            "url": "https://new.streamyard.com/touch-up-slider-yBpUk",
+            "title": "Touch Up Slider",
+            "summary": "We're excited to announce that you can now manually set the filter intensity when using the touch up feature! It is easy to adjust using a s...",
+            "date_modified": "2023-10-23T13:26:56.803Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "357680",
+            "content_html": "<p>Spread the love! Gifted Memberships on YouTube will now appear inside the studio along with comments, Super Chats, and Member Milestones! Whether it&apos;s a token of gratitude or a way to connect even more deeply, Gifted Memberships bring your community closer together. Celebrate your community&apos;s generosity and support in real-time!</p><p>More info is available <a href=\"https://support.streamyard.com/hc/en-us/articles/4404317019668-YouTube-Super-Chats\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p><p><img src=\"https://img.announcekit.app/14bec5eb57d6b9207cfd089c3f0104fe?s=91ba0df4b7bd86ce3e371470212ef6a8\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/gifted-memberships-T1a1O",
+            "title": "Gifted Memberships 🎁",
+            "summary": "Spread the love! Gifted Memberships on YouTube will now appear inside the studio along with comments, Super Chats, and Member Milestones! Wh...",
+            "date_modified": "2023-10-10T14:50:00.000Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "357319",
+            "content_html": "<p><span style=\"text-align:start;\">Exciting news! StreamYard now allows you to use videos as backgrounds in your live studio. Choose<span style=\"text-align:start;\">&#xA0;one of our ready-made options or upload a video of your creation to personalize your live streams like never before. Elevate your content and make a lasting impression with StreamYard today!</span></span></p><p>For more information about this feature, click <a href=\"https://support.streamyard.com/hc/en-us/articles/19298453737492-Video-Backgrounds\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p><p><img src=\"https://img.announcekit.app/596812260293aacd7bcb67b0e516432f?s=598c6e5553b357ee5f611f79e3f6b6df\"></p>",
+            "url": "https://new.streamyard.com/video-backgrounds-3EskuI",
+            "title": "Video Backgrounds 📼",
+            "summary": "Exciting news! StreamYard now allows you to use videos as backgrounds in your live studio. Choose one of our ready-made options or upload a ...",
+            "date_modified": "2023-10-06T16:45:13.760Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "355416",
+            "content_html": "<p><span style=\"text-align:left;\">You can now edit your recordings within StreamYard and then post them directly to your LinkedIn profile! Long-form videos that you publish can be up to 20 minutes in length. Prefer short-form videos? No problem. You can post a video that is 60 seconds or less in length as well</span><span style=\"text-align:start;\">!</span></p><p><span style=\"text-align:start;\">For more information on this feature, click&#xA0;</span><a href=\"https://support.streamyard.com/hc/en-us/articles/16885317313556-Publish-Long-Form-Videos-to-YouTube-Facebook-Pages-and-LinkedIn-Profiles\" rel=\"noopener noreferrer\" target=\"_blank\"><span style=\"text-align:start;\">here</span></a><span style=\"text-align:start;\">.</span>&#xA0;</p><p><img src=\"https://img.announcekit.app/21deea10479e0180c031ac662e544cb0?s=984f9d2756f8d43f31b6581cacf43880\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/post-long-form-videos-and-shorts-to-linkedin-profiles-1CovoQ",
+            "title": "Post Long-Form Videos and Shorts to LinkedIn Profiles",
+            "summary": "You can now edit your recordings within StreamYard and then post them directly to your LinkedIn profile! Long-form videos that you publish c...",
+            "date_modified": "2023-09-20T20:11:23.658Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "354836",
+            "content_html": "<p>Tailor your webinar registration page to your needs with Custom Registration Fields! Need to know where in the world your attendee is watching from? Need a phone number to send real-time updates? Just want to know how someone heard about your webinar? Collect the information you need with Custom Registrations Fields!</p><p>Learn more about this feature <a href=\"https://support.streamyard.com/hc/en-us/articles/19044085469716\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p><p><img src=\"https://img.announcekit.app/6e505d8648c155be7d1ce63a72f560d7?s=4d028e5ba47a776c9cab43c15af94d79\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/on-air-custom-registration-fields-nb3Ve",
+            "title": "On-Air Custom Registration Fields 📜",
+            "summary": "Tailor your webinar registration page to your needs with Custom Registration Fields! Need to know where in the world your attendee is watchi...",
+            "date_modified": "2023-09-14T20:20:00.823Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "353665",
+            "content_html": "<p>Whether you&apos;re sharing highlights from your podcast, showcasing a fantastic discussion from your stream, or displaying the best moments of your webinars, you can now post videos up to 20 minutes in length directly to your Facebook Pages! No more downloading/uploading, just edit and post right from StreamYard&apos;s video editor!</p><p>For more information on this feature, click <a href=\"https://support.streamyard.com/hc/en-us/articles/16885317313556-Publish-Long-Form-Videos-to-YouTube-and-Facebook-Pages\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p><p><img src=\"https://img.announcekit.app/4daa92106b10ad7d063d734195174bca?s=d4f21ca2956524edb6a4d32e7f9bfdcc\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/publish-long-form-videos-to-facebook-pages-2mUNoc",
+            "title": "Publish Long-Form Videos to Facebook Pages 📼",
+            "summary": "Whether you're sharing highlights from your podcast, showcasing a fantastic discussion from your stream, or displaying the best moments of y...",
+            "date_modified": "2023-09-01T16:05:56.323Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "352209",
+            "content_html": "<p>We&apos;re thrilled to announce the latest addition to your content toolkit, Recording Controls! Say goodbye to those &quot;oops&quot; moments, and hello to smoother, more flexible content creation. With the ability to pause, restart, or cancel the recording session, you&apos;ll now be in complete command of your work!</p><p>Learn more about Recording Controls <a href=\"https://support.streamyard.com/hc/en-us/articles/17724615968788-Recording-Controls\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p><p><img src=\"https://img.announcekit.app/67e28897001c5de6ae19293ea95e9cd1?s=337268ab37b4493392999420ba8cc830\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/recording-controls-3PIMIE",
+            "title": "Recording Controls 🔄",
+            "summary": "We're thrilled to announce the latest addition to your content toolkit, Recording Controls! Say goodbye to those \"oops\" moments, and hello t...",
+            "date_modified": "2023-08-15T17:42:18.167Z",
+            "tags": [
+                "announcement"
+            ]
+        },
+        {
+            "id": "351454",
+            "content_html": "<p>When you edit your webinar settings, you will now have a full-page modal with an instant preview of your webinar as you adjust your settings! This includes changes to your color scheme, logo, thumbnail, etc... Once you are in the On Air settings section, you will see three tabs - <em><strong>B</strong></em><em><strong>randing</strong></em>, <strong><em>W</em></strong><em><strong>atch Page</strong></em> and <em><strong>Registration&#xA0;</strong></em>under the settings area and a <em><strong>M</strong></em><strong><em>anage Registrants</em>&#xA0;</strong>section for when you have registration turned on!</p><p>For more info on this feature, click <a href=\"https://support.streamyard.com/hc/en-us/articles/15393572382740-How-to-Customize-your-On-Air-Broadcast\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p><p><img src=\"https://img.announcekit.app/5c18acec4ea8fd2d6f16a7c76943d3cb?s=d6cc2af5233d6639ebebbbb3a8c6692c\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/preview-on-air-settings-44t6kU",
+            "title": "Preview On-Air Settings 🔍",
+            "summary": "When you edit your webinar settings, you will now have a full-page modal with an instant preview of your webinar as you adjust your settings...",
+            "date_modified": "2023-08-08T16:00:00.000Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "351332",
+            "content_html": "<p><span style=\"text-align:start;\"><span style=\"text-align:start;\">Say goodbye to missing</span> member milestone chats in your YouTube live chat &#x2013; they&apos;ll now be displayed in the StreamYard studio just like regular super chats! Stay connected with your community and celebrate their engagement with StreamYard today!<img src=\"https://img.announcekit.app/57e88ac3048d1a5dc0ef771fd4da1a2b?s=aec48ff23b29cd81a9e90d672052a8bf\"></span></p><p><br></p>",
+            "url": "https://new.streamyard.com/youtube-member-milestone-chats-1PWQRq",
+            "title": "YouTube Member Milestone Chats 🌟",
+            "summary": "Say goodbye to missing member milestone chats in your YouTube live chat – they'll now be displayed in the StreamYard studio just like regula...",
+            "date_modified": "2023-08-03T19:48:52.265Z",
+            "tags": [
+                "announcement"
+            ]
+        },
+        {
+            "id": "350632",
+            "content_html": "<p>The Touch-Up Filter is here to refine your appearance and make sure you&apos;re always camera ready! Enable it in your settings to elevate your look!</p><p><span style=\"text-align:start;\">For more information about this feature, click&#xA0;</span><a href=\"https://support.streamyard.com/hc/en-us/articles/17127969718932-Touch-Up-your-Appearance\" rel=\"noopener noreferrer\" target=\"_blank\">here</a><span style=\"text-align:start;\">.</span></p><p><span style=\"text-align:start;\"><img src=\"https://img.announcekit.app/9ebd70fdd310dd4a1c4dcbc5f63248e2?s=3cc6b762f7ca32d46a3db6c83e2fbbab\"></span></p>",
+            "url": "https://new.streamyard.com/touch-up-filter-358V5S",
+            "title": "Touch-Up Filter ✨",
+            "summary": "The Touch-Up Filter is here to refine your appearance and make sure you're always camera ready! Enable it in your settings to elevate your l...",
+            "date_modified": "2023-07-25T18:45:00.000Z",
+            "tags": [
+                "announcement"
+            ]
+        },
+        {
+            "id": "350276",
+            "content_html": "<p><span style=\"text-align:start;\">StreamYard now offers the ability to log into your account via Google authentication! This allows you to easily access your StreamYard account using your Google email address, eliminating the need for a 6-digit code. Streamline your login process and get started with StreamYard effortlessly today!</span></p><p><span style=\"text-align:start;\">To learn more, click&#xA0;</span><a href=\"https://support.streamyard.com/hc/articles/16883613222036-How-to-Create-an-Account-and-Log-into-StreamYard-with-Google\" rel=\"noopener noreferrer\" target=\"_blank\"><span style=\"text-align:start;\">here</span></a><span style=\"text-align:start;\">.&#xA0;</span><br><img src=\"https://img.announcekit.app/fcd8557a4f4d693b6b2eb1fab6679682?s=4a8dc3367b841c8cab77ea0883401099\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/google-login-1fB612",
+            "title": "Google Login 🔒",
+            "summary": "StreamYard now offers the ability to log into your account via Google authentication! This allows you to easily access your StreamYard accou...",
+            "date_modified": "2023-07-19T18:29:09.166Z",
+            "tags": []
+        },
+        {
+            "id": "350064",
+            "content_html": "<p>Clamp down on those distracting sounds using StreamYard&apos;s new Reduce Background Noise feature! Make your audio crisper and clearer; say goodbye to pesky auditory interruptions. We&apos;re thrilled to help you shape your soundscapes to perfection!<br><br>For more information about this feature, click <a href=\"https://support.streamyard.com/hc/en-us/articles/17126197901972-Remove-Background-Noise\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p><p><img src=\"https://img.announcekit.app/a3e37db97c78bb4a4c7e10c7e8b3ca23?s=fddc90de41dbb5a8a47bdf54d69959aa\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/reduce-background-noise-23ydRm",
+            "title": "Reduce Background Noise 🔕",
+            "summary": "Clamp down on those distracting sounds using StreamYard's new Reduce Background Noise feature! Make your audio crisper and clearer; say good...",
+            "date_modified": "2023-07-17T19:10:00.182Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "351310",
+            "content_html": "<p><span style=\"text-align:start;\">StreamYard now shows audio waveforms in the library editor! These waveforms provide visual cues to precisely trim your videos, making editing more accurate and efficient than ever. Elevate your content creation process with StreamYard&apos;s latest feature!</span><span style=\"text-align:start;\"><img src=\"https://img.announcekit.app/98a9182eb29395303a3f68a90c97fac9?s=fb51c96a13cae5019ba6feb7fdc5808b\"></span><br></p>",
+            "url": "https://new.streamyard.com/audio-waveforms-1qY9pK",
+            "title": "Audio Waveforms 🔊",
+            "summary": "StreamYard now shows audio waveforms in the library editor! These waveforms provide visual cues to precisely trim your videos, making editin...",
+            "date_modified": "2023-07-17T17:44:04.000Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "350354",
+            "content_html": "<p>StreamYard now offers the ability to delete individual registrations from your webinar&apos;s &quot;Manage registrants&quot; page!</p><p>Click the three dots next to a registrant, then click &quot;Remove registrant&quot; to delete it.</p><p><img src=\"https://img.announcekit.app/6947e6aa43e2d89e1019a3036f2adf16?s=ae7b3aeb40f133607b83159ed6741876\"></p>",
+            "url": "https://new.streamyard.com/delete-registrations-2G9WBa",
+            "title": "Delete Registrations 🗑️",
+            "summary": "StreamYard now offers the ability to delete individual registrations from your webinar's \"Manage registrants\" page! Click the three dots nex...",
+            "date_modified": "2023-07-05T16:32:25.000Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "348117",
+            "content_html": "<p><span style=\"text-align:start;\">Guests in StreamYard broadcasts streaming to YouTube or StreamYard On-Air can now directly post comments into the live chat from the studio! Toggle this feature in your studio settings to elevate your live stream experience and foster seamless engagement with StreamYard today!</span></p><p><span style=\"text-align:start;\">For more information about this feature, click&#xA0;</span><a href=\"https://support.streamyard.com/hc/en-us/articles/16889386679572-Can-Guests-Post-Comments-in-the-chat-\" rel=\"noopener noreferrer\" target=\"_blank\"><span style=\"text-align:start;\">here</span></a><span style=\"text-align:start;\">.&#xA0;</span></p><p><img src=\"https://img.announcekit.app/4480b1d8b530bff6252b82ad217c3334?s=a49e1efc65deea7a9bd67064e69e24cc\"></p>",
+            "url": "https://new.streamyard.com/guest-comments-in-youtube-live-chat-3UbY1a",
+            "title": "Guest Comments in Youtube Live Chat 💬",
+            "summary": "Guests in StreamYard broadcasts streaming to YouTube or StreamYard On-Air can now directly post comments into the live chat from the studio!...",
+            "date_modified": "2023-06-28T20:02:24.647Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "348112",
+            "content_html": "<p><span style=\"text-align:start;\">StreamYard now allows you to edit your livestream recordings into videos of up to 20 minutes in length and publish them directly to YouTube! <span style=\"text-align:start;\">Unlock the full potential of your content and expand your audience reach</span> with StreamYard&apos;s latest update!</span></p><p>For more information on this feature, click <a href=\"https://support.streamyard.com/hc/en-us/articles/16885317313556-Publish-Long-Form-Videos-to-Youtube\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p><p><img src=\"https://img.announcekit.app/085f201ab66317ad2e08a5136dfd6a68?s=71122fb84dca42aeed42ba4292cbcf28\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/publish-long-form-videos-to-youtube-3OvZpS",
+            "title": "Publish Long-Form Videos to YouTube 🎥",
+            "summary": "StreamYard now allows you to edit your livestream recordings into videos of up to 20 minutes in length and publish them directly to YouTube!...",
+            "date_modified": "2023-06-28T16:47:34.291Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "345044",
+            "content_html": "<p><span style=\"text-align:start;\">Exciting news! <span style=\"text-align:start;\">Viewers and studio participants of On-Air Webinars can now express their reactions to chat messages using our 8 new emoji options, making conversations more lively and interactive. <span style=\"text-align:start;\">Supercharge engagement and create an immersive experience with StreamYard today!</span></span></span><span style=\"text-align:start;\"><img src=\"https://img.announcekit.app/4007f626241b6486c43208c68529eecc?s=206dd2302bf7fc6dcd503e410b6a71f6\"></span><br></p>",
+            "url": "https://new.streamyard.com/on-air-chat-reactions-3T0gUw",
+            "title": "On-Air Chat Reactions 😍",
+            "summary": "Exciting news! Viewers and studio participants of On-Air Webinars can now express their reactions to chat messages using our 8 new emoji opt...",
+            "date_modified": "2023-06-16T16:26:36.649Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "345042",
+            "content_html": "<p>You can now turn off the live viewer count from appearing on the watch page of your StreamYard On-Air webinar! Access your On-Air branding and settings menu to uncheck this option.&#xA0;</p><p><img src=\"https://img.announcekit.app/074773912fe7d90f68b5917658bc5a04?s=73975395b3f7fd460e20308ba56cac7b\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/turn-off-on-air-live-viewer-count-3QJtS0",
+            "title": "Turn Off On-Air Live Viewer Count 👀",
+            "summary": "You can now turn off the live viewer count from appearing on the watch page of your StreamYard On-Air webinar! Access your On-Air branding a...",
+            "date_modified": "2023-06-12T16:02:55.000Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "341294",
+            "content_html": "<p><span style=\"text-align:start;\">Now, when you embed your On-Air webinar onto your website, the chat will be automatically embedded too! This will allow your audience to engage with you directly through the embedded player, without having to navigate to the On-Air watch page. Elevate your livestreaming experience and foster real-time interactions with StreamYard&apos;s seamless chat integration!&#xA0;</span></p><p><span style=\"text-align:start;\">For more information on embedding, click&#xA0;</span><a href=\"https://support.streamyard.com/hc/en-us/articles/360043291532-How-to-Stream-to-your-own-website-with-StreamYard-On-Air\" rel=\"noopener noreferrer\" target=\"_blank\"><span style=\"text-align:start;\">here.</span></a><span style=\"text-align:start;\">&#xA0;</span><span style=\"text-align:start;\"><img src=\"https://img.announcekit.app/91341078a3f7a85dfd98973edfbe0094?s=7fcd8dddac8f681df8d046dd073b83b6\"></span><br></p>",
+            "url": "https://new.streamyard.com/on-air-chat-embedding-QsLRe",
+            "title": "On-Air Chat Embedding 💬",
+            "summary": "Now, when you embed your On-Air webinar onto your website, the chat will be automatically embedded too! This will allow your audience to eng...",
+            "date_modified": "2023-06-07T18:11:02.506Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "341282",
+            "content_html": "<p><span style=\"text-align:start;\">StreamYard now allows you to download a CSV file of all the chat messages you received during your On-Air stream! This feature allows you to easily access and save your chat interactions, empowering you to keep track of valuable conversations and insights you may have missed while livestreaming!</span></p><p><span style=\"text-align:start;\">To learn more about how to download your On-Air chat, click&#xA0;</span><a href=\"https://support.streamyard.com/hc/en-us/articles/10920795244308-What-is-StreamYard-On-Air-\" rel=\"noopener noreferrer\" target=\"_blank\"><span style=\"text-align:start;\">here</span></a><span style=\"text-align:start;\">.</span><span style=\"text-align:start;\"><img src=\"https://img.announcekit.app/2cce723920dce5687fa3f4b6f1cc82e3?s=4d3486f526d92cf8b3ecd344945f9b47\" style=\"width:84.3%;\"></span><br></p>",
+            "url": "https://new.streamyard.com/on-air-chat-downloads-CQ1C8",
+            "title": "On-Air Chat Downloads 💬",
+            "summary": "StreamYard now allows you to download a CSV file of all the chat messages you received during your On-Air stream! This feature allows you to...",
+            "date_modified": "2023-06-07T17:16:22.978Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "333936",
+            "content_html": "<p><span style=\"text-align:start;\">Say goodbye to missed interactions-&#xA0;</span><span style=\"text-align:start;\">StreamYard will now automatically highlight and star YouTube Super Chats, <span style=\"text-align:start;\">Super Stickers, and&#xA0;</span>new member-only chats, within your live stream studio! This default setting will ensure important messages never get lost in the comment section. Customize your live stream experience, and enjoy seamless audience engagement <span style=\"text-align:start;\">with StreamYard</span>!&#xA0;</span></p><p><span style=\"text-align:start;\">To learn how to toggle this feature, click&#xA0;</span><a href=\"https://support.streamyard.com/hc/en-us/articles/4404317019668-YouTube-Super-Chats\" rel=\"noopener noreferrer\" target=\"_blank\"><span style=\"text-align:start;\">here</span></a><span style=\"text-align:start;\">.&#xA0;</span><br><img src=\"https://img.announcekit.app/0ccf2ed2fc07dba2090845f0ee26681d?s=fd3154c0a29edfb586dacd952d664b12\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/auto-star-super-chats-23gTMk",
+            "title": "Auto-Star Super Chats 🌟",
+            "summary": "Say goodbye to missed interactions- StreamYard will now automatically highlight and star YouTube Super Chats, Super Stickers, and new member...",
+            "date_modified": "2023-05-17T16:00:57.816Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "333517",
+            "content_html": "<p><span style=\"text-align:start;\">Exciting news! StreamYard now offers the ability to customize the appearance of your On-Air webinars. Effortlessly personalize your webinar theme by choosing your own logo and color palette, creating a cohesive and branded experience from registration to the watch page. Elevate your webinars with custom branding today!</span></p><p><span style=\"text-align:start;\">To learn more about this feature, click&#xA0;</span><a href=\"https://support.streamyard.com/hc/en-us/articles/15393572382740-How-to-Customize-your-On-Air-Broadcast\" rel=\"noopener noreferrer\" target=\"_blank\"><span style=\"text-align:start;\">here</span></a><span style=\"text-align:start;\">.&#xA0;</span></p><div data-embed-code=\"&lt;div style=&quot;left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/NMir-SoPAcU?rel=0&quot; style=&quot;top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;&quot; allowfullscreen scrolling=&quot;no&quot; allow=&quot;accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;\" data-embed-image=\"https://i.ytimg.com/vi/NMir-SoPAcU/maxresdefault.jpg\" data-embed-signature=\"lXZxXzYMuULmt2yMxhJXfVyiIXmxnJFcCUdXO7QB54D\" data-embed-url=\"https://www.youtube.com/watch?v=NMir-SoPAcU\"><div style=\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;\"><iframe src=\"https://www.youtube.com/embed/NMir-SoPAcU?rel=0\" style=\"top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;\" allowfullscreen scrolling=\"no\" allow=\"accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;\"></iframe></div></div>",
+            "url": "https://new.streamyard.com/on-air-branding-customization-3KR84g",
+            "title": "On-Air Branding Customization 🎨",
+            "summary": "Exciting news! StreamYard now offers the ability to customize the appearance of your On-Air webinars. Effortlessly personalize your webinar ...",
+            "date_modified": "2023-05-08T14:48:34.000Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "339929",
+            "content_html": "<p><span style=\"text-align:start;\">StreamYard now allows you to use the Shorts &amp; Reels feature to trim 60-second clips from your recorded streams and publish them to TikTok directly from the video library. Transform your long-form video content into captivating TikToks, and expand your reach with StreamYard today!</span></p><p><span style=\"text-align:start;\">To learn more about this feature, click&#xA0;</span><a href=\"https://support.streamyard.com/hc/en-us/articles/14849645118740-How-to-Post-TikToks\" rel=\"noopener noreferrer\" target=\"_blank\"><span style=\"text-align:start;\">here</span></a><span style=\"text-align:start;\">.&#xA0;</span></p><p><img src=\"https://img.announcekit.app/02a61ce3b1d0e94c0bd8d867f471329d?s=a4a0c1f4cc14ff0dd9c070d7af4f9f24\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/publish-shorts-reels-to-tiktok-3YAKxa",
+            "title": "Publish Shorts & Reels to TikTok 🎬",
+            "summary": "StreamYard now allows you to use the Shorts &amp; Reels feature to trim 60-second clips from your recorded streams and publish them to TikTo...",
+            "date_modified": "2023-04-17T19:54:58.000Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "331481",
+            "content_html": "<p>StreamYard now offers analytics for On-Air webinars! Our first version of analytics adds a &quot;Status&quot; column to the registrations page where users can see if attendees &quot;Registered&quot;, &quot;Attended Live&quot;, or &quot;Watched On-Demand&quot;. <span style=\"text-align:start;\">Gain valuable insights and enhance your webinar experience with StreamYard!</span></p><p>Click the ellipse menu on your webinar, and then click &quot;Manage Registrations&quot; to view analytics. </p><p><img src=\"https://img.announcekit.app/2c9de30512bc912fa1049c2d8028b131?s=c49d95bc1622dcf990a63eb2b0e72066\" style=\"width:84.6%;\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/analytics-for-on-air-webinars-3YrFV6",
+            "title": "Analytics for On-Air Webinars 📈",
+            "summary": "StreamYard now offers analytics for On-Air webinars! Our first version of analytics adds a \"Status\" column to the registrations page where u...",
+            "date_modified": "2023-03-27T14:33:08.000Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "329346",
+            "content_html": "<p>StreamYard now offers users the ability to customize our existing layouts, or create their own unique layouts using our new Custom Layouts feature! D<span style=\"text-align:left;\">esign high-quality, professional-looking layouts within your studio with a few clicks of a button.&#xA0;</span></p><p>To learn more about Custom Layouts, click <a href=\"https://support.streamyard.com/hc/en-us/articles/13828085960724-Custom-Layouts\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.&#xA0;</p><div data-embed-code=\"&lt;div style=&quot;left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/qNDv6DEm2bI?rel=0&quot; style=&quot;top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;&quot; allowfullscreen scrolling=&quot;no&quot; allow=&quot;accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;\" data-embed-image=\"https://i.ytimg.com/vi/qNDv6DEm2bI/maxresdefault.jpg\" data-embed-signature=\"wvXAjGFoKwguZqjiGzTus64Wta6yfmTF0fqe38I1I32\" data-embed-url=\"https://www.youtube.com/watch?v=qNDv6DEm2bI\"><div style=\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;\"><iframe src=\"https://www.youtube.com/embed/qNDv6DEm2bI?rel=0\" style=\"top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;\" allowfullscreen scrolling=\"no\" allow=\"accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;\"></iframe></div></div><p><br></p>",
+            "url": "https://new.streamyard.com/custom-layouts-2nD4go",
+            "title": "Custom Layouts 🚀",
+            "summary": "StreamYard now offers users the ability to customize our existing layouts, or create their own unique layouts using our new Custom Layouts f...",
+            "date_modified": "2023-03-24T18:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "328554",
+            "content_html": "<p>Collaborating with another creator? StreamYard users can now <span style=\"text-align:left;\">allow their guests to add their own destinations to a broadcast! Stream to their channels as well as your own to expand your audience.&#xA0;</span></p><p><span style=\"text-align:left;\">To learn more about Guest Destinations, click&#xA0;</span><a href=\"https://support.streamyard.com/hc/articles/13305572734740-Guest-Destinations\" rel=\"noopener noreferrer\" target=\"_blank\"><span style=\"text-align:left;\">here</span></a><span style=\"text-align:left;\">.</span></p><div data-embed-code=\"&lt;div style=&quot;left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/O5rnwiqVZj0?rel=0&quot; style=&quot;top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;&quot; allowfullscreen scrolling=&quot;no&quot; allow=&quot;accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;\" data-embed-image=\"https://i.ytimg.com/vi/O5rnwiqVZj0/maxresdefault.jpg\" data-embed-signature=\"z1RiGkZkDZxo3zMyLR711Cak50FK67cgskxHQLslZOr\" data-embed-url=\"https://www.youtube.com/watch?v=O5rnwiqVZj0\"><div style=\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;\"><iframe src=\"https://www.youtube.com/embed/O5rnwiqVZj0?rel=0\" style=\"top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;\" allowfullscreen scrolling=\"no\" allow=\"accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;\"></iframe></div></div><p><br></p>",
+            "url": "https://new.streamyard.com/guest-destinations-1WmKD6",
+            "title": "Guest Destinations 👥",
+            "summary": "Collaborating with another creator? StreamYard users can now allow their guests to add their own destinations to a broadcast! Stream to thei...",
+            "date_modified": "2023-03-15T16:09:16.000Z",
+            "tags": [
+                "announcement"
+            ]
+        },
+        {
+            "id": "325715",
+            "content_html": "<p>StreamYard will now show the thumbnail, title, and duration of the video being used for a pre-recorded broadcast! No more guessing which broadcast is using which video.</p><p>To view a pre-recorded broadcast&apos;s video preview, click &quot;Check status&quot; on it from the dashboard, or click the ellipse menu, then &quot;Edit&quot;.<br><img src=\"https://img.announcekit.app/9b95e6f2a1bd73bb9b08f219828067b6?s=52602f053ecd6b7391046a092c666b1f\"></p>",
+            "url": "https://new.streamyard.com/pre-recorded-broadcast-previews-1xl1zW",
+            "title": "Pre-Recorded Broadcast Previews 📼",
+            "summary": "StreamYard will now show the thumbnail, title, and duration of the video being used for a pre-recorded broadcast! No more guessing which bro...",
+            "date_modified": "2023-02-22T17:23:14.148Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "324342",
+            "content_html": "<p><span style=\"text-align:start;\">StreamYard now offers the ability to repurpose your recorded content, and publish videos that are up to 60 seconds long to Youtube Shorts, Instagram Reels, and Facebook Reels!&#xA0;</span></p><p><span style=\"text-align:start;\">To learn more about our new Shorts/Reels feature, click&#xA0;</span><a href=\"https://support.streamyard.com/hc/en-us/articles/10593921137684\" rel=\"noopener noreferrer\" target=\"_blank\"><span style=\"text-align:start;\">here</span></a>.</p><div data-embed-code=\"&lt;div style=&quot;left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/w1sMuAgQHDA?rel=0&quot; style=&quot;top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;&quot; allowfullscreen scrolling=&quot;no&quot; allow=&quot;accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;\" data-embed-image=\"https://i.ytimg.com/vi/w1sMuAgQHDA/maxresdefault.jpg\" data-embed-signature=\"k9vHIMwYw6t8M0d7lpU5EPLVfoLBo8XNkOkO9jpeLoj\" data-embed-url=\"https://www.youtube.com/watch?v=w1sMuAgQHDA\"><div style=\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;\"><iframe src=\"https://www.youtube.com/embed/w1sMuAgQHDA?rel=0\" style=\"top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;\" allowfullscreen scrolling=\"no\" allow=\"accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;\"></iframe></div></div><p><br></p>",
+            "url": "https://new.streamyard.com/shorts-reels-4wnQ5O",
+            "title": "Shorts/Reels 🎬",
+            "summary": "StreamYard now offers the ability to repurpose your recorded content, and publish videos that are up to 60 seconds long to Youtube Shorts, I...",
+            "date_modified": "2023-02-09T20:00:50.941Z",
+            "tags": [
+                "announcement"
+            ]
+        },
+        {
+            "id": "322159",
+            "content_html": "<p>Streamyard now offers the ability to display a title, social media handle, or headline below display names on stream!</p><p>Toggle &quot;Show headlines&quot; in the Brand tab to enable headlines. Studio participants can set a headline either when first entering the studio, or by editing it from their backstage card afterwards.</p><div data-embed-code=\"&lt;div style=&quot;left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/ZJLu8zT0F5I?rel=0&quot; style=&quot;top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;&quot; allowfullscreen scrolling=&quot;no&quot; allow=&quot;accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;\" data-embed-image=\"https://i.ytimg.com/vi/ZJLu8zT0F5I/maxresdefault.jpg\" data-embed-signature=\"ohreH7oHShy1QymKmhrxdE8vnoImpdxFkuRlxlCL99E\" data-embed-url=\"https://www.youtube.com/watch?v=ZJLu8zT0F5I\"><div style=\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;\"><iframe src=\"https://www.youtube.com/embed/ZJLu8zT0F5I?rel=0\" style=\"top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;\" allowfullscreen scrolling=\"no\" allow=\"accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;\"></iframe></div></div><p><br></p>",
+            "url": "https://new.streamyard.com/studio-headlines-234fsI",
+            "title": "Studio Headlines💬",
+            "summary": "Streamyard now offers the ability to display a title, social media handle, or headline below display names on stream! Toggle \"Show headlines...",
+            "date_modified": "2023-02-02T16:50:45.000Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "322003",
+            "content_html": "<p>StreamYard now provides more calendar integrations when registering for an On-Air webinar!</p><p>Click &quot;Add to Calendar&quot; to add the webinar to your Google, Apple, and Outlook calendars. You can also download it as an .ics file to add to any other custom calendars.&#xA0;</p><p><img src=\"https://img.announcekit.app/50bad14a201e328657ac3b10b329bc61?s=f91893e89b582340d6d9a625534f5767\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/more-on-air-calendar-integrations-3SBwru",
+            "title": "More On-Air Calendar Integrations 📆",
+            "summary": "StreamYard now provides more calendar integrations when registering for an On-Air webinar! Click \"Add to Calendar\" to add the webinar to you...",
+            "date_modified": "2023-01-26T14:42:48.323Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "212346",
+            "content_html": "<p>Following the release of <a href=\"https://new.streamyard.com/streamyard-on-air-27Wb60\" rel=\"noopener noreferrer\" target=\"_blank\">StreamYard On-Air</a>, thumbnails can now be added to your On-Air streams! &#x1F4FA;<br>Thumbnails can be uploaded when scheduling, and will appear in 3 places: Metadata (for sharing on social media/messengers), as a placeholder for the stream, and when embedding.</p><p><img src=\"https://img.announcekit.app/26b055850815563e21579135abc37628?s=aa6bec0ffd8d8fc502476e669f4f0d49\"></p>",
+            "url": "https://new.streamyard.com/thumbnails-for-on-air-2eN1EQ",
+            "title": "Thumbnails for On-Air 📺",
+            "summary": "Following the release of StreamYard On-Air, thumbnails can now be added to your On-Air streams! 📺 Thumbnails can be uploaded when schedulin...",
+            "date_modified": "2022-12-22T16:45:00.239Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "212348",
+            "content_html": "<p>Following the release of <a href=\"https://new.streamyard.com/local-recordings-3RLPbi\" rel=\"noopener noreferrer\" target=\"_blank\">Local Recordings</a>, high-quality recordings of each broadcast participant can now be downloaded as a single ready-to-use Adobe Premiere Pro or Final Cut project! &#x1F4C2;<br>To export your local recordings, select your broadcast from the <a href=\"https://streamyard.com/videos\" rel=\"noopener noreferrer\" target=\"_blank\">StreamYard Video Library</a>, and click &quot;Export&quot; next to &quot;Local Recordings&quot;.</p><div data-embed-code=\"&lt;div style=&quot;left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/NGkNrejhtVM?rel=0&quot; style=&quot;top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;&quot; allowfullscreen scrolling=&quot;no&quot; allow=&quot;accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;\" data-embed-image=\"https://i.ytimg.com/vi/NGkNrejhtVM/maxresdefault.jpg\" data-embed-signature=\"tiOuvlKk76SHeuL6sm6h6jtvLJpeiFXTm8YUf3yBJrw\" data-embed-url=\"https://www.youtube.com/watch?v=NGkNrejhtVM\"><div style=\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;\"><iframe src=\"https://www.youtube.com/embed/NGkNrejhtVM?rel=0\" style=\"top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;\" allowfullscreen scrolling=\"no\" allow=\"accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;\"></iframe></div></div>",
+            "url": "https://new.streamyard.com/local-recording-exports-2h3OHm",
+            "title": "Local Recording Exports 📂",
+            "summary": "Following the release of Local Recordings, high-quality recordings of each broadcast participant can now be downloaded as a single ready-to-...",
+            "date_modified": "2022-12-22T12:30:00.508Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "210036",
+            "content_html": "<p>StreamYard can now be used as an all-in-one webinar platform! &#x1F680;<br>Supporting live and prerecorded streams, registration, live chat, and embedding, StreamYard on-air allows you to go live entirely with StreamYard.</p><p>To learn more about StreamYard On-Air, click <a href=\"https://support.streamyard.com/hc/articles/10920795244308\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p><div data-embed-code=\"&lt;div style=&quot;left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/7FjziQj0qx8?rel=0&quot; style=&quot;top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;&quot; allowfullscreen scrolling=&quot;no&quot; allow=&quot;accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;\" data-embed-image=\"https://i.ytimg.com/vi/7FjziQj0qx8/maxresdefault.jpg\" data-embed-signature=\"CUxNWvG7Z6ImLDtUla3UU34G2fPvfRKZz2PwUvT0VEy\" data-embed-url=\"https://www.youtube.com/watch?v=7FjziQj0qx8\"><div style=\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;\"><iframe src=\"https://www.youtube.com/embed/7FjziQj0qx8?rel=0\" style=\"top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;\" allowfullscreen scrolling=\"no\" allow=\"accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;\"></iframe></div></div>",
+            "url": "https://new.streamyard.com/streamyard-on-air-27Wb60",
+            "title": "StreamYard On-Air 🚀",
+            "summary": "StreamYard can now be used as an all-in-one webinar platform! 🚀 Supporting live and prerecorded streams, registration, live chat, and embed...",
+            "date_modified": "2022-11-29T02:00:00.000Z",
+            "tags": [
+                "announcement"
+            ]
+        },
+        {
+            "id": "208339",
+            "content_html": "<p>StreamYard now supports local recording! &#x1F4F8;<br>Local recordings are studio-quality, individual audio and video recordings of each participant, recorded directly on the device.<br>This allows for high-quality, freeze-free recordings regardless of internet connection.<br>Useful for post-production editing!</p><p>To learn more about local recording, <a href=\"https://support.streamyard.com/hc/articles/10725401176596\" rel=\"noopener noreferrer\" target=\"_blank\">click here</a>.</p><div data-embed-code=\"&lt;div style=&quot;left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/QNCL2Wzsas8?rel=0&quot; style=&quot;top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;&quot; allowfullscreen scrolling=&quot;no&quot; allow=&quot;accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;\" data-embed-image=\"https://i.ytimg.com/vi/QNCL2Wzsas8/maxresdefault.jpg\" data-embed-signature=\"nkqNVIFP2XUGHIUYUuRif1QUBFlStgiidgdMHD5G6rq\" data-embed-url=\"https://www.youtube.com/watch?v=QNCL2Wzsas8\"><div style=\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;\"><iframe src=\"https://www.youtube.com/embed/QNCL2Wzsas8?rel=0\" style=\"top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;\" allowfullscreen scrolling=\"no\" allow=\"accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;\"></iframe></div></div>",
+            "url": "https://new.streamyard.com/local-recordings-3RLPbi",
+            "title": "Local Recordings 📸",
+            "summary": "StreamYard now supports local recording! 📸 Local recordings are studio-quality, individual audio and video recordings of each participant, ...",
+            "date_modified": "2022-11-18T18:20:00.000Z",
+            "tags": [
+                "announcement"
+            ]
+        },
+        {
+            "id": "205591",
+            "content_html": "<p>Complementing the recent <a href=\"https://new.streamyard.com/video-trimming-1jR4PK\" rel=\"noopener noreferrer\" target=\"_blank\">video trimming</a> feature, videos can now be split into multiple parts! &#x2702;<br>Easily remove parts of your video, cut out pauses, or split your show into segments, all from within the StreamYard Video Library.</p><p>For more info on video splitting, click <a href=\"https://support.streamyard.com/hc/articles/9533839086228\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p><p><img src=\"https://img.announcekit.app/1776821fbb621db3a6ff553e36143ed8?s=2a162c4fc00d02961687500d3357780e\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/video-splitting-qgISs",
+            "title": "Video Splitting ✂",
+            "summary": "Complementing the recent video trimming feature, videos can now be split into multiple parts! ✂ Easily remove parts of your video, cut out p...",
+            "date_modified": "2022-10-21T19:00:00.316Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "202824",
+            "content_html": "<p>StreamYard now has video trimming built-in! &#x1F3A5;<br>Easily trim your video to the perfect length, cut out blank space at the beginning/end, or cut straight to the content, all from within the StreamYard Video Library.</p><p>For more info on video trimming, click <a href=\"https://support.streamyard.com/hc/articles/9533839086228\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p><p><img src=\"https://img.announcekit.app/ad628c921bb422b591d6615f658282d9?s=514e380f5ec62355da7002c97bd49ed6\" style=\"width:76.39%;\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/video-trimming-1jR4PK",
+            "title": "Video Trimming 🎥",
+            "summary": "StreamYard now has video trimming built-in! 🎥 Easily trim your video to the perfect length, cut out blank space at the beginning/end, or cu...",
+            "date_modified": "2022-10-03T19:40:00.000Z",
+            "tags": [
+                "announcement"
+            ]
+        },
+        {
+            "id": "203328",
+            "content_html": "<p>StreamYard Business users can now stream to <strong>10</strong> destinations at a time!<br>Stream to all your channels, pages, and groups at once, all from the same stream.</p><p><img src=\"https://img.announcekit.app/8599d17cbdcac3e0e8f763ba4cb2050f?s=abd7eddbe30912cc16ce1c53c27ec48a\"></p>",
+            "url": "https://new.streamyard.com/more-destinations-for-business-1aMsLK",
+            "title": "More Destinations for Business 🚀",
+            "summary": "StreamYard Business users can now stream to 10 destinations at a time! Stream to all your channels, pages, and groups at once, all from the ...",
+            "date_modified": "2022-09-29T00:30:00.000Z",
+            "tags": [
+                "announcement"
+            ]
+        },
+        {
+            "id": "197309",
+            "content_html": "<p>StreamYard now supports displaying 24 hour time formats! &#x1F552;<br>You can update your preferred time format on the <a href=\"https://streamyard.com/account/settings\" rel=\"noopener noreferrer\" target=\"_blank\">Account Settings page</a>, under &quot;Date &amp; Time&quot;.</p><p><img src=\"https://img.announcekit.app/c9fe4ab418941d7960e9f631a382aead?s=ab4fb6a4e963d1fb5c6b05bfcc08d704\"></p>",
+            "url": "https://new.streamyard.com/24-hour-time-format-3sBiDe",
+            "title": "24 Hour Time Format 🕒",
+            "summary": "StreamYard now supports displaying 24 hour time formats! 🕒 You can update your preferred time format on the Account Settings page, under \"D...",
+            "date_modified": "2022-07-29T20:45:00.000Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "195416",
+            "content_html": "<p>You can now upload your own custom background music tracks to StreamYard! &#x1F3B5;</p><p>Royalty-free tracks, or tracks you own the copyright to, can now be easily uploaded and played on-stream directly from within StreamYard.</p><p>For more info on uploading background music, click <a href=\"https://support.streamyard.com/hc/articles/4414991435412\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.<br><img src=\"https://img.announcekit.app/d0a9de37116874275bd5845ab2e98a05?s=0070c349a2fbb4014adef513780f6ec0\"></p>",
+            "url": "https://new.streamyard.com/uploading-background-music-1D1Pc4",
+            "title": "Uploading Background Music 🎵",
+            "summary": "You can now upload your own custom background music tracks to StreamYard! 🎵 Royalty-free tracks, or tracks you own the copyright to, can no...",
+            "date_modified": "2022-07-06T12:00:00.000Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "194731",
+            "content_html": "<p>You can now rename screen, video, and slide shares in the StreamYard studio! &#x1F4DD;<br>No more guessing which queued-up video is which; click the 3 dots at the top right of a share, and click &quot;Edit name&quot; to edit its display name.</p><p>For more information on display names, click <a href=\"https://support.streamyard.com/hc/articles/4424759898644\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.&#xA0;</p><p><img src=\"https://img.announcekit.app/82bc439c5fcaf515c2dd3fa85b015f5e?s=225879c4fc15b4ce7f7bc9510f565db6\" style=\"width:94.29%;\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/editing-share-names-39fPeo",
+            "title": "Editing Share Names 📝",
+            "summary": "You can now rename screen, video, and slide shares in the StreamYard studio! 📝 No more guessing which queued-up video is which; click the 3...",
+            "date_modified": "2022-06-30T14:30:00.000Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "191938",
+            "content_html": "<p><span style=\"text-align:left;\">You can now edit the title of your past live streams and recordings in the videos tab. Now you don&apos;t have to come up with the perfect title before your stream!</span></p><p><span style=\"text-align:left;\">To edit a video title, click on the Videos Tab, then click on the 3 dots of the video you want to edit, and select &apos;edit title&apos;. Enter a new title, then click save. Now you&apos;re ready to share your video!</span></p><p><span style=\"text-align:left;\"><img src=\"https://img.announcekit.app/7adb220da18e70598c66b3037aecc384?s=01759198434751554f08d544cebd3b90\"></span><br></p>",
+            "url": "https://new.streamyard.com/edit-recording-titles-3zjTEY",
+            "title": "Edit Recording Titles",
+            "summary": "You can now edit the title of your past live streams and recordings in the videos tab. Now you don't have to come up with the perfect title ...",
+            "date_modified": "2022-06-10T17:25:48.966Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "191659",
+            "content_html": "<p>You can now easily loop video clips in StreamYard! &#x1F503;<br>Perfect for holding screens, extended intros, and more.</p><p>For more information on looping video clips, click <a href=\"https://support.streamyard.com/hc/articles/6820127638292\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p><p><img src=\"https://img.announcekit.app/ad665ddd77244e5974dca2f8465ffd8c?s=8d78f4525de2b3f15dad95d5b53d8498\" style=\"width:100%;\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/looping-video-clips-39cwE0",
+            "title": "Looping Video Clips 🔃",
+            "summary": "You can now easily loop video clips in StreamYard! 🔃 Perfect for holding screens, extended intros, and more. For more information on loopin...",
+            "date_modified": "2022-06-08T19:00:00.653Z",
+            "tags": [
+                "announcement"
+            ]
+        },
+        {
+            "id": "192957",
+            "content_html": "<p>StreamYard Greenroom is now available for all StreamYard Business users! &#x1F680;</p><p>Hosts can now prep guests in the greenroom, directly video-call other participants in the studio, and more.</p><p>For more information on StreamYard Greenroom, click <a href=\"https://support.streamyard.com/hc/articles/6342816437268\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p><div data-embed-code=\"&lt;div style=&quot;left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/p1ai0Cf7O8s?rel=0&quot; style=&quot;top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;&quot; allowfullscreen scrolling=&quot;no&quot; allow=&quot;accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;\" data-embed-image=\"https://i.ytimg.com/vi/p1ai0Cf7O8s/hqdefault.jpg\" data-embed-signature=\"KtJQUqiVgDbzMrgC5cABkYMAqIIHRVKE1LYk3I5sOl0\" data-embed-url=\"https://www.youtube.com/watch?v=p1ai0Cf7O8s\"><div style=\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;\"><iframe src=\"https://www.youtube.com/embed/p1ai0Cf7O8s?rel=0\" style=\"top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;\" allowfullscreen scrolling=\"no\" allow=\"accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;\"></iframe></div></div>",
+            "url": "https://new.streamyard.com/greenroom-for-business-3tF1fO",
+            "title": "Greenroom for Business 🚀",
+            "summary": "StreamYard Greenroom is now available for all StreamYard Business users! 🚀 Hosts can now prep guests in the greenroom, directly video-call ...",
+            "date_modified": "2022-06-01T16:00:00.000Z",
+            "tags": [
+                "announcement"
+            ]
+        },
+        {
+            "id": "188886",
+            "content_html": "<p>StreamYard now has a new, custom video player! &#x1F4FA;</p><p><br>Complete with a new UI, playback controls, sharing options and more, shared StreamYard recordings have never looked better.</p><p>Many more features are planned for the StreamYard video player, so stay tuned!<br><img src=\"https://img.announcekit.app/e6293097778868ec58f8b4a5c2798e85?s=c3986e369098650d20a180b5583c5301\"></p>",
+            "url": "https://new.streamyard.com/new-video-player-3VYvtK",
+            "title": "New Video Player 📺",
+            "summary": "StreamYard now has a new, custom video player! 📺  Complete with a new UI, playback controls, sharing options and more, shared StreamYard re...",
+            "date_modified": "2022-05-13T16:08:32.000Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "188892",
+            "content_html": "<p>Business users can now directly message other studio participants! &#x1F4AC;</p><p>To get started, click the new &quot;People&quot; button on the right side of the studio, and select a participant to message.</p><p>For more information on the direct messaging feature, click <a href=\"https://support.streamyard.com/hc/articles/4644588357012\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p><p><img src=\"https://img.announcekit.app/44df9159fcb3b6f9a263f88d0050ed21?s=b3c4da43e69de0cce3d247c12ba8d87e\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/private-chat-for-business-42MSBi",
+            "title": "Private Chat for Business 💬",
+            "summary": "Business users can now directly message other studio participants! 💬 To get started, click the new \"People\" button on the right side of the...",
+            "date_modified": "2022-04-21T09:45:00.000Z",
+            "tags": [
+                "announcement"
+            ]
+        },
+        {
+            "id": "185643",
+            "content_html": "<p>For Business users, video clips &#x1F4FC; can now be up to 60 minutes in length, and 1.2GB in size!</p><p>This allows easily uploading long-form videos to show on-stream.<br>Video clips are saved to StreamYard, and are available to any users co-host and above in the workspace.</p><p>More information on video clips and how to use them is available <a href=\"https://support.streamyard.com/hc/articles/360044178292\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p>",
+            "url": "https://new.streamyard.com/longer-video-clips-NLzVe",
+            "title": "Longer Video Clips 📼",
+            "summary": "For Business users, video clips 📼 can now be up to 60 minutes in length, and 1.2GB in size! This allows easily uploading long-form videos t...",
+            "date_modified": "2022-04-15T19:10:00.215Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "184589",
+            "content_html": "<p>Video clips will now show their remaining time!</p><p>Hosts/Admins/Cohosts will see a numeric countdown on the video clip in the Brand tab, showing when the video will end.<br>Both Hosts and Guests will also see a blue progress bar under the video while it plays.<br>These are only visible locally, and do not show up on the stream itself.</p><p><img src=\"https://img.announcekit.app/4013fa4c64de25d51f373c5128fcdf02?s=b6644cad7998a4b368faae3dee0c71af\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/time-remaining-for-video-clips-fGC7m",
+            "title": "Time Remaining for Video Clips 🕐",
+            "summary": "Video clips will now show their remaining time! Hosts/Admins/Cohosts will see a numeric countdown on the video clip in the Brand tab, showin...",
+            "date_modified": "2022-04-05T14:30:00.730Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "179104",
+            "content_html": "<p>You can now hide private chat message popups while the stream is fullscreen! &#x1F4C4;<br>This allows you to share a clean, un-obstructed view of the stream to a 2nd display, projector, or to another application.<br><br>To hide the chat message popups, once fullscreen just click &quot;Hide Chat&quot; at the bottom right of your screen.<br><img src=\"https://img.announcekit.app/9f881712aeebc5c3a1a70d8116635e3a?s=636fe8ed499cc3646f35bb91c4cf0fbb\"></p>",
+            "url": "https://new.streamyard.com/hiding-private-chat-messages-2WuHwA",
+            "title": "Hiding Private Chat Messages 📄",
+            "summary": "You can now hide private chat message popups while the stream is fullscreen! 📄 This allows you to share a clean, un-obstructed view of the ...",
+            "date_modified": "2022-02-11T17:00:00.000Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "179047",
+            "content_html": "<p>You can now share multiple camera angles in your stream: easily switch between the two cameras, or show both at the same time! <a href=\"https://support.streamyard.com/hc/en-us/articles/4418341072916\" rel=\"noopener noreferrer\" target=\"_blank\"></a><a href=\"https://support.streamyard.com/hc/articles/4418341072916\" rel=\"noopener noreferrer\" target=\"_blank\">Here&apos;s how to use it.</a></p><p>Available on the Professional plan.&#xA0;</p><p><img src=\"https://img.announcekit.app/3c0be82860020af375880717eba298bf?s=0744f893e8957da075a659e1e765d180\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/extra-camera-1TM9RS",
+            "title": "Extra Camera 📸",
+            "summary": "You can now share multiple camera angles in your stream: easily switch between the two cameras, or show both at the same time! Here's how to...",
+            "date_modified": "2022-02-04T05:13:18.966Z",
+            "tags": [
+                "announcement"
+            ]
+        },
+        {
+            "id": "178264",
+            "content_html": "<p>You can now collapse brand sections to save space on-screen! &#x1F4C1;<br>Just click the &quot;v&quot; down arrow to collapse a section.<br><img src=\"https://img.announcekit.app/0c912c91366137bcc894a9719dbb6661?s=e6e45fe4bbcf492420cf08ac44172e93\" style=\"width:76.9%;\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/collapsible-brand-sections-1CJoUU",
+            "title": "Collapsible Brand Sections 📁",
+            "summary": "You can now collapse brand sections to save space on-screen! 📁 Just click the \"v\" down arrow to collapse a section.    ",
+            "date_modified": "2022-01-26T21:15:11.109Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "178261",
+            "content_html": "<p>StreamYard now has more built-in backgrounds to choose from!<br>Click &quot;Add background&quot; in the Background section of the Brand tab to get started.<br><img src=\"https://img.announcekit.app/3a8e56218023d239c9baf7c455279f69?s=2348e4b82a4d9228b6ca672c30054eae\" style=\"width:100%;\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/extra-backgrounds-1zkdm8",
+            "title": "Extra backgrounds",
+            "summary": "StreamYard now has more built-in backgrounds to choose from! Click \"Add background\" in the Background section of the Brand tab to get starte...",
+            "date_modified": "2022-01-20T20:40:05.000Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "178239",
+            "content_html": "<p><span style=\"text-align:start;\">StreamYard now has built-in background music! &#x1F3B6;&#xA0;</span><span style=\"text-align:start;\">Use our royalty-free songs to add some ambiance to your streams, or to keep the flow during an intermission.&#xA0;</span><a href=\"https://support.streamyard.com/hc/articles/4414991435412\" rel=\"noopener noreferrer\" target=\"_blank\">Here&apos;s how</a> to use it in your next stream!<img src=\"https://img.announcekit.app/6e81a94a2e1ce66eea87c52ae90ecb27?s=16281cf8f036fd5d47bb0edae4d761bb\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/background-music-1alvUs",
+            "title": "Background Music 🎉",
+            "summary": "StreamYard now has built-in background music! 🎶 Use our royalty-free songs to add some ambiance to your streams, or to keep the flow during...",
+            "date_modified": "2022-01-20T17:40:43.000Z",
+            "tags": [
+                "announcement"
+            ]
+        },
+        {
+            "id": "178243",
+            "content_html": "<p>Japanese, Chinese, and Korean characters should now display correctly in uploaded slide presentations.</p>",
+            "url": "https://new.streamyard.com/japanese-chinese-korean-language-support-for-slides-1eT5Zu",
+            "title": "Japanese/Chinese/Korean language support for slides",
+            "summary": "Japanese, Chinese, and Korean characters should now display correctly in uploaded slide presentations. ",
+            "date_modified": "2022-01-10T15:05:00.000Z",
+            "tags": [
+                "fix"
+            ]
+        },
+        {
+            "id": "178244",
+            "content_html": "<p>StreamYard now has the option to crop the solo layout!<br>Got a fancy background graphic? Show it off in your stream behind your camera feed!<br>See how to enable the cropped solo layout <a href=\"https://www.youtube.com/watch?v=dJ5ChlPeMzg\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.<br><img src=\"https://img.announcekit.app/72ae8a7fd372d2bd6f04676154d45d86?s=c69881a5b4b2134c15f4511513462ce3\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/solo-layout-with-background-1g1uvK",
+            "title": "Solo Layout with Background",
+            "summary": "StreamYard now has the option to crop the solo layout! Got a fancy background graphic? Show it off in your stream behind your camera feed! S...",
+            "date_modified": "2021-12-23T15:30:00.000Z",
+            "tags": [
+                "announcement"
+            ]
+        },
+        {
+            "id": "178245",
+            "content_html": "<p>StreamYard now has starred comments! &#x2B50;<br>If you get a lot of comments on your streams, star important comments to save them for later. <br><a href=\"https://support.streamyard.com/hc/articles/4412303755412\" rel=\"noopener noreferrer\" target=\"_blank\">Here&apos;s how</a> to star comments on your stream.<br><img src=\"https://img.announcekit.app/ff1c47cd5d150331eab1b62c5e35478c?s=ba3653a56de69e8eecc503ae18576208\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/starred-comments-1h9T20",
+            "title": "Starred Comments ⭐",
+            "summary": "StreamYard now has starred comments! ⭐ If you get a lot of comments on your streams, star important comments to save them for later.  Here's...",
+            "date_modified": "2021-12-06T03:10:00.000Z",
+            "tags": [
+                "announcement"
+            ]
+        },
+        {
+            "id": "178246",
+            "content_html": "<p>StreamYard now has virtual background support!<br>Replace your camera&apos;s background with any image, with or without a greenscreen!<br><a href=\"https://support.streamyard.com/hc/articles/4411078786836\" rel=\"noopener noreferrer\" target=\"_blank\">Here&apos;s how</a> to use virtual backgrounds.<br><img src=\"https://img.announcekit.app/e6279b76728f1969ab51921b7fbff803?s=1c50a68e33adcd1b6c062ecc4490668e\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/virtual-backgrounds-1iihyg",
+            "title": "Virtual Backgrounds",
+            "summary": "StreamYard now has virtual background support! Replace your camera's background with any image, with or without a greenscreen! Here's how to...",
+            "date_modified": "2021-12-02T19:06:31.000Z",
+            "tags": [
+                "announcement"
+            ]
+        },
+        {
+            "id": "178247",
+            "content_html": "<p>StreamYard now has slide sharing <span style=\"text-align:left;\">built-in</span> ! &#x1F4CA;<br>Share PowerPoint presentations, PDFs, and more!<br><a href=\"https://support.streamyard.com/hc/articles/4411356469396\" rel=\"noopener noreferrer\" target=\"_blank\">Here&apos;s how</a> to share a presentation on your next stream.</p><p><img src=\"https://img.announcekit.app/01c29320d4f57b9e5a117046604d962d?s=0cef6ced2c6c5e4be802aea500f1d2fd\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/slide-sharing-1jqG4w",
+            "title": "Slide Sharing 📊",
+            "summary": "StreamYard now has slide sharing built-in ! 📊 Share PowerPoint presentations, PDFs, and more! Here's how to share a presentation on your ne...",
+            "date_modified": "2021-11-29T10:10:00.000Z",
+            "tags": [
+                "announcement"
+            ]
+        },
+        {
+            "id": "178265",
+            "content_html": "<p>StreamYard now supports 6 more languages! &#x1F30E;</p><ul><li>Fran&#xE7;ais / French</li><li>Italiano / Italian</li><li>Deutsch / German</li><li>Ti&#x1EBF;ng Vi&#x1EC7;t / Vietnamese</li><li>&#x65E5;&#x672C;&#x56FD; / Japanese</li><li>&#xE20;&#xE32;&#xE29;&#xE32;&#xE44;&#xE17;&#xE22; / Thai</li></ul><p>For more info on StreamYard&apos;s language support, and how to change your language, see here.<a href=\"https://support.streamyard.com/hc/articles/4410160203156\" rel=\"noopener noreferrer\" target=\"_blank\">here</a></p>",
+            "url": "https://new.streamyard.com/more-supported-languages-1DRNra",
+            "title": "More Supported Languages 🌎",
+            "summary": "StreamYard now supports 6 more languages! 🌎 Français / FrenchItaliano / ItalianDeutsch / GermanTiếng Việt / Vietnamese日本国 / Japaneseภาษาไทย...",
+            "date_modified": "2021-11-15T22:50:00.000Z",
+            "tags": [
+                "improvement"
+            ]
+        },
+        {
+            "id": "178248",
+            "content_html": "<p>StreamYard now supports streaming directly to <a href=\"https://hopin.com\" rel=\"noopener noreferrer\" target=\"_blank\">Hopin</a>!<br>Stream directly to a Hopin stage, with comments support!<br><a href=\"https://support.streamyard.com/hc/articles/360055688071\" rel=\"noopener noreferrer\" target=\"_blank\">Here&apos;s how</a> to stream directly to Hopin.</p><p><img src=\"https://img.announcekit.app/4a143e954ea7a1977fae617759cd4f63?s=b64c606fbbb8f8d8b5bb325da532d84e\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/hopin-destination-1kz4AM",
+            "title": "Hopin Destination",
+            "summary": "StreamYard now supports streaming directly to Hopin! Stream directly to a Hopin stage, with comments support! Here's how to stream directly ...",
+            "date_modified": "2021-11-15T00:20:00.000Z",
+            "tags": [
+                "announcement"
+            ]
+        },
+        {
+            "id": "178258",
+            "content_html": "<p>StreamYard Teams is now released! &#x1F91D;<br>Invite team members or cohosts, and easily collaborate on broadcasts!<br>For more information on StreamYard teams, see <a href=\"https://support.streamyard.com/hc/articles/4407682883348\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.<br><img src=\"https://img.announcekit.app/aa1750642c1de3cda14463607e36424f?s=165c469f92a43c0ef8df9b5407dbfbcb\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/streamyard-teams-1vV1Nm",
+            "title": "StreamYard Teams 🤝",
+            "summary": "StreamYard Teams is now released! 🤝 Invite team members or cohosts, and easily collaborate on broadcasts! For more information on StreamYar...",
+            "date_modified": "2021-11-09T08:50:00.000Z",
+            "tags": [
+                "announcement"
+            ]
+        },
+        {
+            "id": "178249",
+            "content_html": "<p>StreamYard now has built-in hotkeys! &#x2328;<br>Control your camera &amp; mic, change layouts, share videos and more, all with keyboard shortcuts!<br><a href=\"https://support.streamyard.com/hc/articles/4409962092948\" rel=\"noopener noreferrer\" target=\"_blank\">Here&apos;s how</a> to set up and use hotkeys in StreamYard.</p><p>(Bonus: You can also now use the Elgato StreamDeck with StreamYard! See our pre-built template and how to <a href=\"https://support.streamyard.com/hc/articles/360061032132\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.)</p><p><img src=\"https://img.announcekit.app/67352aa36a295e398d80573213690864?s=a0891d6bcaa51a79174fd251f3058014\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/hotkeys-1lHt72",
+            "title": "Hotkeys ⌨",
+            "summary": "StreamYard now has built-in hotkeys! ⌨ Control your camera &amp; mic, change layouts, share videos and more, all with keyboard shortcuts! He...",
+            "date_modified": "2021-11-08T08:10:00.000Z",
+            "tags": [
+                "announcement"
+            ]
+        },
+        {
+            "id": "178250",
+            "content_html": "<p>StreamYard now supports displaying all comments from a stream!<br>Get a lot of comments and interaction on your streams? <br>No problem! Keep scrolling through comments, and they will be dynamically loaded from your destinations.<br><img src=\"https://img.announcekit.app/39f470a0da4b1440f5d09373c1df8317?s=77e09611d849de801f8d81f3ae106423\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/infinite-comments-scroll-1mPRDi",
+            "title": "Infinite Comments Scroll 📜",
+            "summary": "StreamYard now supports displaying all comments from a stream! Get a lot of comments and interaction on your streams?  No problem! Keep scro...",
+            "date_modified": "2021-11-05T16:25:00.000Z",
+            "tags": [
+                "announcement"
+            ]
+        },
+        {
+            "id": "178251",
+            "content_html": "<p>StreamYard now records 6 hours per stream<span style=\"text-align:left;\">&#xA0;(up from 4)</span> on Basic, and 10 hours per stream (up from 8) on Pro!</p><p>Additionally, StreamYard now has an easy-to-use video library for viewing your recordings! &#x1F4FA;<br>Click &quot;<a href=\"https://streamyard.com/videos\" rel=\"noopener noreferrer\" target=\"_blank\">Videos</a>&quot; on the left side of the StreamYard dashboard to get started.<br><img src=\"https://img.announcekit.app/b950651525c8e2717adeed9668209851?s=81437bf959491acd359ff79f06eca4fc\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/increased-recording-limits-video-library-1nYg9y",
+            "title": "Increased recording limits + Video Library 📺",
+            "summary": "StreamYard now records 6 hours per stream (up from 4) on Basic, and 10 hours per stream (up from 8) on Pro! Additionally, StreamYard now has...",
+            "date_modified": "2021-11-01T14:55:00.000Z",
+            "tags": [
+                "announcement",
+                "improvement"
+            ]
+        },
+        {
+            "id": "178254",
+            "content_html": "<p>StreamYard has a new layout!<br>Show your camera overlaid on top of a screen share, video, or presentation with the PIP (picture-in-picture) layout!<br><a href=\"https://streamyard.com/blog/live-streaming-tutorials/how-to-add-picture-in-picture-in-your-live-streams-using-streamyard/\" rel=\"noopener noreferrer\" target=\"_blank\">Here&apos;s how</a> to use the PIP layout in your next stream.</p><p>You can also now select multiple files when uploading assets (logos/overlays/backgrounds/video clips) to the Brand tab!<br><img src=\"https://img.announcekit.app/5d1eda9b887594e8529752e133dd82ee?s=6d5328ed47640d655f32345aa0242c7a\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/picture-in-picture-layout-bulk-asset-upload-1rnrIk",
+            "title": "Picture-in-Picture Layout + Bulk Asset Upload",
+            "summary": "StreamYard has a new layout! Show your camera overlaid on top of a screen share, video, or presentation with the PIP (picture-in-picture) la...",
+            "date_modified": "2021-10-20T06:05:00.000Z",
+            "tags": [
+                "announcement",
+                "improvement"
+            ]
+        },
+        {
+            "id": "178256",
+            "content_html": "<p>Prerecorded broadcasts now have a bitrate limit of 15MB/s.<br>This is set to improve the stability of prerecorded streams.<br><em>Need to reduce the bitrate of a video? See our guide </em><a href=\"https://support.streamyard.com/hc/articles/4412393239700\" rel=\"noopener noreferrer\" target=\"_blank\"><em>here</em></a><em>!</em></p>",
+            "url": "https://new.streamyard.com/prerecorded-broadcast-bitrate-validation-1tEeKQ",
+            "title": "Prerecorded Broadcast Bitrate Validation",
+            "summary": "Prerecorded broadcasts now have a bitrate limit of 15MB/s. This is set to improve the stability of prerecorded streams. Need to reduce the b...",
+            "date_modified": "2021-09-22T17:45:00.000Z",
+            "tags": [
+                "fix"
+            ]
+        },
+        {
+            "id": "178257",
+            "content_html": "<p>StreamYard now supports directly sharing and embedding recordings! &#x1F4FC;<br>No need to download and re-upload recordings, you can now share or embed your stream recordings directly from StreamYard.<br>Here&apos;s how to <a href=\"https://support.streamyard.com/hc/articles/4407298633364\" rel=\"noopener noreferrer\" target=\"_blank\">Share </a>or <a href=\"https://support.streamyard.com/hc/articles/4405858052628\" rel=\"noopener noreferrer\" target=\"_blank\">Embed </a>your recordings.<img src=\"https://img.announcekit.app/f3efc9e4c4af4fe74b71cc7279903258?s=6fae1397e3cf61ee66254ec2f852c1f1\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/sharing-embedding-recordings-1uMDh6",
+            "title": "Sharing & Embedding Recordings 📼",
+            "summary": "StreamYard now supports directly sharing and embedding recordings! 📼 No need to download and re-upload recordings, you can now share or emb...",
+            "date_modified": "2021-08-31T18:00:00.000Z",
+            "tags": [
+                "announcement"
+            ]
+        },
+        {
+            "id": "178263",
+            "content_html": "<p>StreamYard now saves recordings indefinitely! &#x1F4BE;<br>Recordings are no longer deleted after 15 days, and instead are now kept indefinitely, up to a storage limit.<br>For more info on recording storage, see <a href=\"https://support.streamyard.com/hc/articles/360052428552\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.<br><br></p>",
+            "url": "https://new.streamyard.com/indefinite-recording-storage-1BB0oE",
+            "title": "Indefinite Recording Storage 💾",
+            "summary": "StreamYard now saves recordings indefinitely! 💾 Recordings are no longer deleted after 15 days, and instead are now kept indefinitely, up t...",
+            "date_modified": "2021-08-31T16:45:00.000Z",
+            "tags": [
+                "announcement"
+            ]
+        },
+        {
+            "id": "178260",
+            "content_html": "<p>StreamYard now has pre-recorded streaming! &#x1F3A5;<br>Upload videos, or use past StreamYard broadcasts, and stream them live to your destinations!<br><a href=\"https://support.streamyard.com/hc/articles/4404258051732\" rel=\"noopener noreferrer\" target=\"_blank\">Here&apos;s how</a> to set up a pre-recorded stream.<br><img src=\"https://img.announcekit.app/222597a05989393a9d766048d3f46033?s=ab562efcc99ffc2b29c2c47cbc412243\"></p><p><br></p>",
+            "url": "https://new.streamyard.com/pre-recorded-streaming-1ybOPS",
+            "title": "Pre-recorded Streaming 🎥",
+            "summary": "StreamYard now has pre-recorded streaming! 🎥 Upload videos, or use past StreamYard broadcasts, and stream them live to your destinations! H...",
+            "date_modified": "2021-07-27T23:30:00.000Z",
+            "tags": [
+                "announcement"
+            ]
+        }
+    ]
+}

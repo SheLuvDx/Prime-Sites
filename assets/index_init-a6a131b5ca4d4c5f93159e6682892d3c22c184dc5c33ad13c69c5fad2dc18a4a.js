@@ -1,0 +1,1 @@
+$(document).ready(function(){JBEN.PublicJobBoard.UncacheableAttributes.processAndAppendToken(),JBEN.PublicJobBoard.UncacheableAttributes.processAndAppendCcuid(),new JBEN.PublicJobBoardFilter});

